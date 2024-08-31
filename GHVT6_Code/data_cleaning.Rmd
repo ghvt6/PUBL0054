@@ -1,0 +1,158 @@
+---
+title: "cleaning_data"
+output: pdf_document
+date: "2024-07-07"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Clean up workspace
+rm(list=ls())
+
+# Set working directory
+# Note: Please adjust the file paths below to match the location where you saved my folder in your directory structure.
+setwd("~/Desktop/GHVT6_MScThesis")
+```
+
+```{r}
+# Load packages
+list.of.packages <- c("readxl", "readr", "openxlsx", "writexl", "dplyr", "tidyr", "ggplot2", "lubridate", "janitor", "purrr", "stringr")
+invisible(lapply(list.of.packages, library,
+                 character.only = TRUE))
+```
+
+```{r}
+# Load the dataset
+data <- read_csv("final_data.csv")
+```
+
+```{r}
+###########################################
+#### Subset for the months of interest ####
+###########################################
+
+# Ensure year_month is in Date format
+data <- data %>%
+  mutate(year_month = as.Date(year_month))
+
+# Subset the data to start from 2009-01-01 and stop at 2024-05-01
+data <- data %>%
+  filter(year_month >= as.Date("2009-01-01") & year_month <= as.Date("2024-05-01"))
+
+# Inspect the subset data
+print(head(data))
+print(tail(data))
+```
+
+
+```{r}
+###########################################
+#### Imputing missing data for Albania ####
+###########################################
+
+# Using mutate and across to impute 0 for specific columns
+data <- data %>%
+  mutate(across(c(deaths_civilians, state_based_conflict, non_state_conflict, one_sided_violence), 
+                ~ if_else(country == "Albania", 0, .)))
+
+# Display the first few rows to verify the changes
+head(data)
+
+# Save the cleaned data to a new CSV file
+write_csv(data, "final_data.csv")
+```
+
+
+```{r}
+##################################
+#### PFI High Values variables ###
+##################################
+
+# Clean the workspace
+rm(list = ls())
+
+# Load the necessary library
+library(zoo)
+
+# Load the data
+data <- read_csv("final_data.csv")
+
+# Calculate summary statistics for PFI only
+data_summary_pfi <- data %>%
+  group_by(country, sex, age_group) %>%
+  summarise(
+    mean_push_factor_index = mean(push_factor_index, na.rm = TRUE),
+    sd_push_factor_index = sd(push_factor_index, na.rm = TRUE),
+    .groups = 'drop'
+  )
+
+# Merge the summary statistics back into the original data
+data <- data %>%
+  left_join(data_summary_pfi, by = c("country", "sex", "age_group"))
+
+# Create the PFI high value indicator variable
+data <- data %>%
+  mutate(
+    push_factor_index_high_level = case_when(
+      push_factor_index > mean_push_factor_index + 3 * sd_push_factor_index ~ 3,
+      push_factor_index > mean_push_factor_index + 2 * sd_push_factor_index ~ 2,
+      push_factor_index > mean_push_factor_index + sd_push_factor_index ~ 1,
+      TRUE ~ 0
+    )
+  )
+
+# Filter and print all rows where push_factor_index_high_level is 1, 2, or 3
+high_values_data <- data %>%
+  filter(push_factor_index_high_level %in% c(1, 2, 3))
+
+# Print the filtered data
+print(high_values_data)
+
+# Print column names
+colnames(high_values_data)
+
+# Create the extended dummy variable for push_factor_index_high_level
+data <- data %>%
+  group_by(country, sex, age_group) %>%
+  arrange(country, sex, age_group, year_month) %>%
+  mutate(
+    push_factor_index_extended_dummy = as.integer(rollapply(push_factor_index_high_level, width = 2, FUN = function(x) all(x > 0), align = "left", fill = 0))
+  ) %>%
+  ungroup()
+
+# Adjust the extended dummy variable to indicate prolonged periods
+data <- data %>%
+  group_by(country, sex, age_group) %>%
+  mutate(
+    push_factor_index_extended_dummy = if_else(
+      push_factor_index_extended_dummy == 1 | 
+      lag(push_factor_index_extended_dummy, 1, 0) == 1 |
+      lead(push_factor_index_extended_dummy, 1, 0) == 1, 
+      1, 0
+    )
+  ) %>%
+  ungroup()
+
+# Print the resulting data for PFI
+print(data)
+
+# Filter and print all rows where asy_applications is NA
+missing_asy_applications <- data %>%
+  filter(is.na(asy_applications))
+
+# Print the filtered data
+print(missing_asy_applications)
+
+# Print the number of missing asy_applications
+cat("Number of missing values in asy_applications:", nrow(missing_asy_applications), "\n")
+
+# Save the data to a new CSV file
+write_csv(data, "final_thesis_data.csv")
+```
+
+
+
+

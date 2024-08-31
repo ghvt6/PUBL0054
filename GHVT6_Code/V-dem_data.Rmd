@@ -1,0 +1,185 @@
+---
+title: "Varieties of Democracy data"
+output: pdf_document
+date: "2024-07-07"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Clean up workspace
+rm(list=ls())
+
+# Set working directory
+# Note: Please adjust the file paths below to match the location where you saved my folder in your directory structure.
+setwd("~/Desktop/GHVT6_MScThesis")
+```
+
+```{r}
+# Load packages
+list.of.packages <- c("readxl", "readr", "openxlsx", "writexl", "dplyr", "tidyr", "ggplot2", "lubridate", "janitor", "purrr", "stringr")
+invisible(lapply(list.of.packages, library,
+                 character.only = TRUE))
+```
+
+```{r}
+#########################
+##### V-Dem_dataset #####
+#########################
+
+# Uncomment to install the Vdem package
+# install.packages("devtools")
+# devtools::install_github("vdeminstitute/vdemdata")
+
+# Search variable information by one or several keywords
+df <- find_var("Move")
+View(df)
+```
+
+
+```{r}
+# Load the vdemdata package
+library(vdemdata)
+
+# Define a vector with the variable names of interest
+variables_of_interest <- c("v2stfisccap", "v2x_rule", "v2svdomaut", "v2svstterr", "v2regendtype", "v2cacamps", "v2caviol")
+
+# Select these variables from the vdem dataset
+selected_data <- vdem[, c("country_name", "year", variables_of_interest)]
+
+# View the first few rows of the selected data
+head(selected_data)
+
+# Renaming variables to more descriptive names
+selected_data <- selected_data %>%
+  rename(
+    state_fiscal_source_revenue = v2stfisccap,
+    rule_of_law = v2x_rule,
+    domestic_autonomy = v2svdomaut,
+    state_authority_over_territory = v2svstterr,
+    regime_end_type = v2regendtype,
+    political_polarisation = v2cacamps,
+    political_violence = v2caviol
+
+    
+  )
+
+# View the first few rows of the renamed dataset to confirm changes
+head(selected_data)
+
+# Summary to check for any obvious issues such as NAs or unexpected values
+summary(selected_data)
+
+# Convert 'year' to a Date type with January 1 as the day using make_date()
+selected_data$year <- make_date(year = selected_data$year, month = 1, day = 1)
+
+# Check the changes
+head(selected_data$year)
+
+# Filter the data
+selected_data_subset <- selected_data %>%
+    filter(year >= as.Date("2008-01-01"))  
+
+unique(selected_data_subset$country_name)
+unique(selected_data_subset$year)
+
+# Standardize country names
+selected_data_subset <- selected_data_subset %>%
+  mutate(country_name = case_when(
+    country_name == "Palestine/Gaza" ~ "Palestine",
+    TRUE ~ country_name
+  ))
+
+# Define the list of countries to filter
+countries_to_include <- c("Afghanistan", "Albania", "Bangladesh", "Cameroon", 
+                          "Democratic Republic of the Congo", "Egypt", "Eritrea", 
+                          "Georgia", "India", "Iran", "Iraq", "Palestine", 
+                          "Pakistan", "Sierra Leone", "Somalia", "Syria", 
+                          "Türkiye", "Yemen")
+
+# Filter to include only the specified countries
+selected_data_subset <- selected_data_subset %>%
+    filter(country_name %in% countries_to_include)
+
+# Write the data to a CSV file for external use
+write.csv(selected_data_subset, "GHVT6_Cleaned_data/Vdem_data.csv", row.names = FALSE)
+```
+
+
+```{r}
+# Load the data 
+vdem_data <- read_csv("GHVT6_Cleaned_data/Vdem_data.csv")
+
+# Ensure 'country_name' column exists and rename it to 'country'
+if (!"country_name" %in% colnames(vdem_data)) {
+  stop("'country_name' column is missing in vdem_data")
+} else {
+  vdem_data <- vdem_data %>% rename(country = country_name)
+}
+
+# Create a year_month column as Date type
+vdem_data <- vdem_data %>%
+  mutate(year_month = as.Date(paste0(year, "-01-01")))
+
+# Filter for dates between 2008 and 2023
+vdem_data <- vdem_data %>%
+  filter(year_month >= as.Date("2008-01-01") & year_month <= as.Date("2024-03-01"))
+
+# Remove the year column
+vdem_data <- vdem_data %>%
+  select(-year)
+
+# Expand the annual data to cover each month of the year
+expanded_vdem_data <- vdem_data %>%
+  rowwise() %>%
+  mutate(year_month = list(seq.Date(from = year_month, by = "month", length.out = 12))) %>%
+  unnest(cols = c(year_month))
+
+```
+
+```{r}
+# Load the data 
+vdem_data <- read_csv("GHVT6_Cleaned_data/Vdem_data.csv")
+
+# Ensure 'country_name' column exists and rename it to 'country'
+if (!"country_name" %in% colnames(vdem_data)) {
+  stop("'country_name' column is missing in vdem_data")
+} else {
+  vdem_data <- vdem_data %>% rename(country = country_name)
+}
+
+# Create a year_month column as Date type
+vdem_data <- vdem_data %>%
+  mutate(year_month = as.Date(paste0(year, "-01-01")))
+
+# Filter for dates between 2008 and 2023
+vdem_data <- vdem_data %>%
+  filter(year_month >= as.Date("2008-01-01") & year_month <= as.Date("2023-03-01"))
+
+# Remove the year column
+vdem_data <- vdem_data %>%
+  select(-year)
+
+# Expand the annual data to cover each month of the year
+expanded_vdem_data <- vdem_data %>%
+  rowwise() %>%
+  mutate(year_month = list(seq.Date(from = year_month, by = "month", length.out = 12))) %>%
+  unnest(cols = c(year_month))
+
+# Move the year values one year forward
+expanded_vdem_data <- expanded_vdem_data %>%
+  mutate(year_month = year_month %m+% months(12))
+
+# Filter again to make sure it stays within the intended range (2009-01-01 to 2024-03-01)
+expanded_vdem_data <- expanded_vdem_data %>%
+  filter(year_month >= as.Date("2009-01-01") & year_month <= as.Date("2024-03-01"))
+
+# View the adjusted data
+print(expanded_vdem_data)
+
+# Save the expanded V-Dem data to a CSV file
+write_csv(expanded_vdem_data, "final_vdem_data.csv")
+```
+

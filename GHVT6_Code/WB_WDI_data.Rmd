@@ -1,0 +1,121 @@
+---
+title: "WB_WDI_data"
+output: pdf_document
+date: "2024-07-07"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Clean up workspace
+rm(list=ls())
+
+# Set working directory
+# Note: Please adjust the file paths below to match the location where you saved my folder in your directory structure.
+setwd("~/Desktop/GHVT6_MScThesis")
+```
+
+```{r}
+# Load packages
+list.of.packages <- c("readxl", "readr", "openxlsx", "writexl", "dplyr", "tidyr", "ggplot2", "lubridate", "janitor", "purrr", "stringr")
+invisible(lapply(list.of.packages, library,
+                 character.only = TRUE))
+```
+
+
+```{r}
+################################
+#### WB GDP Per Capita data ####
+################################
+
+# Load the dataset
+file_path <- "GHVT6_Raw_data/wb_gdp_data.csv"
+wb_gdp_data <- read_csv(file_path, col_types = cols(
+  `Series Name` = col_character(),
+  `Series Code` = col_character(),
+  `Country Name` = col_character(),
+  `Country Code` = col_character(),
+  .default = col_double()
+))
+
+# Define the countries to include and create a renaming mapping
+countries_to_include <- c("Afghanistan", "Albania", "Bangladesh", "Cameroon", 
+                          "Democratic Republic of the Congo", "Egypt", "Eritrea", 
+                          "Georgia", "India", "Iran", "Iraq", "Palestine", 
+                          "Pakistan", "Sierra Leone", "Somalia", "Syria", 
+                          "Türkiye", "Yemen")
+
+original_country_names <- c("Afghanistan", "Albania", "Bangladesh", "Cameroon", 
+                            "Congo, Dem. Rep.", "Egypt, Arab Rep.", "Eritrea", 
+                            "Georgia", "India", "Iran, Islamic Rep.", "Iraq", "West Bank and Gaza", 
+                            "Pakistan", "Sierra Leone", "Somalia", "Syrian Arab Republic", 
+                            "Turkiye", "Yemen, Rep.")
+
+country_rename <- setNames(countries_to_include, original_country_names)
+
+# Transform the data to long format and filter by the specified countries
+data_long <- wb_gdp_data %>%
+  rename_with(~gsub("\\[YR\\d{4}\\]$", "", .x)) %>%
+  pivot_longer(cols = starts_with("20"), names_to = "year", values_to = "value") %>%
+  mutate(year = as.numeric(year),
+         value = ifelse(is.na(value), 0, value)) %>%
+  rename(country = `Country Name`, indicator = `Series Name`) %>%
+  filter(country %in% original_country_names) %>%
+  mutate(country = recode(country, !!!country_rename),
+         year_month = ymd(paste0(year, "-01-01"))) %>%
+  select(-`Series Code`, -`Country Code`)
+
+# Filter for the important series
+important_series <- c("GDP per capita growth (annual %)", "GDP per capita (current US$)")
+data_filtered <- data_long %>%
+  filter(indicator %in% important_series)
+
+# Pivot back to wide format to create separate columns for each series
+data_wide <- data_filtered %>%
+  pivot_wider(names_from = indicator, values_from = value)
+
+# Rename the columns for clarity
+data_wide <- data_wide %>%
+  rename(
+    gdp_per_capita_growth = `GDP per capita growth (annual %)`,
+    gdp_per_capita_current_usd = `GDP per capita (current US$)`
+  )
+
+# Filter the data to include only the desired countries
+data_cleaned <- data_wide %>%
+  filter(country %in% countries_to_include)
+
+# Expand to monthly level
+data_monthly <- data_cleaned %>%
+  group_by(country) %>%
+  complete(year_month = seq.Date(from = min(year_month), to = as.Date("2023-12-01"), by = "month")) %>%
+  fill(gdp_per_capita_growth, gdp_per_capita_current_usd, .direction = "downup") %>%
+  ungroup()
+
+# Create 2024 entries based on 2023-12-01 values
+data_2024 <- data_monthly %>%
+  filter(year_month == as.Date("2023-12-01")) %>%
+  uncount(weights = 3, .id = "new_row_id") %>%
+  mutate(year_month = case_when(
+    new_row_id == 1 ~ as.Date("2024-01-01"),
+    new_row_id == 2 ~ as.Date("2024-02-01"),
+    new_row_id == 3 ~ as.Date("2024-03-01")
+  )) %>%
+  select(-new_row_id)
+
+# Combine the original data with the new 2024 data
+data_combined <- bind_rows(data_monthly, data_2024) %>%
+  arrange(country, year_month)
+
+# View the combined data
+print(data_combined)
+
+# Remove the year column 
+data_combined <- data_combined %>%
+  select(-year)
+
+# Save the expanded data
+write_csv(data_combined, "GHVT6_Final_data/wb_gdp_data.csv")
+```

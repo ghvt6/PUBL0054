@@ -1,0 +1,570 @@
+---
+title: "UCDP GED"
+output: pdf_document
+date: "2024-05-29"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+# Clean up workspace
+rm(list=ls())
+
+# Set working directory
+# Note: Please adjust the file paths below to match the location where you saved my folder in your directory structure.
+setwd("~/Desktop/GHVT6_MScThesis")
+```
+
+```{r}
+# Load packages
+list.of.packages <- c("readxl", "readr", "openxlsx", "writexl", "dplyr", "tidyr", "ggplot2", "lubridate", "janitor", "purrr", "stringr")
+invisible(lapply(list.of.packages, library,
+                 character.only = TRUE))
+```
+
+
+```{r}
+################################################
+#### UCDP GED Data Cleaning and Preparation ####
+#### January-March 2024: Version 24.01.24.03 ###
+################################################
+
+# Define the file path
+file_path <- "GHVT6_Raw_data/GEDEvent_v24_01_24_03.xlsx"
+
+# Read the Excel file
+data <- read_excel(file_path)
+
+# Check the structure of the data to identify problematic columns
+str(data)
+
+# Convert specific columns to appropriate types
+data <- data %>%
+  mutate(
+    year = as.numeric(year),
+    type_of_violence = as.numeric(type_of_violence),
+    event_clarity = as.numeric(event_clarity),
+    deaths_civilians = as.numeric(deaths_civilians)
+  )
+
+# List of countries of interest
+countries <- c("Afghanistan", "Albania", "Bangladesh", "Cameroon", "DR Congo (Zaire)", 
+               "Egypt", "Eritrea", "Georgia", "India", "Iran", "Iraq", "Israel", "Pakistan",
+               "Sierra Leone", "Somalia", "Syria", "Türkiye", "Turkey", "Yemen (North Yemen)")
+
+# Filter rows where the country column matches any of the countries of interest
+data <- data %>%
+  filter(country %in% countries)
+
+
+# Further filter the data to keep rows for Israel only if adm_1 is "West Bank" or "Gaza Strip"
+data <- data %>%
+  filter(!(country == "Israel" & !(adm_1 %in% c("West Bank", "Gaza Strip"))))
+
+# Subset to include only the specified columns
+data_subset <- data %>%
+  select(year, type_of_violence, conflict_name, side_a, side_b, source_date, country, event_clarity, deaths_civilians, date_start, date_end)
+
+# Convert POSIXct variables to Date
+data_subset  <- data_subset %>%
+  mutate(
+    date_start = as.Date(date_start),
+    date_end = as.Date(date_end)
+  )
+
+# Find the number of observations per country
+observations_per_country <- data_subset %>%
+  group_by(country) %>%
+  summarize(count = n())
+
+# Print the number of observations per country
+print(observations_per_country)
+
+max(data_subset$date_start)
+
+# Save the cleaned data to a new CSV file
+write.csv(data_subset, "GHVT6_Cleaned_data/fitered_ged_data_2024.csv", row.names = FALSE)
+```
+
+```{r}
+#######################################################
+#### UCDP GED Data -2023 Cleaning and Preparation ####
+######################################################
+
+# Clean the environment
+rm(list = ls())
+
+# Load the dataset
+file_path <- "GHVT6_Raw_data/GEDEvent_v23_1.xlsx"
+
+# Read the Excel file
+data <- read_excel(file_path) 
+
+# Convert specific columns to appropriate types
+data <- data %>%
+  mutate(
+    year = as.numeric(year),
+    type_of_violence = as.numeric(type_of_violence),
+    event_clarity = as.numeric(event_clarity),
+    deaths_civilians = as.numeric(deaths_civilians)
+  )
+
+# Filter data to include only records from the year 2006 onwards
+data <- data %>%
+  filter(year >= 2006)
+
+# List of countries of interest
+countries <- c("Afghanistan", "Albania", "Bangladesh", "Cameroon", "DR Congo (Zaire)", 
+               "Egypt", "Eritrea", "Georgia", "India", "Iran", "Iraq", "Israel", "Pakistan", 
+               "Sierra Leone", "Somalia", "Syria", "Türkiye", "Turkey", "Yemen (North Yemen)")
+
+# Filter rows where the country column matches any of the countries of interest
+data <- data %>%
+  filter(country %in% countries)
+
+# Further filter the data to keep rows for Israel only if adm_1 is "West Bank" or "Gaza Strip"
+data <- data %>%
+  filter(!(country == "Israel" & !(adm_1 %in% c("West Bank", "Gaza Strip"))))
+
+# Subset to include only the specified columns
+data_subset <- data %>%
+  select(year, type_of_violence, conflict_name, side_a, side_b, source_date, country, event_clarity, deaths_civilians, date_start, date_end)
+
+# Find the number of observations per country
+observations_per_country <- data_subset %>%
+  group_by(country) %>%
+  summarize(count = n())
+
+# Print the number of observations per country
+print(observations_per_country)
+
+# Convert POSIXct variables to Date
+data_subset  <- data_subset %>%
+  mutate(
+    date_start = as.Date(date_start),
+    date_end = as.Date(date_end)
+  )
+
+# Save the cleaned data to a new CSV file
+write.csv(data_subset, "GHVT6_Cleaned_data/filtered_ged_data.csv", row.names = FALSE)
+```
+
+```{r}
+###################################################
+#### UCDP GED Data Cleaning and Preparation #######
+#### January-December 2023: Version 23.01.23.12 ###
+###################################################
+
+# Clean the environment
+rm(list = ls())
+
+# Load the dataset
+file_path <- "GHVT6_Raw_data/GEDEvent_v23_01_23_12.xlsx"
+
+# Read the Excel file
+data <- read_excel(file_path) 
+
+# Convert specific columns to appropriate types
+data <- data %>%
+  mutate(
+    year = as.numeric(year),
+    type_of_violence = as.numeric(type_of_violence),
+    event_clarity = as.numeric(event_clarity),
+    deaths_civilians = as.numeric(deaths_civilians)
+  )
+
+# Filter data to include only records from the year 2006 onwards
+data <- data %>%
+  filter(year >= 2006)
+
+# List of countries of interest
+countries <- c("Afghanistan", "Albania", "Bangladesh", "Cameroon", "DR Congo (Zaire)", 
+               "Egypt", "Eritrea", "Georgia", "India", "Iran", "Iraq", "Israel", "Pakistan", 
+               "Sierra Leone", "Somalia", "Syria", "Türkiye", "Turkey", "Yemen (North Yemen)")
+
+# Filter rows where the country column matches any of the countries of interest
+data <- data %>%
+  filter(country %in% countries)
+
+# Further filter the data to keep rows for Israel only if adm_1 is "West Bank" or "Gaza Strip"
+data <- data %>%
+  filter(!(country == "Israel" & !(adm_1 %in% c("West Bank", "Gaza Strip"))))
+
+# Subset to include only the specified columns
+data_subset <- data %>%
+  select(year, type_of_violence, conflict_name, side_a, side_b, source_date, country, event_clarity, deaths_civilians, date_start, date_end)
+
+# Find the number of observations per country
+observations_per_country <- data_subset %>%
+  group_by(country) %>%
+  summarize(count = n())
+
+# Print the number of observations per country
+print(observations_per_country)
+
+# Convert POSIXct variables to Date
+data_subset  <- data_subset %>%
+  mutate(
+    date_start = as.Date(date_start),
+    date_end = as.Date(date_end)
+  )
+
+# Save the cleaned data to a new CSV file
+write.csv(data_subset, "GHVT6_Cleaned_data/filtered_ged_data_2023.csv", row.names = FALSE)
+```
+
+```{r}
+###################################################
+#### UCDP GED Data Cleaning and Preparation #######
+#### April 2024: Version 24.0.4 ###################
+###################################################
+
+# Clean the environment
+rm(list = ls())
+
+# Load the dataset
+file_path <- "GHVT6_Raw_data/GEDevent_v24_0_4.xlsx"
+
+# Read the Excel file
+data <- read_excel(file_path) 
+
+# Convert specific columns to appropriate types
+data <- data %>%
+  mutate(
+    year = as.numeric(year),
+    type_of_violence = as.numeric(type_of_violence),
+    event_clarity = as.numeric(event_clarity),
+    deaths_civilians = as.numeric(deaths_civilians)
+  )
+
+# Filter data to include only records from the year 2006 onwards
+data <- data %>%
+  filter(year >= 2006)
+
+# List of countries of interest
+countries <- c("Afghanistan", "Albania", "Bangladesh", "Cameroon", "DR Congo (Zaire)", 
+               "Egypt", "Eritrea", "Georgia", "India", "Iran", "Iraq", "Israel", "Pakistan",                "Sierra Leone", "Somalia", "Syria", "Türkiye", "Turkey", "Yemen (North Yemen)")
+
+# Filter rows where the country column matches any of the countries of interest
+data <- data %>%
+  filter(country %in% countries)
+
+# Further filter the data to keep rows for Israel only if adm_1 is "West Bank" or "Gaza Strip"
+data <- data %>%
+  filter(!(country == "Israel" & !(adm_1 %in% c("West Bank", "Gaza Strip"))))
+
+# Subset to include only the specified columns
+data_subset <- data %>%
+  select(year, type_of_violence, conflict_name, side_a, side_b, source_date, country, event_clarity, deaths_civilians, date_start, date_end)
+
+# Find the number of observations per country
+observations_per_country <- data_subset %>%
+  group_by(country) %>%
+  summarize(count = n())
+
+# Print the number of observations per country
+print(observations_per_country)
+
+# Convert POSIXct variables to Date
+data_subset  <- data_subset %>%
+  mutate(
+    date_start = as.Date(date_start),
+    date_end = as.Date(date_end)
+  )
+
+# Save the cleaned data to a new CSV file
+write.csv(data_subset, "GHVT6_Cleaned_data/filtered_ged_data_April_2024.csv", row.names = FALSE)
+```
+
+
+```{r}
+############################
+#### Merge the datasets ####
+############################
+
+# Load the datasets
+data1 <- read.csv("GHVT6_Cleaned_data/filtered_ged_data.csv", stringsAsFactors = FALSE)
+unique(data1$country)
+data2 <- read.csv("GHVT6_Cleaned_data/fitered_ged_data_2024.csv", stringsAsFactors = FALSE)
+unique(data2$country)
+data3 <- read.csv("GHVT6_Cleaned_data/filtered_ged_data_2023.csv", stringsAsFactors = FALSE)
+unique(data3$country)
+data4 <- read.csv("GHVT6_Cleaned_data/filtered_ged_data_April_2024.csv", stringsAsFactors = FALSE)
+unique(data4$country)
+
+# Convert date columns to Date type in all datasets
+data1 <- data1 %>%
+  mutate(
+    date_start = as.Date(date_start),
+    date_end = as.Date(date_end)
+  )
+
+data2 <- data2 %>%
+  mutate(
+    date_start = as.Date(date_start),
+    date_end = as.Date(date_end)
+  )
+
+data3 <- data3 %>%
+  mutate(
+    date_start = as.Date(date_start),
+    date_end = as.Date(date_end)
+  )
+
+data4 <- data4 %>%
+  mutate(
+    date_start = as.Date(date_start),
+    date_end = as.Date(date_end)
+  )
+
+# Check column names to ensure they match
+colnames(data1)
+colnames(data2)
+colnames(data3)
+colnames(data4)
+
+# Merge the datasets using pairwise full joins to retain all data
+merged_data_1_2 <- full_join(data1, data2, by = c("year", "type_of_violence", "conflict_name", "side_a", "side_b", "source_date", "country", "event_clarity", "deaths_civilians", "date_start", "date_end"))
+merged_data_1_2_3 <- full_join(merged_data_1_2, data3, by = c("year", "type_of_violence", "conflict_name", "side_a", "side_b", "source_date", "country", "event_clarity", "deaths_civilians", "date_start", "date_end"))
+merged_data <- full_join(merged_data_1_2_3, data4, by = c("year", "type_of_violence", "conflict_name", "side_a", "side_b", "source_date", "country", "event_clarity", "deaths_civilians", "date_start", "date_end"))
+
+# Inspect the merged dataset
+str(merged_data)
+head(merged_data)
+unique(merged_data$country)
+
+# Save the merged dataset to a new CSV file
+write.csv(merged_data, "GHVT6_Final_data/merged_ged_data.csv", row.names = FALSE)
+```
+
+
+```{r}
+###################################
+#### Further organise the data ####
+###################################
+
+# Load the merged dataset
+merged_data <- read.csv("GHVT6_Final_data/merged_ged_data.csv", stringsAsFactors = FALSE)
+
+# Ensure date_start is of Date type
+merged_data <- merged_data %>%
+  mutate(date_start = as.Date(date_start))
+
+# Organize by country and date-month based on date_start
+merged_data <- merged_data %>%
+  arrange(country, date_start)
+
+# Extract year-month from date_start for grouping
+merged_data <- merged_data %>%
+  mutate(year_month = floor_date(date_start, "month"))
+
+# Count the number of observations by country
+observations_per_country <- merged_data %>%
+  group_by(country) %>%
+  summarize(count = n())
+
+# Print the number of observations per country
+print(observations_per_country)
+
+# Filter to keep only events with event_clarity = 1
+merged_data <- merged_data %>%
+  filter(event_clarity == 1)
+
+# Create a new column for duration in days
+merged_data <- merged_data %>%
+  mutate(duration_days = as.numeric(difftime(date_end, date_start, units = "days"))) 
+
+# Find the maximum duration
+max_duration <- max(merged_data$duration_days, na.rm = TRUE)
+
+# Find the minimum duration (excluding zero-day durations if necessary)
+min_duration <- min(merged_data$duration_days[merged_data$duration_days > 0], na.rm = TRUE)
+
+# Get the event(s) with the maximum duration
+max_duration_event <- merged_data%>%
+  filter(duration_days == max_duration)
+
+# Get the event(s) with the minimum duration
+min_duration_event <- merged_data %>%
+  filter(duration_days == min_duration)
+
+# Find the average duration
+average_duration <- mean(merged_data$duration_days, na.rm = TRUE)
+
+# Display the results
+list(
+  max_duration = max_duration,
+  max_duration_event = max_duration_event,
+  min_duration = min_duration,
+  min_duration_event = min_duration_event,
+  average_duration = average_duration
+)
+
+# View the organized data
+print(head(merged_data))
+```
+
+
+```{r}
+###################################
+#### Further organise the data ####
+###################################
+
+# Load the data
+ucdp <- read.csv("GHVT6_Final_data/merged_ged_data.csv")
+
+# Ensure date_start and date_end are of Date type
+ucdp <- ucdp %>%
+  mutate(date_start = as.Date(date_start), 
+         date_end = as.Date(date_end))
+
+# Filter to keep only events with event_clarity = 1 and from 2009 onwards
+ucdp <- ucdp %>%
+  filter(event_clarity == 1, year(date_start) >= 2009)
+
+# Create a year_month column
+ucdp <- ucdp %>%
+  mutate(year_month = floor_date(date_start, "month"))
+
+# Function to categorise type_of_violence
+categorize_violence <- function(types) {
+  types <- sort(unique(types))
+  if (all(types %in% 1:3)) {
+    return(sum(2^(types - 1)))
+  }
+  return(NA)
+}
+
+# Create a new column for duration in days
+ucdp <- ucdp %>%
+  mutate(duration_days = as.numeric(difftime(date_end, date_start, units = "days")))
+
+# Summarize deaths_civilians and categorize type_of_violence
+summary_data <- ucdp %>%
+  group_by(country, year_month) %>%
+  summarize(
+    deaths_civilians = sum(deaths_civilians, na.rm = TRUE),
+    type_of_violence_category = categorize_violence(type_of_violence),
+    avg_duration_days = mean(duration_days, na.rm = TRUE),
+    civilians_event_count = sum(side_a == "Civilians" | side_b == "Civilians"),
+    .groups = 'drop'
+  )
+
+# Spread the data to have separate columns for each type of violence
+monthly_data_wide <- ucdp %>%
+  group_by(country, year_month, type_of_violence) %>%
+  summarize(
+    total_deaths_civilians = sum(deaths_civilians, na.rm = TRUE),
+    last_event_date = max(date_start, na.rm = TRUE),
+    .groups = 'drop'
+  ) %>%
+  pivot_wider(names_from = type_of_violence, values_from = c(total_deaths_civilians, last_event_date), 
+              names_prefix = "violence_type_")
+
+# Check column names to see what pivot_wider has created
+print(colnames(monthly_data_wide))
+
+# Adjust the renaming step based on the actual column names
+monthly_data_wide <- monthly_data_wide %>%
+  rename(
+    state_based_conflict = total_deaths_civilians_violence_type_1,
+    non_state_conflict = total_deaths_civilians_violence_type_2,
+    one_sided_violence = total_deaths_civilians_violence_type_3,
+    last_event_state_based_conflict = last_event_date_violence_type_1,
+    last_event_non_state_conflict = last_event_date_violence_type_2,
+    last_event_one_sided_violence = last_event_date_violence_type_3
+  ) %>%
+  mutate(
+    state_based_conflict = ifelse(is.na(state_based_conflict), 0, state_based_conflict),
+    non_state_conflict = ifelse(is.na(non_state_conflict), 0, non_state_conflict),
+    one_sided_violence = ifelse(is.na(one_sided_violence), 0, one_sided_violence)
+  )
+
+# Calculate time since last event for each type of violence
+monthly_data_wide <- monthly_data_wide %>%
+  mutate(
+    time_since_last_state_based_conflict = as.numeric(difftime(year_month, last_event_state_based_conflict, units = "days")),
+    time_since_last_non_state_conflict = as.numeric(difftime(year_month, last_event_non_state_conflict, units = "days")),
+    time_since_last_one_sided_violence = as.numeric(difftime(year_month, last_event_one_sided_violence, units = "days"))
+  )
+
+# Combine the categorised violence data with the original data
+final_data <- monthly_data_wide %>%
+  left_join(summary_data, by = c("country", "year_month"))
+
+# Display the results
+head(final_data)
+
+# Save the updated dataset to a CSV file
+write.csv(final_data, "GHVT6_Final_data/merged_ged_data.csv", row.names = FALSE)
+```
+
+```{r}
+# Ensure date_start and date_end are of Date type
+ucdp <- ucdp %>%
+  mutate(date_start = as.Date(date_start), 
+         date_end = as.Date(date_end))
+
+# Create a year_month column
+ucdp <- ucdp %>%
+  mutate(year_month = floor_date(date_start, "month"))
+
+# Function to categorise type_of_violence
+categorize_violence <- function(types) {
+  types <- sort(unique(types))
+  if (all(types %in% 1:3)) {
+    return(sum(2^(types - 1)))
+  }
+  return(NA)
+}
+
+# Summarise deaths_civilians and categorise type_of_violence
+summary_data <- ucdp %>%
+  group_by(country, year_month) %>%
+  summarize(
+    deaths_civilians = sum(deaths_civilians, na.rm = TRUE),
+    type_of_violence_category = categorize_violence(type_of_violence),
+    .groups = 'drop'
+  )
+
+# Spread the data to have separate columns for each type of violence
+monthly_data_wide <- ucdp %>%
+  group_by(country, year_month, type_of_violence) %>%
+  summarize(
+    total_deaths_civilians = sum(deaths_civilians, na.rm = TRUE),
+    .groups = 'drop'
+  ) %>%
+  pivot_wider(names_from = type_of_violence, values_from = total_deaths_civilians, 
+              names_prefix = "violence_type_")
+
+# Rename the columns to be more descriptive
+monthly_data_wide <- monthly_data_wide %>%
+  rename(
+    state_based_conflict = violence_type_1,
+    non_state_conflict = violence_type_2,
+    one_sided_violence = violence_type_3
+  ) %>%
+  mutate(
+    state_based_conflict = ifelse(is.na(state_based_conflict), 0, state_based_conflict),
+    non_state_conflict = ifelse(is.na(non_state_conflict), 0, non_state_conflict),
+    one_sided_violence = ifelse(is.na(one_sided_violence), 0, one_sided_violence)
+  )
+
+# Combine the categorized violence data with the original data
+final_data <- monthly_data_wide %>%
+  left_join(summary_data, by = c("country", "year_month"))
+
+# Display the results
+head(final_data)
+
+# Save the observations per country to a CSV file
+write.csv(final_data, "GHVT6_Final_data/merged_ged_data.csv", row.names = FALSE)
+```
+
+
+
+
+

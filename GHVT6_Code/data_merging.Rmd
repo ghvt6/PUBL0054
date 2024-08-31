@@ -1,0 +1,260 @@
+---
+title: "data_merging"
+output: pdf_document
+date: "2024-07-07"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Clean up workspace
+rm(list=ls())
+
+# Set working directory
+# Note: Please adjust the file paths below to match the location where you saved my folder in your directory structure.
+setwd("~/Desktop/GHVT6_MScThesis")
+```
+
+```{r}
+# Load packages
+list.of.packages <- c("readxl", "readr", "openxlsx", "writexl", "dplyr", "tidyr", "ggplot2", "lubridate", "janitor", "purrr", "stringr")
+invisible(lapply(list.of.packages, library,
+                 character.only = TRUE))
+```
+
+```{r}
+# Load the datasets 
+asylum_data <- read_csv("GHVT6_Final_data/asylum_data.csv")
+frontex_data <- read_excel("GHVT6_Final_data/cleaned_frontex_data.xlsx")
+```
+
+
+```{r}
+#########################################################
+###### Merging with Frontex illegal crossings data ######
+#########################################################
+
+# Ensure the year_month column is in Date format for both datasets
+euasylum_data <- asylum_data  %>%
+  mutate(year_month = as.Date(year_month, format = "%Y-%m-%d"))
+
+frontex_data <- frontex_data %>%
+  mutate(year_month = as.Date(year_month, format = "%Y-%m-%d"))
+
+# Aggregate the Frontex data to handle duplicates
+frontex_aggregated <- frontex_data %>%
+  group_by(year_month, country) %>%
+  summarise(
+    illegal_border_crossings = sum(illegal_border_crossings[illegal_border_crossings > 0], na.rm = TRUE)
+  ) %>%
+  ungroup()
+
+# Merge the aggregated Frontex data with the final data
+merged_data <- asylum_data %>%
+  left_join(frontex_aggregated, by = c("year_month", "country"))
+
+# Remove duplicates in merged_data if any
+merged_data <- merged_data %>%
+  distinct()
+
+# Save the merged dataset to a new CSV file
+write_csv(merged_data, "final_data.csv")
+
+```
+
+```{r}
+########################################
+###### Merging with UCPD GED data ######
+########################################
+
+# Clean up workspace
+rm(list=ls())
+
+# Load the main dataset 
+data <- read.csv("final_data.csv")
+
+# Load UCDP data
+ucdp <- read_csv("GHVT6_Final_data/merged_ged_data.csv")
+
+# Convert year_month columns to Date type
+data$year_month <- as.Date(data$year_month)
+ucdp$year_month <- as.Date(ucdp$year_month)
+
+# Inspect data
+head(ucdp)
+str(ucdp)
+colnames(ucdp)
+unique(ucdp$country)
+
+# Rename the countries
+ucdp <- ucdp %>%
+  mutate(country = case_when(
+    country == "Afghanistan" ~ "Afghanistan",
+    country == "Bangladesh" ~ "Bangladesh",
+    country == "Cameroon" ~ "Cameroon",
+    country == "DR Congo (Zaire)" ~ "Democratic Republic of the Congo",
+    country == "Egypt" ~ "Egypt",
+    country == "Eritrea" ~ "Eritrea",
+    country == "Georgia" ~ "Georgia",
+    country == "India" ~ "India",
+    country == "Iran" ~ "Iran",
+    country == "Iraq" ~ "Iraq",
+    country == "Pakistan" ~ "Pakistan",
+    country == "Sierra Leone" ~ "Sierra Leone",
+    country == "Somalia" ~ "Somalia",
+    country == "Syria" ~ "Syria",
+    country == "Turkey" ~ "Türkiye",
+    country == "Yemen (North Yemen)" ~ "Yemen",
+    country == "Israel" ~ "Palestine",
+    TRUE ~ country # Keep the country name as is if it doesn't match any of the above
+  ))
+
+# Merge the datasets
+merged_data <- full_join(data, ucdp, by = c("country", "year_month"))
+
+# Remove the data for "2024-04-01"
+merged_data <- merged_data %>% filter(year_month != as.Date("2024-04-01"))
+
+# View the unique country names to verify the changes
+unique(ucdp$country)
+
+# View the merged data
+head(merged_data)
+
+# Check the data 
+unique(merged_data$country)
+class(merged_data$year_month)
+colnames(merged_data)
+
+# Inspect the data
+str(merged_data)
+
+# Count the number of rows per country
+row_counts_per_country <- merged_data %>%
+  group_by(country) %>%
+  summarize(row_count = n())
+
+# View the row counts per country
+print(row_counts_per_country)
+
+# Save the merged dataset to a new CSV file
+write_csv(merged_data, "final_data.csv")
+```
+
+
+```{r}
+#################################
+#### Merge the V-dem dataset ####
+#################################
+
+# Clean up workspace
+rm(list = ls())
+
+# Load the main dataset 
+data <- read.csv("final_data.csv")
+
+# Load V-dem data
+vdem_data <- read_csv("GHVT6_Final_data/final_vdem_data.csv")
+
+# Convert year_month column to Date type in both datasets
+data <- data %>%
+  mutate(year_month = as.Date(year_month))
+
+vdem_data <- vdem_data %>%
+  mutate(year_month = as.Date(year_month))
+
+# Merge the lagged V-Dem data with the main data
+merged_data <- data %>%
+  left_join(vdem_data, by = c("country", "year_month"))
+
+# Display the merged data
+print(head(merged_data))
+
+# Display the column names of the merged data
+print(colnames(merged_data))
+
+# Ensure year_month is of Date type
+merged_data <- merged_data %>%
+  mutate(year_month = as.Date(year_month))
+
+# Save the merged data to a CSV file
+write_csv(merged_data, "final_data.csv")
+```
+
+```{r}
+#########################
+#### Merge GDELT PFI ####
+#########################
+
+# Clean up workspace
+rm(list = ls())
+
+# Load the main dataset
+data <- read.csv("final_data.csv")
+
+# Load GDELT PFI data
+gdelt_pfi_data <- read_csv("GHVT6_Final_data/final_pfi_data.csv")
+
+# Convert year_month columns to Date type
+data <- data %>%
+  mutate(year_month = as.Date(year_month))
+
+gdelt_pfi_data <- gdelt_pfi_data %>%
+  mutate(year_month = as.Date(year_month))
+
+# Merge the datasets using a full join to retain all data
+merged_data <- left_join(data, gdelt_pfi_data, by = c("country", "year_month"))
+
+# Count the number of rows per country
+row_counts_per_country <- merged_data %>%
+  group_by(country) %>%
+  summarize(row_count = n())
+
+# View the row counts per country
+print(row_counts_per_country)
+
+# Count the number of missing values in push_factor_index
+missing_push_factor_index <- sum(is.na(merged_data$push_factor_index))
+
+# Print the number of missing values
+cat("Number of missing values in push_factor_index:", missing_push_factor_index, "\n")
+
+# Filter rows with missing push_factor_index values
+missing_values <- merged_data %>%
+  filter(is.na(asy_applications))
+
+# Print the rows with missing push_factor_index values
+print(missing_values)
+
+# Save the merged data to a CSV file
+write_csv(merged_data, "final_data.csv")
+```
+
+```{r}
+#########################
+#### WB WDI GDP data ####
+#########################
+
+# Load the main dataset
+data <- read_csv("final_data.csv")
+
+# Load the cleaned population data
+gdp_data <- read_csv("GHVT6_Final_data/wb_gdp_data.csv")
+
+# Ensure year_month is in Date format in both datasets
+data <- data %>%
+  mutate(year_month = as.Date(year_month))
+
+gdp_data <- gdp_data %>%
+  mutate(year_month = as.Date(year_month))
+
+# Merge the GDP data with the main dataset
+merged_dataset <- data %>%
+  left_join(gdp_data, by = c("country", "year_month"))
+
+# Save the merged dataset
+write_csv(merged_dataset, "final_data.csv")
+```
+

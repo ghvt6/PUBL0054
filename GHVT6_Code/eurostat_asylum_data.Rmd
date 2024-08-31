@@ -1,0 +1,525 @@
+---
+title: "eurostat asylum data"
+output: pdf_document
+date: "2024-07-07"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Clean up workspace
+rm(list=ls())
+
+# Set working directory
+# Note: Please adjust the file paths below to match the location where you saved my folder in your directory structure.
+setwd("~/Desktop/GHVT6_MScThesis")
+```
+
+```{r}
+# Load packages
+list.of.packages <- c("readxl", "readr", "openxlsx", "writexl", "dplyr", "tidyr", "ggplot2", "lubridate", "janitor", "purrr", "stringr")
+invisible(lapply(list.of.packages, library,
+                 character.only = TRUE))
+```
+
+```{r}
+#############################
+#### 2022 - 2024-03-01 #####
+############################
+
+# Clean up workspace
+rm(list=ls())
+
+# Define the path to my Excel file for easy reference
+excel_file_path <- "GHVT6_Raw_data/migr_asyappctzm_2022_now.xlsx"
+
+# Define the row where the actual headings start
+heading_row <- 10  # Headings start at row 11
+
+# Function to read a sheet and rename the columns
+read_and_clean_sheet <- function(sheet_name, sex) {
+  df <- read_excel(excel_file_path, sheet = sheet_name, skip = heading_row) %>%
+    # Skipping the first row which is just a repeat of the column names
+    slice(-1) %>%
+    # Rename the columns. The first two columns are 'TIME...1' and 'TIME...2'
+    rename(Applicant = `TIME...1`, age_group = `TIME...2`) %>%
+    # Add a column for the sex category
+    mutate(Sex = sex)
+  
+  return(df)
+}
+
+# Use the function to read each sheet
+total_data <- read_and_clean_sheet("Sheet 1", "Total")
+male_data <- read_and_clean_sheet("Sheet 2", "Male")
+female_data <- read_and_clean_sheet("Sheet 3", "Female")
+unknown_data <- read_and_clean_sheet("Sheet 4", "Unknown")
+
+# Combine all data frames into one, appending them row-wise
+combined_data <- bind_rows(total_data, male_data, female_data, unknown_data)
+
+# Convert all year-month columns to numeric, removing non-numeric characters
+combined_data_clean <- combined_data %>%
+  mutate(across(starts_with("202"), ~ as.numeric(gsub("[:]", "", .))))
+
+# Now use pivot_longer to collapse the year-month columns
+long_data <- combined_data_clean %>%
+  pivot_longer(
+    cols = starts_with("202"), 
+    names_to = "Year_Month",   
+    values_to = "Applications" 
+  )
+
+# View the first few rows of the transformed data
+head(long_data)
+
+# Write the long-format data to a new Excel file
+write.xlsx(long_data, "GHVT6_Cleaned_data/asylum_data_2022_now.xlsx")
+```
+
+```{r}
+###################################
+#### 2014 - 2021 Eurostat Data ####
+###################################
+
+# Clean up workspace
+rm(list=ls())
+
+# Define the path to my Excel file for easy reference
+excel_file_path <- "GHVT6_Raw_data/migr_asyappctzm_2014-2021.xlsx"
+
+# Define the row where the actual headings start
+heading_row <- 10  # Headings start at row 11
+
+# Function to read a sheet and rename the columns
+read_and_clean_sheet <- function(sheet_name, sex) {
+  df <- read_excel(excel_file_path, sheet = sheet_name, skip = heading_row) %>%
+    # Skipping the first row which is just a repeat of the column names
+    slice(-1) %>%
+    # Rename the columns. The first two columns are 'TIME...1' and 'TIME...2'
+    rename(Applicant = `TIME...1`, age_group = `TIME...2`) %>%
+    # Add a column for the sex category
+    mutate(Sex = sex)
+  
+  return(df)
+}
+
+# Use the function to read each sheet
+total_data <- read_and_clean_sheet("Sheet 1", "Total")
+male_data <- read_and_clean_sheet("Sheet 2", "Male")
+female_data <- read_and_clean_sheet("Sheet 3", "Female")
+unknown_data <- read_and_clean_sheet("Sheet 4", "Unknown")
+
+# Combine all data frames into one, appending them row-wise
+combined_data <- bind_rows(total_data, male_data, female_data, unknown_data)
+
+# Match columns 
+year_month_pattern <- "^[0-9]{4}-[0-1][0-9]$"
+
+# Convert all year-month columns to character, ensuring consistency across all columns
+combined_data_clean <- combined_data %>%
+  mutate(across(matches(year_month_pattern), as.character))
+
+# Now use pivot_longer to collapse the year-month columns
+long_data <- combined_data_clean %>%
+  pivot_longer(
+    cols = matches(year_month_pattern),
+    names_to = "Year_Month",            
+    values_to = "Applications"          
+  )
+
+# View the first few rows of the transformed data
+head(long_data)
+
+# Write the long-format data to a new Excel file
+write.xlsx(long_data, "GHVT6_Cleaned_data/asylum_data_2014_2021.xlsx")
+```
+
+```{r}
+###################################
+#### 2008 - 2013 Eurostat Data ####
+###################################
+
+# Clean up workspace
+rm(list=ls())
+
+# Define the path to my Excel file for easy reference
+excel_file_path <- "GHVT6_Raw_data/migr_asyappctzm_2008-2013.xlsx"
+
+# Define the row where the actual headings start
+heading_row <- 10  # Headings start at row 11
+
+# Function to read a sheet and rename the columns
+read_and_clean_sheet <- function(sheet_name, sex) {
+  df <- read_excel(excel_file_path, sheet = sheet_name, skip = heading_row) %>%
+    # Skipping the first row which is just a repeat of the column names
+    slice(-1) %>%
+    # Rename the columns. The first two columns are 'TIME...1' and 'TIME...2'
+    rename(Applicant = `TIME...1`, age_group = `TIME...2`) %>%
+    # Add a column for the sex category
+    mutate(Sex = sex)
+  
+  return(df)
+}
+
+# Use the function to read each sheet
+total_data <- read_and_clean_sheet("Sheet 1", "Total")
+male_data <- read_and_clean_sheet("Sheet 2", "Male")
+female_data <- read_and_clean_sheet("Sheet 3", "Female")
+unknown_data <- read_and_clean_sheet("Sheet 4", "Unknown")
+
+# Combine all data frames into one, appending them row-wise
+combined_data <- bind_rows(total_data, male_data, female_data, unknown_data)
+
+# Convert all year-month columns to character, ensuring consistency across all columns
+combined_data_clean <- combined_data %>%
+  mutate(across(matches("^[0-9]{4}-[0-1][0-9]$"), as.character))
+
+# Use pivot_longer to collapse the year-month columns
+long_data <- combined_data_clean %>%
+  pivot_longer(
+    cols = matches("^[0-9]{4}-[0-1][0-9]$"), 
+    names_to = "Year_Month",
+    values_to = "Applications" 
+  )
+
+# View the first few rows of the transformed data
+head(long_data)
+
+# Write the long-format data to a new Excel file
+write.xlsx(long_data, "GHVT6_Cleaned_data/asylum_data_2008_2013.xlsx")
+```
+
+```{r}
+#############################
+#### Merge Eurostat Data ####
+#############################
+
+# Clean up workspace
+rm(list=ls())
+
+# Define the paths to the Excel files
+file_paths <- c("GHVT6_Cleaned_data/asylum_data_2022_now.xlsx", 
+                "GHVT6_Cleaned_data/asylum_data_2014_2021.xlsx", 
+                "GHVT6_Cleaned_data/asylum_data_2008_2013.xlsx")
+
+# Function to read each Excel file, convert 'Applications' to numeric, and return a dataframe
+read_and_convert_data <- function(file_path) {
+  df <- read_excel(file_path)
+  
+  # Convert 'Applications' to numeric if it's not already
+  df$Applications <- as.numeric(gsub("[:]", "", df$Applications))
+  
+  return(df)
+}
+
+# Use lapply to read each file, convert, and create a list of dataframes
+data_list <- lapply(file_paths, read_and_convert_data)
+
+# Combine all dataframes into one
+combined_data <- bind_rows(data_list)
+
+# Check the class of the 'Year_Month' column
+class(combined_data$Year_Month) 
+
+# Convert to Date type
+combined_data$Year_Month <- as.Date(paste0(combined_data$Year_Month, "-01"), format="%Y-%m-%d") 
+
+# Write the combined data frame to a new Excel file
+write.xlsx(combined_data, "GHVT6_Final_data/asylum_data.xlsx")
+```
+
+```{r}
+####################
+#### Clean data ####
+####################
+
+# Clean up workspace
+rm(list=ls())
+
+# Load the data
+asylum_data <- read_excel("GHVT6_Final_data/asylum_data.xlsx")
+
+# Filter out unnecessary rows
+asylum_data <- asylum_data %>%
+  filter(Applicant != "European Union - 27 countries (from 2020)",
+         Applicant != "Total",
+         Applicant != "Extra-EU27 (from 2020)",
+         Applicant != ":",
+         Sex != "Total", 
+         age_group != "Total")
+
+# Write the combined data frame to a new Excel file
+write.xlsx(asylum_data, "GHVT6_Final_data/asylum_data.xlsx")
+```
+
+
+```{r}
+#######################
+#### Clean data v2 ####
+#######################
+
+# Clear the workspace
+rm(list = ls())
+
+# Load the data 
+data <- read_excel("GHVT6_Final_data/asylum_data.xlsx")
+
+# Rename columns and convert year_month to Date format
+data <- data %>%
+  rename(
+    year_month = `Year_Month`,
+    sex = `Sex`,
+    country = `Applicant`,
+    age_group = `age_group`,
+    asy_applications = `Applications`
+  ) %>%
+  mutate(year_month = as.Date(year_month))
+
+# Remove rows where country is ":" and "Stateless"
+data <- data %>%
+  filter(country != ":" & country != "Stateless")
+
+# Extract the year from the year_month column
+data <- data %>%
+  mutate(year = year(year_month))
+
+# Calculate total number of asylum applicants from each country per year
+total_asylum_per_year <- data %>%
+  group_by(country, year) %>%
+  summarize(total_applicants = sum(asy_applications, na.rm = TRUE)) %>%
+  ungroup()
+
+# Filter data for the years 2019, 2020, 2021, 2022, and 2023
+data_filtered <- data %>%
+  filter(year %in% c(2019, 2020, 2021, 2022, 2023))
+
+# Calculate the total number of asylum applicants per year for the filtered data
+total_per_year <- data_filtered %>%
+  group_by(year) %>%
+  summarize(total_applicants_per_year = sum(asy_applications, na.rm = TRUE))
+
+# Calculate the percentage of asylum applicants from each country for the specified years
+percentage_asylum_per_country <- data_filtered %>%
+  group_by(country, year) %>%
+  summarize(total_applicants = sum(asy_applications, na.rm = TRUE)) %>%
+  left_join(total_per_year, by = "year") %>%
+  mutate(percentage = (total_applicants / total_applicants_per_year) * 100) %>%
+  ungroup()
+
+# Calculate the average percentage for each country across 2020, 2021, 2022, and 2023
+average_percentage_per_country <- percentage_asylum_per_country %>%
+  group_by(country) %>%
+  summarize(average_percentage = mean(percentage, na.rm = TRUE)) %>%
+  arrange(desc(average_percentage))  # Sort in descending order
+
+# Print the average percentage per country
+print(average_percentage_per_country)
+
+# Export the average_percentage_per_country data frame to an Excel file
+# write_xlsx(average_percentage_per_country, "GHVT6_Outputs/average_percentage_per_country.xlsx")
+
+# Write the edited dataset to a new Excel file
+write.xlsx(data, "GHVT6_Final_data/asylum_data.xlsx")
+```
+
+
+```{r}
+# Define the function to calculate and print the sum of the first n average percentages
+sum_and_print_first_n <- function(data, n) {
+  sum_average_percentage <- data %>%
+    slice(1:n) %>%
+    summarize(sum_average_percentage = sum(average_percentage, na.rm = TRUE))
+  
+  print(paste("Sum of the first", n, "average percentages:"))
+  print(sum_average_percentage)
+}
+
+# Calculate and print the sums for the first 20, 18, and 15 average percentages
+sum_and_print_first_n(average_percentage_per_country, 20)
+sum_and_print_first_n(average_percentage_per_country, 18)
+sum_and_print_first_n(average_percentage_per_country, 15)
+```
+
+
+```{r}
+library(ggtext)
+
+# Function to add "Other countries" row and create pie chart
+create_pie_chart_with_others <- function(data, n, title) {
+  # Select top n countries
+  top_countries <- data %>%
+    slice(1:n)
+  
+  # Calculate the sum of the top n percentages
+  sum_top_percentages <- sum(top_countries$average_percentage, na.rm = TRUE)
+  
+  # Add a row for "Other countries"
+  top_countries <- top_countries %>%
+    add_row(country = "Other countries", average_percentage = 100 - sum_top_percentages)
+  
+  # Define colors
+  colors <- c(scales::hue_pal()(n), "red")  # Red for "Other countries"
+  
+  # Create the pie chart
+  ggplot(top_countries, aes(x = "", y = average_percentage, fill = country)) +
+    geom_bar(width = 1, stat = "identity") +
+    coord_polar("y") +
+    labs(title = title, fill = "Country", caption = "Source: Eurostat (2024)") +
+    scale_fill_manual(values = setNames(colors, c(top_countries$country[1:n], "Other countries"))) +
+    theme_void() +
+    theme(legend.position = "right",
+          plot.title = element_markdown(size = 12),  # Use element_markdown for the title
+          plot.caption = element_text(hjust = 0.5, size = 10),  # Adjust the caption size and position here
+          plot.background = element_rect(fill = "white", color = NA),  # Set the plot background to white
+          panel.background = element_rect(fill = "white", color = NA),  # Set the panel background to white
+          legend.background = element_rect(fill = "white", color = NA),  # Set the legend background to white
+          legend.key = element_rect(fill = "white", color = NA)) +  # Set the legend keys to white
+    guides(fill = guide_legend(ncol = 2))  # Set the number of legend columns
+}
+
+# Create pie chart for top 18 countries with "Other countries"
+pie_chart_top_18 <- create_pie_chart_with_others(average_percentage_per_country, 18, "**Figure 1:** Top 18 Countries with Highest Average Percentage of \nAsylum Applicants (2019-2023)")
+
+# Display the pie chart
+print(pie_chart_top_18)
+
+# Save the pie chart as a PNG file
+ggsave("GHVT6_Outputs_Graphs/Pie_Chart_Top_18.png", plot = pie_chart_top_18, width = 8, height = 6, bg = "white")
+
+
+# Save the pie chart as a PNG file
+ggsave("GHVT6_Outputs_Graphs/Pie_Chart_Top_18.png", plot = pie_chart_top_18, width = 8, height = 6)
+```
+
+
+```{r}
+# Function to calculate the sum of the first 18 percentages for a given year
+sum_first_18_percentages <- function(data, year) {
+  year_data <- data %>%
+    filter(year == !!year) %>%
+    group_by(country) %>%
+    summarize(total_applicants = sum(asy_applications, na.rm = TRUE)) %>%
+    ungroup()
+  
+  total_applicants_per_year <- sum(year_data$total_applicants, na.rm = TRUE)
+  
+  percentage_asylum_per_country <- year_data %>%
+    mutate(percentage = (total_applicants / total_applicants_per_year) * 100) %>%
+    arrange(desc(percentage)) %>%
+    slice(1:18) %>%
+    summarize(sum_percentage = sum(percentage, na.rm = TRUE))
+  
+  return(percentage_asylum_per_country)
+}
+
+# Apply the function to each year from 2019 to 2024
+years <- 2019:2024
+sum_percentages <- lapply(years, function(year) sum_first_18_percentages(data, year))
+
+# Print the sums for each year
+names(sum_percentages) <- years
+sum_percentages
+
+colnames(data)
+```
+
+```{r}
+#######################
+#### Subset data  #####
+#######################
+
+# Clean up workspace
+rm(list=ls())
+
+# Load the dataset
+library(readxl)
+data <- read_excel("GHVT6_Final_data/asylum_data.xlsx")
+
+# List of countries to include
+countries_to_include <- c(
+  "Afghanistan", "Albania", "Bangladesh", "Cameroon",
+  "Democratic Republic of the Congo", "Egypt", "Eritrea",
+  "Georgia", "India", "Iran", "Iraq", "Palestine*",
+  "Pakistan", "Sierra Leone", "Somalia", "Syria",
+  "Türkiye", "Yemen"
+)
+
+# Subset the dataset to include only the specified countries
+subset_data <- data %>%
+  filter(country %in% countries_to_include) %>%
+  mutate(country = ifelse(country == "Palestine*", "Palestine", country))
+
+# Print the subsetted data to verify
+print(subset_data)
+
+# Save the dataset to a CSV file
+write.csv(subset_data, "GHVT6_Final_data/asylum_data.csv", row.names = FALSE)
+```
+
+```{r}
+##########################################################################
+#### Handling Sex and Age Group variables in Asylum Application data ####
+##########################################################################
+
+# Load the dataset
+data <- read_csv("GHVT6_Final_data/asylum_data.csv")
+
+# Filter out rows where sex or age_group is "Unknown"
+data <- data %>%
+  filter(sex != "Unknown", age_group != "Unknown")
+
+# Reclassify age_group into "minor" and "adult"
+data <- data %>%
+  mutate(age_group = case_when(
+    age_group %in% c("Less than 14 years", "From 14 to 17 years", "Less than 18 years") ~ "minor",
+    age_group %in% c("From 18 to 34 years", "From 35 to 64 years", "65 years or over") ~ "adult"
+  ))
+
+# Rename the values of sex to lowercase
+data <- data %>%
+  mutate(sex = case_when(
+    sex == "Male" ~ "male",
+    sex == "Female" ~ "female",
+    TRUE ~ sex
+  ))
+
+# Group by country, sex, age_group, and year_month, then sum up asy_applications
+data <- data %>%
+  group_by(country, sex, age_group, year_month) %>%
+  summarise(asy_applications = sum(asy_applications, na.rm = TRUE), .groups = 'drop')
+
+# Print the resulting data
+print(data)
+
+# Print column names
+colnames(data)
+
+# Inspect the structure of the data
+str(data)
+
+# Save the cleaned data to a new CSV file
+write_csv(data, "GHVT6_Final_data/asylum_data.csv")
+```
+
+```{r}
+# Count the number of rows per country
+rows_per_country <- data %>%
+  group_by(country) %>%
+  summarise(row_count = n(), .groups = 'drop')
+
+# Print the number of rows per country
+print(rows_per_country)
+```
+
+```{r}
+# Filter and print all rows where asy_applications is NA
+missing_asy_applications <- data %>%
+  filter(is.na(asy_applications))
+
+# Print the filtered data
+print(missing_asy_applications)
+```
+

@@ -1,0 +1,402 @@
+---
+title: "GDELT_PFI_data"
+output: pdf_document
+date: "2024-07-07"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Clean up workspace
+rm(list=ls())
+
+# Set working directory
+# Note: Please adjust the file paths below to match the location where you saved my folder in your directory structure.
+setwd("~/Desktop/GHVT6_MScThesis")
+```
+
+```{r}
+# Load packages
+list.of.packages <- c("readxl", "readr", "openxlsx", "writexl", "dplyr", "tidyr", "ggplot2", "lubridate", "janitor", "purrr", "stringr")
+invisible(lapply(list.of.packages, library,
+                 character.only = TRUE))
+```
+
+```{r}
+#########################
+#### GDELT 1.0 Data ####
+#########################
+
+# Clean up workspace
+rm(list = ls())
+
+# Load the GDELT 1.0 data
+gdelt1 <- read_csv("GHVT6_Raw_data/gdelt1.csv")
+
+# Convert the year_month column to a date format ending with -01
+df <- gdelt1 %>%
+  mutate(year_month = as.Date(paste0(year_month, "-01"), format = "%Y-%m-%d"))
+
+# Inspect the Unknown column
+print(unique(df$Unknown))
+
+# Inspect the Other column
+print(unique(df$Other))
+
+# Delete the Unknown column
+df <- df %>% select(-c(Unknown, Other))
+
+# Ensure the specified columns are numeric
+df <- df %>%
+  mutate(across(c(Conflict, Economic, Governance, Political, Social, push_factor_index), as.numeric))
+
+# Print the first few rows to verify the changes
+print(head(df))
+
+# Check how many months are available for each country
+months_per_country <- df %>%
+  group_by(country) %>%
+  summarise(months_available = n_distinct(year_month))
+
+# Print the result
+print(months_per_country)
+
+# Find the earliest and latest dates in 'year_month'
+earliest_date <- min(df$year_month)
+latest_date <- max(df$year_month)
+
+# Print the earliest and latest dates
+print(paste("Earliest date:", earliest_date))
+print(paste("Latest date:", latest_date))
+
+# Arrange the data by country and year_month
+sorted_data <- df %>%
+  arrange(country, year_month)
+
+# Print the sorted data
+print(sorted_data)
+
+# Save the cleaned data
+write_csv(df, "GHVT6_Cleaned_data/gdelt1_data.csv")
+```
+
+```{r}
+#########################
+#### GDELT 2A.0 Data ####
+#########################
+
+# Clean up workspace
+rm(list = ls())
+
+# Load the GDELT 2.0 part b data
+gdelt2a <- read_csv("GHVT6_Raw_data/gdelt2.csv")
+
+# Convert the year_month column to a date format ending with -01
+df <- gdelt2a %>%
+  mutate(year_month = as.Date(paste0(year_month, "-01"), format = "%Y-%m-%d"))
+
+# Keep data from 2006 onwards
+df <- df %>%
+  filter(year_month >= as.Date("2006-01-01")) 
+
+# Inspect the Unknown column
+print(unique(df$Unknown))
+
+# Inspect the Other column
+print(unique(df$Other))
+
+# Delete the Unknown column
+df <- df %>% select(-c(Unknown, Other))
+
+# Ensure the specified columns are numeric
+df <- df %>%
+  mutate(across(c(Conflict, Economic, Governance, Political, Social, push_factor_index), as.numeric))
+
+# Print the first few rows to verify the changes
+print(head(df))
+
+# Check how many months are available for each country
+months_per_country <- df %>%
+  group_by(country) %>%
+  summarise(months_available = n_distinct(year_month))
+
+# Print the result
+print(months_per_country)
+
+min(df$year_month)
+max(df$year_month)
+# Save the cleaned data
+write_csv(df, "GHVT6_Cleaned_data/gdelt2a_data.csv")
+```
+
+```{r}
+#########################
+#### GDELT 2B.0 Data ####
+#########################
+
+# Clean up workspace
+rm(list = ls())
+
+# Load the GDELT 2.0 part b data
+gdelt2b <- read_csv("GHVT6_Raw_data/gdelt2b.csv")
+
+# Convert the year_month column to a date format ending with -01
+df <- gdelt2b %>%
+  mutate(year_month = as.Date(paste0(year_month, "-01"), format = "%Y-%m-%d"))
+
+# Inspect the Unknown column
+print(unique(df$Unknown))
+
+# Inspect the Other column
+print(unique(df$Other))
+
+# Delete the Unknown column
+df <- df %>% select(-c(Unknown, Other))
+
+# Ensure the specified columns are numeric
+df <- df %>%
+  mutate(across(c(Conflict, Economic, Governance, Political, Social, push_factor_index), as.numeric))
+
+# Print the first few rows to verify the changes
+print(head(df))
+
+# Check how many months are available for each country
+months_per_country <- df %>%
+  group_by(country) %>%
+  summarise(months_available = n_distinct(year_month))
+
+# Print the result
+print(months_per_country)
+
+# Find the earliest and latest dates in 'year_month'
+earliest_date <- min(df$year_month)
+latest_date <- max(df$year_month)
+
+# Adjust 'year_month' to ensure all dates end in '-01'
+df <- df %>%
+  mutate(year_month = floor_date(year_month, "month"))
+
+# Print the earliest and latest dates
+print(paste("Earliest date:", earliest_date))
+print(paste("Latest date:", latest_date))
+
+# Arrange the data by country and year_month
+sorted_data <- df %>%
+  arrange(country, year_month)
+
+# Print the sorted data
+print(sorted_data)
+
+# Save the cleaned data
+write_csv(df, "GHVT6_Cleaned_data/gdelt2b_data.csv")
+```
+
+```{r}
+#######################################
+#### GDELT 1.0 pre 2013-04-01 Data ####
+#######################################
+
+# Clean up workspace
+rm(list = ls())
+
+# Load the dataset
+df <- read_csv("GHVT6_Raw_data/gdelt1_pre20130401.csv")
+
+# Convert the year_month column to a date format ending with -01
+df <- df %>%
+  mutate(year_month = as.Date(paste0(substring(year_month, 7, 10), "-", substring(year_month, 4, 5), "-01"), format = "%Y-%m-%d"))
+
+# Display the resulting dataframe
+print(df)
+
+# Inspect the Unknown column
+print(unique(df$Unknown))
+
+# Inspect the Other column
+print(unique(df$Other))
+
+# Delete the Unknown column
+df <- df %>% select(-c(Unknown, Other))
+
+# Ensure the specified columns are numeric
+df <- df %>%
+  mutate(across(c(Conflict, Economic, Governance, Political, Social, push_factor_index), as.numeric))
+
+# Print the first few rows to verify the changes
+print(head(df))
+
+# Check how many months are available for each country
+months_per_country <- df %>%
+  group_by(country) %>%
+  summarise(months_available = n_distinct(year_month))
+
+# Print the result
+print(months_per_country)
+
+# Find the earliest and latest dates in 'year_month'
+earliest_date <- min(df$year_month)
+latest_date <- max(df$year_month)
+
+# Print the earliest and latest dates
+print(paste("Earliest date:", earliest_date))
+print(paste("Latest date:", latest_date))
+
+# Save the cleaned data
+write_csv(df, "GHVT6_Cleaned_data/gdelt1_pre201304_data.csv")
+```
+
+```{r}
+####################
+#### MERGE Data ####
+####################
+
+# Clean up workspace
+rm(list = ls())
+
+# Load the datasets
+gdelt1_data <- read_csv("GHVT6_Cleaned_data/gdelt1_data.csv")
+gdelt2b_data <- read_csv("GHVT6_Cleaned_data/gdelt2b_data.csv")
+gdelt2a_data_final <- read_csv("GHVT6_Cleaned_data/gdelt2a_data.csv")
+gdelt1_pre201304 <- read_csv("GHVT6_Cleaned_data/gdelt1_pre201304_data.csv")
+
+# Standardize the year_month variable to ensure all dates end in '-01'
+gdelt1_data <- gdelt1_data %>%
+  mutate(year_month = floor_date(as.Date(year_month), "month"))
+
+gdelt2b_data <- gdelt2b_data %>%
+  mutate(year_month = floor_date(as.Date(year_month), "month"))
+
+gdelt2a_data_final <- gdelt2a_data_final %>%
+  mutate(year_month = floor_date(as.Date(year_month), "month"))
+
+gdelt1_pre201304 <- gdelt1_pre201304 %>%
+  mutate(year_month = floor_date(as.Date(year_month), "month"))
+
+# Combine all datasets into one
+combined_data <- bind_rows(gdelt1_data, gdelt2b_data, gdelt2a_data_final, gdelt1_pre201304)
+
+# Remove China, Algeria, and Morocco from the dataset
+combined_data <- combined_data %>%
+  filter(!(country %in% c("China", "Algeria", "Morocco", "Nigeria")))
+
+# Aggregate the data to handle non-zero value preference
+final_data <- combined_data %>%
+  group_by(country, year_month) %>%
+  summarise(
+    Conflict = max(Conflict, na.rm = TRUE),
+    Economic = max(Economic, na.rm = TRUE),
+    Governance = max(Governance, na.rm = TRUE),
+    Political = max(Political, na.rm = TRUE),
+    Social = max(Social, na.rm = TRUE),
+    push_factor_index = max(push_factor_index, na.rm = TRUE)
+  ) %>%
+  ungroup()
+
+# Z-score Standardization of push_factor_index
+final_data <- final_data %>%
+  mutate(push_factor_index_standardized = (push_factor_index - mean(push_factor_index, na.rm = TRUE)) / sd(push_factor_index, na.rm = TRUE))
+
+# Save the merged data to a new CSV file
+write_csv(final_data, "GHVT6_Final_data/final_pfi_data.csv")
+```
+
+```{r}
+# Check the data 
+max(final_data$year_month)
+min(final_data$year_month)
+
+# Keep data from 2009 untl 2024-03-01 onwards
+final_data <- final_data %>%
+  filter(year_month >= as.Date("2009-01-01") & year_month <= as.Date("2024-03-01"))
+
+# Count the number of rows per country
+row_counts_per_country <- final_data %>%
+  group_by(country) %>%
+  summarize(row_count = n())
+
+# View the row counts per country
+print(row_counts_per_country)
+
+# Save the merged data to a new CSV file
+write_csv(final_data, "GHVT6_Final_data/final_pfi_data.csv")
+```
+```{r}
+# Define the variables of interest including push_factor_index
+variables <- c("Conflict", "Economic", "Governance", "Political", "Social", "push_factor_index")
+
+
+# Create and save plots for each variable
+for (variable in variables) {
+  # Create the plot
+  plot <- final_data %>%
+    ggplot(aes(x = year_month, y = .data[[variable]])) +
+    geom_line() +
+    facet_wrap(~ country, scales = "free_y") +
+    labs(
+      title = paste(variable, "Over Time by Country"),
+      x = "Year-Month",
+      y = variable,
+      caption = "Source: GDELT (2024)"
+    ) +
+    theme_bw() +
+    theme(
+      panel.background = element_rect(fill = "white"),
+      plot.background = element_rect(fill = "white"),
+      panel.grid.major = element_line(color = "gray80"),
+      panel.grid.minor = element_line(color = "gray90"),
+      plot.title = element_text(hjust = 0.5, size = 14),
+      plot.caption = element_text(hjust = 0.5, size = 10)
+    )
+  
+  # Save the plot to the Outputs folder
+  output_filename <- paste0("GHVT6_Outputs_Graphs/", variable, "_over_time_by_country.png")
+  ggsave(output_filename, plot, width = 20, height = 15)
+  
+  # Print the plot
+  print(plot)
+}
+```
+
+```{r}
+# Load the merged data
+final_data <- read_csv("final_pfi_data.csv")
+
+# Create a new variable 'pfi' by aggregating the specified variables
+final_data <- final_data %>%
+  mutate(pfi = rowSums(select(., Conflict, Economic, Governance, Political, Social), na.rm = TRUE))
+
+# Plot the push factor index per country over time
+plots_pfi <- final_data %>%
+  ggplot(aes(x = year_month, y = push_factor_index)) +
+  geom_line() +
+  facet_wrap(~ country, scales = "free_y") +
+  labs(title = "Push Factor Index Over Time by Country",
+       x = "Year-Month",
+       y = "Push Factor Index") +
+  theme_bw() +
+  theme(panel.background = element_rect(fill = "white"),
+        plot.background = element_rect(fill = "white"),
+        panel.grid.major = element_line(color = "gray80"),
+        panel.grid.minor = element_line(color = "gray90"))
+
+# Save the plot to a file
+ggsave("GHVT6_Outputs_Graphs/pfi_plot.png", plots_standardized, width = 20, height = 15)
+```
+
+```{r}
+# Find the min, max, mean, and mode of the push_factor_index variable per country
+push_factor_stats <- final_data %>%
+  group_by(country) %>%
+  summarise(
+    min_push_factor = min(push_factor_index, na.rm = TRUE),
+    max_push_factor = max(push_factor_index, na.rm = TRUE),
+    mean_push_factor = mean(push_factor_index, na.rm = TRUE),
+    mode_push_factor = as.numeric(names(sort(table(push_factor_index), decreasing = TRUE))[1])
+  )
+
+print("Statistics of push_factor_index per country:")
+print(push_factor_stats)
+```
+
