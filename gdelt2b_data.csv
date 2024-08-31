@@ -1,0 +1,3013 @@
+country,year_month,Conflict,Economic,Governance,Political,Social,push_factor_index
+Afghanistan,2010-05-01,10,0,0,0,0,10
+Afghanistan,2010-06-01,3,0,0,0,0,3
+Afghanistan,2010-07-01,-3,0,0,0,2,-1
+Afghanistan,2010-08-01,0,0,0,0,0,0
+Afghanistan,2010-09-01,3,0,0,0,0,3
+Afghanistan,2010-10-01,0,0,0,0,0,0
+Afghanistan,2010-11-01,5,0,0,0,0,5
+Afghanistan,2010-12-01,9,0,0,-2,0,7
+Afghanistan,2011-01-01,10,0,0,0,2,12
+Afghanistan,2011-02-01,0,0,-4,0,2,-2
+Afghanistan,2011-03-01,0,0,0,0,0,0
+Afghanistan,2011-04-01,5,0,0,0,0,5
+Afghanistan,2011-05-01,9,0,0,0,0,9
+Afghanistan,2011-06-01,0,0,0,9,0,9
+Afghanistan,2011-07-01,13,0,0,0,0,13
+Afghanistan,2011-08-01,6,0,0,0,0,6
+Afghanistan,2011-09-01,6,0,0,3,0,9
+Afghanistan,2011-10-01,3,0,0,1,0,4
+Afghanistan,2011-11-01,-8,0,0,3,0,-5
+Afghanistan,2011-12-01,3,0,0,5,0,8
+Afghanistan,2012-01-01,1,0,0,0,0,1
+Afghanistan,2012-02-01,0,0,0,0,0,0
+Afghanistan,2012-03-01,3,0,0,0,2,5
+Afghanistan,2012-04-01,-9,0,0,0,0,-9
+Afghanistan,2012-05-01,-2,0,0,0,0,-2
+Afghanistan,2012-06-01,3,0,0,0,0,3
+Afghanistan,2012-07-01,0,0,0,0,0,0
+Afghanistan,2012-08-01,2,0,0,0,2,4
+Afghanistan,2012-09-01,0,0,0,0,6,6
+Afghanistan,2012-10-01,0,0,0,0,0,0
+Afghanistan,2012-11-01,0,0,0,0,0,0
+Afghanistan,2012-12-01,0,0,0,0,0,0
+Afghanistan,2013-01-01,0,0,0,0,0,0
+Afghanistan,2013-02-01,0,0,0,0,0,0
+Afghanistan,2013-03-01,-3,0,0,0,0,-3
+Afghanistan,2013-04-01,6,0,0,0,0,6
+Afghanistan,2013-05-01,0,0,0,0,0,0
+Afghanistan,2013-06-01,-1,0,0,0,0,-1
+Afghanistan,2013-07-01,3,0,0,0,0,3
+Afghanistan,2013-08-01,0,0,0,6,0,6
+Afghanistan,2013-09-01,0,0,0,0,0,0
+Afghanistan,2013-10-01,-2,0,0,0,0,-2
+Afghanistan,2013-11-01,3,0,0,0,0,3
+Afghanistan,2013-12-01,0,0,0,0,0,0
+Afghanistan,2014-01-01,0,0,0,0,0,0
+Afghanistan,2014-02-01,0,0,0,0,0,0
+Afghanistan,2014-03-01,0,0,0,0,0,0
+Afghanistan,2014-04-01,-3,0,0,0,0,-3
+Afghanistan,2014-05-01,0,0,0,0,0,0
+Afghanistan,2014-06-01,0,0,0,0,0,0
+Afghanistan,2014-07-01,0,0,0,0,0,0
+Afghanistan,2014-08-01,0,0,0,0,0,0
+Afghanistan,2014-09-01,0,0,0,0,0,0
+Afghanistan,2014-10-01,0,0,0,0,0,0
+Afghanistan,2014-11-01,0,0,0,0,0,0
+Afghanistan,2014-12-01,0,0,0,0,0,0
+Afghanistan,2015-01-01,0,0,0,0,0,0
+Afghanistan,2015-02-01,0,0,0,0,0,0
+Afghanistan,2015-03-01,0,0,0,0,0,0
+Afghanistan,2015-04-01,0,0,0,0,0,0
+Afghanistan,2015-05-01,0,0,0,0,0,0
+Afghanistan,2015-06-01,0,0,0,0,0,0
+Afghanistan,2015-07-01,0,0,0,0,0,0
+Afghanistan,2015-08-01,0,0,0,0,0,0
+Afghanistan,2015-09-01,0,0,0,0,0,0
+Afghanistan,2015-10-01,0,0,0,0,0,0
+Afghanistan,2015-11-01,0,0,0,0,0,0
+Afghanistan,2015-12-01,0,0,0,0,0,0
+Afghanistan,2016-01-01,0,0,0,0,0,0
+Afghanistan,2016-02-01,0,0,0,0,0,0
+Afghanistan,2016-03-01,0,0,0,0,0,0
+Afghanistan,2016-04-01,0,0,0,0,0,0
+Afghanistan,2016-05-01,0,0,0,0,0,0
+Afghanistan,2016-06-01,0,0,0,0,0,0
+Afghanistan,2016-07-01,0,0,0,0,0,0
+Afghanistan,2016-08-01,0,0,0,0,0,0
+Afghanistan,2016-09-01,0,0,0,0,0,0
+Afghanistan,2016-10-01,0,0,0,0,0,0
+Afghanistan,2016-11-01,0,0,0,0,0,0
+Afghanistan,2016-12-01,0,0,0,0,0,0
+Afghanistan,2017-01-01,0,0,0,0,0,0
+Afghanistan,2017-02-01,0,0,0,0,0,0
+Afghanistan,2017-03-01,0,0,0,0,0,0
+Afghanistan,2017-04-01,0,0,0,0,0,0
+Afghanistan,2017-05-01,0,0,0,0,0,0
+Afghanistan,2017-06-01,0,0,0,0,0,0
+Afghanistan,2017-07-01,0,0,0,0,0,0
+Afghanistan,2017-08-01,0,0,0,0,0,0
+Afghanistan,2017-09-01,0,0,0,0,0,0
+Afghanistan,2017-10-01,0,0,0,0,0,0
+Afghanistan,2017-11-01,0,0,0,0,0,0
+Afghanistan,2017-12-01,0,0,0,0,0,0
+Afghanistan,2018-01-01,0,0,0,0,0,0
+Afghanistan,2018-02-01,0,0,0,0,0,0
+Afghanistan,2018-03-01,0,0,0,0,0,0
+Afghanistan,2018-04-01,0,0,0,0,0,0
+Afghanistan,2018-05-01,0,0,0,0,0,0
+Afghanistan,2018-06-01,0,0,0,0,0,0
+Afghanistan,2018-07-01,0,0,0,0,0,0
+Afghanistan,2018-08-01,0,0,0,0,0,0
+Afghanistan,2018-09-01,0,0,0,0,0,0
+Afghanistan,2018-10-01,0,0,0,0,0,0
+Afghanistan,2018-11-01,0,0,0,0,0,0
+Afghanistan,2018-12-01,0,0,0,0,0,0
+Afghanistan,2019-01-01,0,0,0,0,0,0
+Afghanistan,2019-02-01,0,0,0,0,0,0
+Afghanistan,2019-03-01,0,0,0,0,0,0
+Afghanistan,2019-04-01,-3,0,-2,-3,0,-8
+Afghanistan,2019-05-01,55,0,0,16,23,94
+Afghanistan,2019-06-01,97,0,0,1,3,101
+Afghanistan,2019-07-01,71,0,0,2,4,77
+Afghanistan,2019-08-01,51,0,-6,17,2,64
+Afghanistan,2019-09-01,5,0,0,8,13,26
+Afghanistan,2019-10-01,-1,0,-2,-4,5,-2
+Afghanistan,2019-11-01,25,0,0,-9,4,20
+Afghanistan,2019-12-01,21,6,0,-4,1,24
+Afghanistan,2020-01-01,73,0,1,-2,1,73
+Afghanistan,2020-02-01,36,0,0,0,7,43
+Afghanistan,2020-03-01,-9,0,-4,9,11,7
+Afghanistan,2020-04-01,1418,14,-7,72,225,1722
+Afghanistan,2020-05-01,7319,42,10,107,1495,8973
+Afghanistan,2020-06-01,5979,50,-13,449,972,7437
+Afghanistan,2020-07-01,6182,80,-18,-17,1081,7308
+Afghanistan,2020-08-01,6196,36,-2,-234,1031,7027
+Afghanistan,2020-09-01,5511,42,6,421,870,6850
+Afghanistan,2020-10-01,4407,30,-15,716,1018,6156
+Afghanistan,2020-11-01,4408,50,6,534,956,5954
+Afghanistan,2020-12-01,6139,30,4,995,973,8141
+Afghanistan,2021-01-01,4730,42,-13,848,814,6421
+Afghanistan,2021-02-01,4004,44,8,794,730,5580
+Afghanistan,2021-03-01,4712,62,-3,736,805,6312
+Afghanistan,2021-04-01,4002,34,-31,967,870,5842
+Afghanistan,2021-05-01,5118,38,5,718,1239,7118
+Afghanistan,2021-06-01,5336,66,-16,1191,1045,7622
+Afghanistan,2021-07-01,11096,150,-123,3391,1707,16221
+Afghanistan,2021-08-01,25887,830,-16,4799,5635,37135
+Afghanistan,2021-09-01,18149,720,-22,4037,4028,26912
+Afghanistan,2021-10-01,9832,303,-101,2124,2319,14477
+Afghanistan,2021-11-01,7049,188,-37,1323,1140,9663
+Afghanistan,2021-12-01,5874,336,-37,1368,1013,8554
+Afghanistan,2022-01-01,5353,225,-42,2104,833,8473
+Afghanistan,2022-02-01,5032,176,-5,1222,819,7244
+Afghanistan,2022-03-01,5040,145,39,1341,933,7498
+Afghanistan,2022-04-01,5320,94,5,1178,1187,7784
+Afghanistan,2022-05-01,4309,82,37,1041,686,6155
+Afghanistan,2022-06-01,4068,143,24,901,630,5766
+Afghanistan,2022-07-01,3332,72,-52,885,441,4678
+Afghanistan,2022-08-01,7284,109,37,1844,1242,10516
+Afghanistan,2022-09-01,4262,65,-21,1271,929,6506
+Afghanistan,2022-10-01,3205,44,11,936,731,4927
+Afghanistan,2022-11-01,3118,68,-7,1143,318,4640
+Afghanistan,2022-12-01,5290,42,-23,2492,941,8742
+Afghanistan,2023-01-01,4895,50,17,1860,741,7563
+Afghanistan,2023-02-01,2918,58,20,1317,524,4837
+Afghanistan,2023-03-01,4490,66,10,1905,783,7254
+Afghanistan,2023-04-01,4613,119,13,2139,780,7664
+Afghanistan,2023-05-01,4508,68,10,1545,536,6667
+Afghanistan,2023-06-01,4354,72,3,1433,710,6572
+Afghanistan,2023-07-01,4086,73,-16,1605,756,6504
+Afghanistan,2023-08-01,4299,70,11,2246,838,7464
+Afghanistan,2023-09-01,4481,78,-20,1796,568,6903
+Afghanistan,2023-10-01,4461,101,1,1565,735,6863
+Afghanistan,2023-11-01,4364,78,-2,1626,581,6647
+Afghanistan,2023-12-01,3296,48,-16,1468,500,5296
+Afghanistan,2024-01-01,3104,32,-1,1082,330,4547
+Afghanistan,2024-02-01,3266,52,16,937,414,4685
+Afghanistan,2024-03-01,5101,34,-20,1396,923,7434
+Afghanistan,2024-04-01,3470,42,14,873,425,4824
+Afghanistan,2024-05-01,2898,30,2,1027,457,4414
+Albania,2010-05-01,0,0,0,3,0,3
+Albania,2010-06-01,0,0,0,0,0,0
+Albania,2010-07-01,0,0,0,0,0,0
+Albania,2010-08-01,0,0,0,0,0,0
+Albania,2010-09-01,0,0,0,0,0,0
+Albania,2010-10-01,0,0,0,0,0,0
+Albania,2010-11-01,0,0,0,0,0,0
+Albania,2010-12-01,0,0,0,0,0,0
+Albania,2011-01-01,0,0,0,0,0,0
+Albania,2011-02-01,0,0,0,0,0,0
+Albania,2011-03-01,0,0,0,0,0,0
+Albania,2011-04-01,0,0,0,0,0,0
+Albania,2011-05-01,0,0,0,0,0,0
+Albania,2011-06-01,0,0,0,0,0,0
+Albania,2011-07-01,0,0,0,0,0,0
+Albania,2011-08-01,0,0,0,0,0,0
+Albania,2011-09-01,0,0,0,0,0,0
+Albania,2011-10-01,0,0,0,0,0,0
+Albania,2011-11-01,2,0,0,0,0,2
+Albania,2011-12-01,0,0,0,0,0,0
+Albania,2012-01-01,0,0,0,0,0,0
+Albania,2012-02-01,0,0,0,0,0,0
+Albania,2012-03-01,0,0,0,0,0,0
+Albania,2012-04-01,0,0,0,0,0,0
+Albania,2012-05-01,0,0,0,0,0,0
+Albania,2012-06-01,0,0,0,0,0,0
+Albania,2012-07-01,0,0,0,0,0,0
+Albania,2012-08-01,0,0,0,0,0,0
+Albania,2012-09-01,0,0,0,0,0,0
+Albania,2012-10-01,0,0,0,0,0,0
+Albania,2012-11-01,0,0,0,0,0,0
+Albania,2012-12-01,0,0,0,0,0,0
+Albania,2013-01-01,0,0,0,0,0,0
+Albania,2013-02-01,0,0,0,0,0,0
+Albania,2013-03-01,0,0,0,0,0,0
+Albania,2013-04-01,0,0,0,0,0,0
+Albania,2013-05-01,0,0,0,0,0,0
+Albania,2013-06-01,0,0,0,0,0,0
+Albania,2013-07-01,0,0,0,0,0,0
+Albania,2013-08-01,0,0,0,0,0,0
+Albania,2013-09-01,0,0,0,0,0,0
+Albania,2013-10-01,0,0,0,0,0,0
+Albania,2013-11-01,0,0,0,0,0,0
+Albania,2013-12-01,0,0,0,0,0,0
+Albania,2014-01-01,0,0,0,0,0,0
+Albania,2014-02-01,0,0,0,0,0,0
+Albania,2014-03-01,0,0,0,0,0,0
+Albania,2014-04-01,0,0,0,0,0,0
+Albania,2014-05-01,0,0,0,0,0,0
+Albania,2014-06-01,0,0,0,0,0,0
+Albania,2014-07-01,0,0,0,0,0,0
+Albania,2014-08-01,0,0,0,0,0,0
+Albania,2014-09-01,0,0,0,0,0,0
+Albania,2014-10-01,0,0,0,0,0,0
+Albania,2014-11-01,0,0,0,0,0,0
+Albania,2014-12-01,0,0,0,0,0,0
+Albania,2015-01-01,0,0,0,0,0,0
+Albania,2015-02-01,0,0,0,0,0,0
+Albania,2015-03-01,0,0,0,0,0,0
+Albania,2015-04-01,0,0,0,0,0,0
+Albania,2015-05-01,0,0,0,0,0,0
+Albania,2015-06-01,0,0,0,0,0,0
+Albania,2015-07-01,0,0,0,0,0,0
+Albania,2015-08-01,0,0,0,0,0,0
+Albania,2015-09-01,0,0,0,0,0,0
+Albania,2015-10-01,0,0,0,0,0,0
+Albania,2015-11-01,0,0,0,0,0,0
+Albania,2015-12-01,0,0,0,0,0,0
+Albania,2016-01-01,0,0,0,0,0,0
+Albania,2016-02-01,0,0,0,0,0,0
+Albania,2016-03-01,0,0,0,0,0,0
+Albania,2016-04-01,0,0,0,0,0,0
+Albania,2016-05-01,0,0,0,0,0,0
+Albania,2016-06-01,0,0,0,0,0,0
+Albania,2016-07-01,0,0,0,0,0,0
+Albania,2016-08-01,0,0,0,0,0,0
+Albania,2016-09-01,0,0,0,0,0,0
+Albania,2016-10-01,0,0,0,0,0,0
+Albania,2016-11-01,0,0,0,0,0,0
+Albania,2016-12-01,0,0,0,0,0,0
+Albania,2017-01-01,0,0,0,0,0,0
+Albania,2017-02-01,0,0,0,0,0,0
+Albania,2017-03-01,0,0,0,0,0,0
+Albania,2017-04-01,0,0,0,0,0,0
+Albania,2017-05-01,0,0,0,0,0,0
+Albania,2017-06-01,0,0,0,0,0,0
+Albania,2017-07-01,0,0,0,0,0,0
+Albania,2017-08-01,0,0,0,0,0,0
+Albania,2017-09-01,0,0,0,0,0,0
+Albania,2017-10-01,0,0,0,0,0,0
+Albania,2017-11-01,0,0,0,0,0,0
+Albania,2017-12-01,0,0,0,0,0,0
+Albania,2018-01-01,0,0,0,0,0,0
+Albania,2018-02-01,0,0,0,0,0,0
+Albania,2018-03-01,0,0,0,0,0,0
+Albania,2018-04-01,0,0,0,0,0,0
+Albania,2018-05-01,0,0,0,0,0,0
+Albania,2018-06-01,0,0,0,0,0,0
+Albania,2018-07-01,0,0,0,0,0,0
+Albania,2018-08-01,0,0,0,0,0,0
+Albania,2018-09-01,0,0,0,0,0,0
+Albania,2018-10-01,0,0,0,0,0,0
+Albania,2018-11-01,0,0,0,0,0,0
+Albania,2018-12-01,0,0,0,0,0,0
+Albania,2019-01-01,0,0,0,0,0,0
+Albania,2019-02-01,0,0,0,0,0,0
+Albania,2019-03-01,0,0,0,0,0,0
+Albania,2019-04-01,0,0,0,0,0,0
+Albania,2019-05-01,3,0,0,-2,0,1
+Albania,2019-06-01,-1,0,-2,19,0,16
+Albania,2019-07-01,3,0,0,9,1,13
+Albania,2019-08-01,4,0,0,0,0,4
+Albania,2019-09-01,0,0,0,4,0,4
+Albania,2019-10-01,0,0,0,3,1,4
+Albania,2019-11-01,0,0,0,1,1,2
+Albania,2019-12-01,-3,0,0,0,0,-3
+Albania,2020-01-01,0,0,0,3,0,3
+Albania,2020-02-01,0,0,0,0,2,2
+Albania,2020-03-01,5,0,0,6,0,11
+Albania,2020-04-01,79,2,-6,119,4,198
+Albania,2020-05-01,250,4,11,294,88,647
+Albania,2020-06-01,323,0,-35,251,60,599
+Albania,2020-07-01,246,2,-2,143,25,414
+Albania,2020-08-01,237,0,5,124,20,386
+Albania,2020-09-01,298,4,-8,193,41,528
+Albania,2020-10-01,127,20,-1,111,21,278
+Albania,2020-11-01,230,6,-3,113,22,368
+Albania,2020-12-01,397,6,-41,213,126,701
+Albania,2021-01-01,190,0,-15,76,22,273
+Albania,2021-02-01,146,0,8,122,14,290
+Albania,2021-03-01,201,2,5,121,23,352
+Albania,2021-04-01,412,2,1,200,58,673
+Albania,2021-05-01,247,2,4,148,26,427
+Albania,2021-06-01,218,0,2,84,17,321
+Albania,2021-07-01,177,4,-1,195,28,403
+Albania,2021-08-01,244,0,-1,87,25,355
+Albania,2021-09-01,264,0,-10,208,36,498
+Albania,2021-10-01,261,2,-2,123,44,428
+Albania,2021-11-01,223,2,-10,131,25,371
+Albania,2021-12-01,143,4,-4,118,30,291
+Albania,2022-01-01,308,2,6,129,32,477
+Albania,2022-02-01,256,8,-9,104,25,384
+Albania,2022-03-01,297,2,2,73,45,419
+Albania,2022-04-01,225,0,-6,118,37,374
+Albania,2022-05-01,187,2,-3,72,33,291
+Albania,2022-06-01,230,2,-5,133,22,382
+Albania,2022-07-01,167,4,-3,90,39,297
+Albania,2022-08-01,262,2,-3,230,54,545
+Albania,2022-09-01,385,0,2,219,42,648
+Albania,2022-10-01,181,0,0,151,34,366
+Albania,2022-11-01,363,8,-5,175,63,604
+Albania,2022-12-01,446,4,-29,252,44,717
+Albania,2023-01-01,274,6,-3,216,21,514
+Albania,2023-02-01,227,0,-6,173,41,435
+Albania,2023-03-01,326,2,-4,175,20,519
+Albania,2023-04-01,265,2,-6,273,52,586
+Albania,2023-05-01,806,2,-14,516,198,1508
+Albania,2023-06-01,815,6,-18,283,205,1291
+Albania,2023-07-01,463,2,-10,283,42,780
+Albania,2023-08-01,428,8,-5,324,53,808
+Albania,2023-09-01,514,0,-11,308,70,881
+Albania,2023-10-01,390,0,-14,202,82,660
+Albania,2023-11-01,359,4,-2,202,61,624
+Albania,2023-12-01,392,10,-9,212,40,645
+Albania,2024-01-01,284,2,0,149,45,480
+Albania,2024-02-01,328,4,0,224,66,622
+Albania,2024-03-01,323,8,-19,218,36,566
+Albania,2024-04-01,311,0,-5,159,65,530
+Albania,2024-05-01,174,4,0,83,12,273
+Bangladesh,2010-05-01,0,0,0,-2,0,-2
+Bangladesh,2010-06-01,0,0,0,0,2,2
+Bangladesh,2010-07-01,0,0,0,0,0,0
+Bangladesh,2010-08-01,-2,0,0,0,0,-2
+Bangladesh,2010-09-01,8,0,0,6,0,14
+Bangladesh,2010-10-01,3,0,0,0,0,3
+Bangladesh,2010-11-01,0,0,0,0,0,0
+Bangladesh,2010-12-01,0,0,0,0,0,0
+Bangladesh,2011-01-01,0,0,0,0,0,0
+Bangladesh,2011-02-01,0,0,0,0,0,0
+Bangladesh,2011-03-01,0,0,0,0,1,1
+Bangladesh,2011-04-01,0,0,0,0,2,2
+Bangladesh,2011-05-01,3,0,0,0,0,3
+Bangladesh,2011-06-01,0,0,0,0,0,0
+Bangladesh,2011-07-01,-4,0,0,0,0,-4
+Bangladesh,2011-08-01,0,0,0,0,0,0
+Bangladesh,2011-09-01,0,0,0,0,0,0
+Bangladesh,2011-10-01,1,0,0,0,0,1
+Bangladesh,2011-11-01,3,0,0,0,0,3
+Bangladesh,2011-12-01,3,0,0,0,0,3
+Bangladesh,2012-01-01,2,0,0,0,0,2
+Bangladesh,2012-02-01,13,0,0,3,0,16
+Bangladesh,2012-03-01,3,0,0,0,0,3
+Bangladesh,2012-04-01,0,0,0,0,0,0
+Bangladesh,2012-05-01,0,0,0,0,0,0
+Bangladesh,2012-06-01,1,0,0,0,0,1
+Bangladesh,2012-07-01,0,0,0,0,0,0
+Bangladesh,2012-08-01,1,0,0,0,0,1
+Bangladesh,2012-09-01,0,0,0,0,0,0
+Bangladesh,2012-10-01,0,0,0,-2,0,-2
+Bangladesh,2012-11-01,0,0,0,0,0,0
+Bangladesh,2012-12-01,0,0,0,0,0,0
+Bangladesh,2013-01-01,0,0,0,0,0,0
+Bangladesh,2013-02-01,0,0,0,0,0,0
+Bangladesh,2013-03-01,1,0,0,0,0,1
+Bangladesh,2013-04-01,0,0,0,0,0,0
+Bangladesh,2013-05-01,0,0,0,0,0,0
+Bangladesh,2013-06-01,2,0,0,0,0,2
+Bangladesh,2013-07-01,3,0,0,0,0,3
+Bangladesh,2013-08-01,5,0,0,0,0,5
+Bangladesh,2013-09-01,6,0,0,0,0,6
+Bangladesh,2013-10-01,0,0,0,0,0,0
+Bangladesh,2013-11-01,4,0,0,0,0,4
+Bangladesh,2013-12-01,2,0,0,0,0,2
+Bangladesh,2014-01-01,1,0,0,0,0,1
+Bangladesh,2014-02-01,0,0,0,0,0,0
+Bangladesh,2014-03-01,3,0,0,0,0,3
+Bangladesh,2014-04-01,0,0,0,0,0,0
+Bangladesh,2014-05-01,0,0,0,0,0,0
+Bangladesh,2014-06-01,0,0,0,0,0,0
+Bangladesh,2014-07-01,0,0,0,0,0,0
+Bangladesh,2014-08-01,0,0,0,0,0,0
+Bangladesh,2014-09-01,0,0,0,0,0,0
+Bangladesh,2014-10-01,0,0,0,0,0,0
+Bangladesh,2014-11-01,0,0,0,0,0,0
+Bangladesh,2014-12-01,0,0,0,0,0,0
+Bangladesh,2015-01-01,0,0,0,0,0,0
+Bangladesh,2015-02-01,0,0,0,0,0,0
+Bangladesh,2015-03-01,0,0,0,0,0,0
+Bangladesh,2015-04-01,0,0,0,0,0,0
+Bangladesh,2015-05-01,0,0,0,0,0,0
+Bangladesh,2015-06-01,0,0,0,0,0,0
+Bangladesh,2015-07-01,0,0,0,0,0,0
+Bangladesh,2015-08-01,0,0,0,0,0,0
+Bangladesh,2015-09-01,0,0,0,0,0,0
+Bangladesh,2015-10-01,0,0,0,0,0,0
+Bangladesh,2015-11-01,0,0,0,0,0,0
+Bangladesh,2015-12-01,0,0,0,0,0,0
+Bangladesh,2016-01-01,0,0,0,0,0,0
+Bangladesh,2016-02-01,0,0,0,0,0,0
+Bangladesh,2016-03-01,0,0,0,0,0,0
+Bangladesh,2016-04-01,0,0,0,0,0,0
+Bangladesh,2016-05-01,0,0,0,0,0,0
+Bangladesh,2016-06-01,0,0,0,0,0,0
+Bangladesh,2016-07-01,0,0,0,0,0,0
+Bangladesh,2016-08-01,0,0,0,0,0,0
+Bangladesh,2016-09-01,0,0,0,0,0,0
+Bangladesh,2016-10-01,0,0,0,0,0,0
+Bangladesh,2016-11-01,0,0,0,0,0,0
+Bangladesh,2016-12-01,0,0,0,0,0,0
+Bangladesh,2017-01-01,0,0,0,0,0,0
+Bangladesh,2017-02-01,0,0,0,0,0,0
+Bangladesh,2017-03-01,0,0,0,0,0,0
+Bangladesh,2017-04-01,0,0,0,0,0,0
+Bangladesh,2017-05-01,0,0,0,0,0,0
+Bangladesh,2017-06-01,0,0,0,0,0,0
+Bangladesh,2017-07-01,0,0,0,0,0,0
+Bangladesh,2017-08-01,0,0,0,0,0,0
+Bangladesh,2017-09-01,0,0,0,0,0,0
+Bangladesh,2017-10-01,0,0,0,0,0,0
+Bangladesh,2017-11-01,0,0,0,0,0,0
+Bangladesh,2017-12-01,0,0,0,0,0,0
+Bangladesh,2018-01-01,0,0,0,0,0,0
+Bangladesh,2018-02-01,0,0,0,0,0,0
+Bangladesh,2018-03-01,0,0,0,0,0,0
+Bangladesh,2018-04-01,0,0,0,0,0,0
+Bangladesh,2018-05-01,0,0,0,0,0,0
+Bangladesh,2018-06-01,0,0,0,0,0,0
+Bangladesh,2018-07-01,0,0,0,0,0,0
+Bangladesh,2018-08-01,0,0,0,0,0,0
+Bangladesh,2018-09-01,0,0,0,0,0,0
+Bangladesh,2018-10-01,0,0,0,0,0,0
+Bangladesh,2018-11-01,0,0,0,0,0,0
+Bangladesh,2018-12-01,0,0,0,0,0,0
+Bangladesh,2019-01-01,0,0,0,0,0,0
+Bangladesh,2019-02-01,0,0,0,0,0,0
+Bangladesh,2019-03-01,0,0,0,0,0,0
+Bangladesh,2019-04-01,4,0,0,0,0,4
+Bangladesh,2019-05-01,11,0,0,1,3,15
+Bangladesh,2019-06-01,30,0,0,27,0,57
+Bangladesh,2019-07-01,44,0,-8,30,8,74
+Bangladesh,2019-08-01,21,0,-12,18,5,32
+Bangladesh,2019-09-01,43,0,0,24,10,77
+Bangladesh,2019-10-01,48,0,0,12,6,66
+Bangladesh,2019-11-01,25,0,3,3,1,32
+Bangladesh,2019-12-01,27,0,0,36,5,68
+Bangladesh,2020-01-01,38,0,1,38,3,80
+Bangladesh,2020-02-01,27,0,-2,83,4,112
+Bangladesh,2020-03-01,49,0,-2,76,17,140
+Bangladesh,2020-04-01,1009,18,21,130,101,1279
+Bangladesh,2020-05-01,3000,70,10,554,412,4046
+Bangladesh,2020-06-01,2677,20,-23,745,339,3758
+Bangladesh,2020-07-01,2883,14,-39,1190,386,4434
+Bangladesh,2020-08-01,2835,34,-2,832,359,4058
+Bangladesh,2020-09-01,2571,14,9,1065,398,4057
+Bangladesh,2020-10-01,1804,30,-18,609,734,3159
+Bangladesh,2020-11-01,1479,24,6,592,410,2511
+Bangladesh,2020-12-01,2663,12,-35,679,448,3767
+Bangladesh,2021-01-01,2053,14,-10,548,393,2998
+Bangladesh,2021-02-01,3018,38,-6,1283,430,4763
+Bangladesh,2021-03-01,3318,40,-49,1017,911,5237
+Bangladesh,2021-04-01,2335,27,21,1169,490,4042
+Bangladesh,2021-05-01,2057,24,32,1081,356,3550
+Bangladesh,2021-06-01,2092,34,-10,881,387,3384
+Bangladesh,2021-07-01,1665,20,18,781,223,2707
+Bangladesh,2021-08-01,1694,14,-7,663,303,2667
+Bangladesh,2021-09-01,1868,10,-14,750,280,2894
+Bangladesh,2021-10-01,3496,24,-1,1255,988,5762
+Bangladesh,2021-11-01,2091,26,20,769,468,3374
+Bangladesh,2021-12-01,2554,20,-48,707,301,3534
+Bangladesh,2022-01-01,1958,4,-17,809,352,3106
+Bangladesh,2022-02-01,1602,18,-10,632,321,2563
+Bangladesh,2022-03-01,2257,30,-20,593,429,3289
+Bangladesh,2022-04-01,1890,30,-23,858,354,3109
+Bangladesh,2022-05-01,1766,32,-6,671,311,2774
+Bangladesh,2022-06-01,2383,42,-11,597,500,3511
+Bangladesh,2022-07-01,1733,28,13,699,367,2840
+Bangladesh,2022-08-01,2252,32,8,1036,512,3840
+Bangladesh,2022-09-01,2240,52,-3,622,456,3367
+Bangladesh,2022-10-01,1830,22,0,692,405,2949
+Bangladesh,2022-11-01,1651,22,-25,520,366,2534
+Bangladesh,2022-12-01,2056,24,-46,577,430,3041
+Bangladesh,2023-01-01,1955,16,-48,601,342,2866
+Bangladesh,2023-02-01,1625,18,-10,721,349,2703
+Bangladesh,2023-03-01,2270,32,-27,571,624,3470
+Bangladesh,2023-04-01,2061,28,-12,746,374,3197
+Bangladesh,2023-05-01,2747,31,4,515,507,3804
+Bangladesh,2023-06-01,1802,48,-17,808,380,3021
+Bangladesh,2023-07-01,2430,37,-12,718,561,3734
+Bangladesh,2023-08-01,2585,45,-30,1305,532,4437
+Bangladesh,2023-09-01,1923,31,-8,727,364,3037
+Bangladesh,2023-10-01,2392,18,-54,1016,727,4099
+Bangladesh,2023-11-01,2919,28,-20,1144,949,5020
+Bangladesh,2023-12-01,2475,40,-4,1035,686,4232
+Bangladesh,2024-01-01,2879,20,-65,1326,853,5013
+Bangladesh,2024-02-01,2831,18,-10,687,444,3970
+Bangladesh,2024-03-01,2922,26,-8,940,540,4420
+Bangladesh,2024-04-01,2140,36,-6,723,328,3221
+Bangladesh,2024-05-01,1255,34,-3,434,229,1949
+Cameroon,2010-07-01,0,0,0,0,0,0
+Cameroon,2010-08-01,0,0,0,0,0,0
+Cameroon,2010-09-01,0,0,0,0,0,0
+Cameroon,2010-10-01,0,0,0,0,0,0
+Cameroon,2010-11-01,0,0,0,0,0,0
+Cameroon,2010-12-01,0,0,0,0,0,0
+Cameroon,2011-01-01,0,0,0,0,0,0
+Cameroon,2011-02-01,0,0,0,0,0,0
+Cameroon,2011-03-01,0,0,0,0,0,0
+Cameroon,2011-04-01,0,0,0,0,0,0
+Cameroon,2011-05-01,0,2,0,0,0,2
+Cameroon,2011-06-01,0,0,0,0,0,0
+Cameroon,2011-07-01,0,0,0,0,0,0
+Cameroon,2011-08-01,0,0,0,0,0,0
+Cameroon,2011-09-01,0,0,0,0,0,0
+Cameroon,2011-10-01,0,0,0,0,0,0
+Cameroon,2011-11-01,0,0,0,0,0,0
+Cameroon,2011-12-01,0,0,0,0,0,0
+Cameroon,2012-01-01,0,0,0,0,0,0
+Cameroon,2012-02-01,0,0,0,0,0,0
+Cameroon,2012-03-01,0,0,0,0,0,0
+Cameroon,2012-04-01,0,0,0,0,0,0
+Cameroon,2012-05-01,0,0,0,0,0,0
+Cameroon,2012-06-01,0,0,0,0,0,0
+Cameroon,2012-07-01,0,0,0,0,0,0
+Cameroon,2012-08-01,0,0,0,0,0,0
+Cameroon,2012-09-01,0,0,0,0,0,0
+Cameroon,2012-10-01,0,0,0,0,0,0
+Cameroon,2012-11-01,0,0,0,0,0,0
+Cameroon,2012-12-01,0,0,0,0,0,0
+Cameroon,2013-01-01,0,0,0,0,0,0
+Cameroon,2013-02-01,2,0,0,0,0,2
+Cameroon,2013-03-01,0,0,0,0,0,0
+Cameroon,2013-04-01,0,0,0,0,0,0
+Cameroon,2013-05-01,0,0,0,0,0,0
+Cameroon,2013-06-01,0,0,0,-2,0,-2
+Cameroon,2013-07-01,0,0,0,0,0,0
+Cameroon,2013-08-01,0,0,0,0,0,0
+Cameroon,2013-09-01,2,0,0,-2,0,0
+Cameroon,2013-10-01,0,0,0,0,0,0
+Cameroon,2013-11-01,0,0,0,0,0,0
+Cameroon,2013-12-01,0,0,0,0,0,0
+Cameroon,2014-01-01,0,0,0,0,0,0
+Cameroon,2014-02-01,0,0,0,0,0,0
+Cameroon,2014-03-01,0,0,0,0,0,0
+Cameroon,2014-04-01,0,0,0,0,0,0
+Cameroon,2014-05-01,0,0,0,0,0,0
+Cameroon,2014-06-01,0,0,0,0,0,0
+Cameroon,2014-07-01,0,0,0,0,0,0
+Cameroon,2014-08-01,0,0,0,0,0,0
+Cameroon,2014-09-01,0,0,0,0,0,0
+Cameroon,2014-10-01,0,0,0,0,0,0
+Cameroon,2014-11-01,0,0,0,0,0,0
+Cameroon,2014-12-01,0,0,0,0,0,0
+Cameroon,2015-01-01,0,0,0,0,0,0
+Cameroon,2015-02-01,0,0,0,0,0,0
+Cameroon,2015-03-01,0,0,0,0,0,0
+Cameroon,2015-04-01,0,0,0,0,0,0
+Cameroon,2015-05-01,0,0,0,0,0,0
+Cameroon,2015-06-01,0,0,0,0,0,0
+Cameroon,2015-07-01,0,0,0,0,0,0
+Cameroon,2015-08-01,0,0,0,0,0,0
+Cameroon,2015-09-01,0,0,0,0,0,0
+Cameroon,2015-10-01,0,0,0,0,0,0
+Cameroon,2015-11-01,0,0,0,0,0,0
+Cameroon,2015-12-01,0,0,0,0,0,0
+Cameroon,2016-01-01,0,0,0,0,0,0
+Cameroon,2016-02-01,0,0,0,0,0,0
+Cameroon,2016-03-01,0,0,0,0,0,0
+Cameroon,2016-04-01,0,0,0,0,0,0
+Cameroon,2016-05-01,0,0,0,0,0,0
+Cameroon,2016-06-01,0,0,0,0,0,0
+Cameroon,2016-07-01,0,0,0,0,0,0
+Cameroon,2016-08-01,0,0,0,0,0,0
+Cameroon,2016-09-01,0,0,0,0,0,0
+Cameroon,2016-10-01,0,0,0,0,0,0
+Cameroon,2016-11-01,0,0,0,0,0,0
+Cameroon,2016-12-01,0,0,0,0,0,0
+Cameroon,2017-01-01,0,0,0,0,0,0
+Cameroon,2017-02-01,0,0,0,0,0,0
+Cameroon,2017-03-01,0,0,0,0,0,0
+Cameroon,2017-04-01,0,0,0,0,0,0
+Cameroon,2017-05-01,0,0,0,0,0,0
+Cameroon,2017-06-01,0,0,0,0,0,0
+Cameroon,2017-07-01,0,0,0,0,0,0
+Cameroon,2017-08-01,0,0,0,0,0,0
+Cameroon,2017-09-01,0,0,0,0,0,0
+Cameroon,2017-10-01,0,0,0,0,0,0
+Cameroon,2017-11-01,0,0,0,0,0,0
+Cameroon,2017-12-01,0,0,0,0,0,0
+Cameroon,2018-01-01,0,0,0,0,0,0
+Cameroon,2018-02-01,0,0,0,0,0,0
+Cameroon,2018-03-01,0,0,0,0,0,0
+Cameroon,2018-04-01,0,0,0,0,0,0
+Cameroon,2018-05-01,0,0,0,0,0,0
+Cameroon,2018-06-01,0,0,0,0,0,0
+Cameroon,2018-07-01,0,0,0,0,0,0
+Cameroon,2018-08-01,0,0,0,0,0,0
+Cameroon,2018-09-01,0,0,0,0,0,0
+Cameroon,2018-10-01,0,0,0,0,0,0
+Cameroon,2018-11-01,0,0,0,0,0,0
+Cameroon,2018-12-01,0,0,0,0,0,0
+Cameroon,2019-01-01,0,0,0,0,0,0
+Cameroon,2019-02-01,0,0,0,0,0,0
+Cameroon,2019-03-01,0,0,0,0,0,0
+Cameroon,2019-04-01,0,0,0,0,0,0
+Cameroon,2019-05-01,0,0,0,0,0,0
+Cameroon,2019-06-01,4,0,0,3,0,7
+Cameroon,2019-07-01,3,0,0,3,0,6
+Cameroon,2019-08-01,0,0,0,-1,0,-1
+Cameroon,2019-09-01,0,0,0,3,0,3
+Cameroon,2019-10-01,4,0,0,9,0,13
+Cameroon,2019-11-01,2,0,0,6,0,8
+Cameroon,2019-12-01,5,0,0,0,0,5
+Cameroon,2020-01-01,6,0,0,6,0,12
+Cameroon,2020-02-01,5,0,0,-2,2,5
+Cameroon,2020-03-01,23,0,0,9,3,35
+Cameroon,2020-04-01,238,2,-2,13,34,285
+Cameroon,2020-05-01,532,16,2,224,77,851
+Cameroon,2020-06-01,549,4,-2,411,77,1039
+Cameroon,2020-07-01,475,4,-7,144,86,702
+Cameroon,2020-08-01,692,2,-1,196,92,981
+Cameroon,2020-09-01,658,4,5,325,166,1158
+Cameroon,2020-10-01,612,2,-1,161,58,832
+Cameroon,2020-11-01,438,6,1,216,93,754
+Cameroon,2020-12-01,615,4,-1,226,95,939
+Cameroon,2021-01-01,655,2,-6,102,114,867
+Cameroon,2021-02-01,474,10,-8,81,76,633
+Cameroon,2021-03-01,322,10,-8,89,61,474
+Cameroon,2021-04-01,453,4,0,160,72,689
+Cameroon,2021-05-01,265,2,-2,210,64,539
+Cameroon,2021-06-01,332,4,-2,202,50,586
+Cameroon,2021-07-01,454,0,3,225,55,737
+Cameroon,2021-08-01,535,6,1,176,61,779
+Cameroon,2021-09-01,552,0,8,191,91,842
+Cameroon,2021-10-01,499,4,2,182,79,766
+Cameroon,2021-11-01,656,6,4,146,114,926
+Cameroon,2021-12-01,646,10,0,188,58,902
+Cameroon,2022-01-01,353,4,-4,91,47,491
+Cameroon,2022-02-01,227,0,-4,157,57,437
+Cameroon,2022-03-01,329,2,-2,134,46,509
+Cameroon,2022-04-01,357,0,-5,123,42,517
+Cameroon,2022-05-01,346,14,-4,120,51,527
+Cameroon,2022-06-01,460,6,-6,85,70,615
+Cameroon,2022-07-01,280,0,1,67,57,405
+Cameroon,2022-08-01,289,6,-1,144,49,487
+Cameroon,2022-09-01,274,4,-6,138,67,477
+Cameroon,2022-10-01,237,8,0,58,40,343
+Cameroon,2022-11-01,199,2,-25,125,37,338
+Cameroon,2022-12-01,189,2,3,118,33,345
+Cameroon,2023-01-01,370,8,1,241,40,660
+Cameroon,2023-02-01,368,4,-3,389,55,813
+Cameroon,2023-03-01,273,2,6,181,36,498
+Cameroon,2023-04-01,429,2,-1,75,70,575
+Cameroon,2023-05-01,518,6,-5,230,61,810
+Cameroon,2023-06-01,358,0,1,135,44,538
+Cameroon,2023-07-01,456,2,0,312,86,856
+Cameroon,2023-08-01,342,2,5,33,47,429
+Cameroon,2023-09-01,303,2,1,111,52,469
+Cameroon,2023-10-01,269,6,-3,61,55,388
+Cameroon,2023-11-01,436,8,3,114,37,598
+Cameroon,2023-12-01,272,0,3,110,41,426
+Cameroon,2024-01-01,357,0,-1,113,48,517
+Cameroon,2024-02-01,250,6,-6,94,46,390
+Cameroon,2024-03-01,220,12,-14,158,32,408
+Cameroon,2024-04-01,227,4,-1,96,24,350
+Cameroon,2024-05-01,204,2,-3,60,35,298
+Democratic Republic of the Congo,2010-07-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2010-08-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2010-09-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2010-10-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2010-11-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2010-12-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2011-01-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2011-02-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2011-03-01,1,0,0,0,0,1
+Democratic Republic of the Congo,2011-04-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2011-05-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2011-06-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2011-07-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2011-08-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2011-09-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2011-10-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2011-11-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2011-12-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2012-01-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2012-02-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2012-03-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2012-04-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2012-05-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2012-06-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2012-07-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2012-08-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2012-09-01,2,0,0,0,0,2
+Democratic Republic of the Congo,2012-10-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2012-11-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2012-12-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2013-01-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2013-02-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2013-03-01,2,0,0,0,0,2
+Democratic Republic of the Congo,2013-04-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2013-05-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2013-06-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2013-07-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2013-08-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2013-09-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2013-10-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2013-11-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2013-12-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-01-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-02-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-03-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-04-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-05-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-06-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-07-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-08-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-09-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-10-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-11-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2014-12-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-01-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-02-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-03-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-04-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-05-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-06-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-07-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-08-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-09-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-10-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-11-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2015-12-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-01-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-02-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-03-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-04-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-05-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-06-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-07-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-08-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-09-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-10-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-11-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2016-12-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-01-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-02-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-03-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-04-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-05-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-06-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-07-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-08-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-09-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-10-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-11-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2017-12-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-01-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-02-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-03-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-04-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-05-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-06-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-07-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-08-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-09-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-10-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-11-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2018-12-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2019-01-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2019-02-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2019-03-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2019-04-01,6,0,0,0,0,6
+Democratic Republic of the Congo,2019-05-01,0,0,0,3,0,3
+Democratic Republic of the Congo,2019-06-01,0,0,-6,0,0,-6
+Democratic Republic of the Congo,2019-07-01,3,0,0,0,0,3
+Democratic Republic of the Congo,2019-08-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2019-09-01,0,0,0,0,0,0
+Democratic Republic of the Congo,2019-10-01,2,0,-2,2,0,2
+Democratic Republic of the Congo,2019-11-01,3,0,0,0,0,3
+Democratic Republic of the Congo,2019-12-01,4,0,0,0,0,4
+Democratic Republic of the Congo,2020-01-01,2,0,0,0,0,2
+Democratic Republic of the Congo,2020-02-01,15,0,0,6,4,25
+Democratic Republic of the Congo,2020-03-01,2,0,0,0,2,4
+Democratic Republic of the Congo,2020-04-01,131,0,1,42,24,198
+Democratic Republic of the Congo,2020-05-01,264,6,3,61,29,363
+Democratic Republic of the Congo,2020-06-01,399,4,-5,235,49,682
+Democratic Republic of the Congo,2020-07-01,273,2,-15,65,98,423
+Democratic Republic of the Congo,2020-08-01,156,4,6,15,24,205
+Democratic Republic of the Congo,2020-09-01,194,0,1,56,17,268
+Democratic Republic of the Congo,2020-10-01,132,6,3,22,13,176
+Democratic Republic of the Congo,2020-11-01,91,2,-3,63,18,171
+Democratic Republic of the Congo,2020-12-01,150,4,-4,91,19,260
+Democratic Republic of the Congo,2021-01-01,285,0,-18,38,22,327
+Democratic Republic of the Congo,2021-02-01,509,10,-6,84,83,680
+Democratic Republic of the Congo,2021-03-01,240,4,2,79,35,360
+Democratic Republic of the Congo,2021-04-01,237,12,1,55,38,343
+Democratic Republic of the Congo,2021-05-01,424,2,6,82,62,576
+Democratic Republic of the Congo,2021-06-01,259,6,0,46,70,381
+Democratic Republic of the Congo,2021-07-01,192,14,0,37,50,293
+Democratic Republic of the Congo,2021-08-01,126,2,-1,50,24,201
+Democratic Republic of the Congo,2021-09-01,238,0,2,74,42,356
+Democratic Republic of the Congo,2021-10-01,173,0,0,57,36,266
+Democratic Republic of the Congo,2021-11-01,259,2,0,77,38,376
+Democratic Republic of the Congo,2021-12-01,260,0,-2,56,43,357
+Democratic Republic of the Congo,2022-01-01,143,4,2,44,37,230
+Democratic Republic of the Congo,2022-02-01,413,2,-2,74,53,540
+Democratic Republic of the Congo,2022-03-01,323,0,2,39,18,382
+Democratic Republic of the Congo,2022-04-01,354,2,-1,35,27,417
+Democratic Republic of the Congo,2022-05-01,357,8,4,111,46,526
+Democratic Republic of the Congo,2022-06-01,612,0,-2,82,65,757
+Democratic Republic of the Congo,2022-07-01,411,0,3,104,90,608
+Democratic Republic of the Congo,2022-08-01,350,2,-1,51,45,447
+Democratic Republic of the Congo,2022-09-01,130,0,-4,56,34,216
+Democratic Republic of the Congo,2022-10-01,244,0,0,131,23,398
+Democratic Republic of the Congo,2022-11-01,440,0,1,62,47,550
+Democratic Republic of the Congo,2022-12-01,433,6,3,55,39,536
+Democratic Republic of the Congo,2023-01-01,448,2,2,56,63,571
+Democratic Republic of the Congo,2023-02-01,373,4,1,96,65,539
+Democratic Republic of the Congo,2023-03-01,331,0,2,46,32,411
+Democratic Republic of the Congo,2023-04-01,318,8,1,100,23,450
+Democratic Republic of the Congo,2023-05-01,286,2,-1,74,65,426
+Democratic Republic of the Congo,2023-06-01,362,0,1,121,69,553
+Democratic Republic of the Congo,2023-07-01,279,0,-13,84,39,389
+Democratic Republic of the Congo,2023-08-01,188,6,0,36,58,288
+Democratic Republic of the Congo,2023-09-01,244,2,1,70,51,368
+Democratic Republic of the Congo,2023-10-01,405,2,-2,96,46,547
+Democratic Republic of the Congo,2023-11-01,298,0,3,55,31,387
+Democratic Republic of the Congo,2023-12-01,535,14,-2,163,130,840
+Democratic Republic of the Congo,2024-01-01,345,6,10,36,46,443
+Democratic Republic of the Congo,2024-02-01,492,4,-6,112,105,707
+Democratic Republic of the Congo,2024-03-01,256,6,5,36,34,337
+Democratic Republic of the Congo,2024-04-01,188,4,0,72,21,285
+Democratic Republic of the Congo,2024-05-01,371,2,2,111,28,514
+Egypt,2010-05-01,3,0,0,0,0,3
+Egypt,2010-06-01,0,0,0,0,0,0
+Egypt,2010-07-01,3,0,0,0,0,3
+Egypt,2010-08-01,0,0,0,0,0,0
+Egypt,2010-09-01,0,0,0,0,0,0
+Egypt,2010-10-01,0,0,-2,0,0,-2
+Egypt,2010-11-01,0,0,0,0,0,0
+Egypt,2010-12-01,0,0,0,3,0,3
+Egypt,2011-01-01,0,0,0,0,0,0
+Egypt,2011-02-01,0,0,0,3,0,3
+Egypt,2011-03-01,0,0,0,0,0,0
+Egypt,2011-04-01,2,0,0,0,0,2
+Egypt,2011-05-01,3,0,0,3,0,6
+Egypt,2011-06-01,1,0,0,0,0,1
+Egypt,2011-07-01,0,0,0,0,0,0
+Egypt,2011-08-01,0,0,0,0,0,0
+Egypt,2011-09-01,3,0,0,0,0,3
+Egypt,2011-10-01,0,0,0,0,0,0
+Egypt,2011-11-01,1,0,0,0,0,1
+Egypt,2011-12-01,3,0,0,9,0,12
+Egypt,2012-01-01,3,0,0,3,0,6
+Egypt,2012-02-01,0,0,0,3,0,3
+Egypt,2012-03-01,1,0,0,0,0,1
+Egypt,2012-04-01,0,0,0,9,0,9
+Egypt,2012-05-01,12,0,0,3,0,15
+Egypt,2012-06-01,0,0,0,6,0,6
+Egypt,2012-07-01,1,0,0,0,0,1
+Egypt,2012-08-01,2,0,0,3,0,5
+Egypt,2012-09-01,0,0,0,2,0,2
+Egypt,2012-10-01,0,0,0,6,0,6
+Egypt,2012-11-01,5,0,0,96,4,105
+Egypt,2012-12-01,6,0,0,3,0,9
+Egypt,2013-01-01,0,0,0,0,2,2
+Egypt,2013-02-01,0,0,0,0,0,0
+Egypt,2013-03-01,0,0,0,3,0,3
+Egypt,2013-04-01,0,0,0,0,0,0
+Egypt,2013-05-01,0,0,0,0,0,0
+Egypt,2013-06-01,16,0,0,0,2,18
+Egypt,2013-07-01,0,0,0,3,0,3
+Egypt,2013-08-01,0,0,0,30,0,30
+Egypt,2013-09-01,0,0,0,0,0,0
+Egypt,2013-10-01,3,0,0,3,2,8
+Egypt,2013-11-01,0,0,0,0,0,0
+Egypt,2013-12-01,3,0,0,0,0,3
+Egypt,2014-01-01,17,0,0,0,0,17
+Egypt,2014-02-01,2,0,0,0,0,2
+Egypt,2014-03-01,0,0,0,0,0,0
+Egypt,2014-04-01,0,0,0,0,2,2
+Egypt,2014-05-01,5,0,0,0,0,5
+Egypt,2014-06-01,0,0,0,0,0,0
+Egypt,2014-07-01,0,0,0,0,0,0
+Egypt,2014-08-01,0,0,0,0,0,0
+Egypt,2014-09-01,0,0,0,0,0,0
+Egypt,2014-10-01,0,0,0,0,0,0
+Egypt,2014-11-01,0,0,0,0,0,0
+Egypt,2014-12-01,0,0,0,0,0,0
+Egypt,2015-01-01,0,0,0,0,0,0
+Egypt,2015-02-01,0,0,0,0,0,0
+Egypt,2015-03-01,0,0,0,0,0,0
+Egypt,2015-04-01,0,0,0,0,0,0
+Egypt,2015-05-01,0,0,0,0,0,0
+Egypt,2015-06-01,0,0,0,0,0,0
+Egypt,2015-07-01,0,0,0,0,0,0
+Egypt,2015-08-01,0,0,0,0,0,0
+Egypt,2015-09-01,0,0,0,0,0,0
+Egypt,2015-10-01,0,0,0,0,0,0
+Egypt,2015-11-01,0,0,0,0,0,0
+Egypt,2015-12-01,0,0,0,0,0,0
+Egypt,2016-01-01,0,0,0,0,0,0
+Egypt,2016-02-01,0,0,0,0,0,0
+Egypt,2016-03-01,0,0,0,0,0,0
+Egypt,2016-04-01,0,0,0,0,0,0
+Egypt,2016-05-01,0,0,0,0,0,0
+Egypt,2016-06-01,0,0,0,0,0,0
+Egypt,2016-07-01,0,0,0,0,0,0
+Egypt,2016-08-01,0,0,0,0,0,0
+Egypt,2016-09-01,0,0,0,0,0,0
+Egypt,2016-10-01,0,0,0,0,0,0
+Egypt,2016-11-01,0,0,0,0,0,0
+Egypt,2016-12-01,0,0,0,0,0,0
+Egypt,2017-01-01,0,0,0,0,0,0
+Egypt,2017-02-01,0,0,0,0,0,0
+Egypt,2017-03-01,0,0,0,0,0,0
+Egypt,2017-04-01,0,0,0,0,0,0
+Egypt,2017-05-01,0,0,0,0,0,0
+Egypt,2017-06-01,0,0,0,0,0,0
+Egypt,2017-07-01,0,0,0,0,0,0
+Egypt,2017-08-01,0,0,0,0,0,0
+Egypt,2017-09-01,0,0,0,0,0,0
+Egypt,2017-10-01,0,0,0,0,0,0
+Egypt,2017-11-01,0,0,0,0,0,0
+Egypt,2017-12-01,0,0,0,0,0,0
+Egypt,2018-01-01,0,0,0,0,0,0
+Egypt,2018-02-01,0,0,0,0,0,0
+Egypt,2018-03-01,0,0,0,0,0,0
+Egypt,2018-04-01,0,0,0,0,0,0
+Egypt,2018-05-01,0,0,0,0,0,0
+Egypt,2018-06-01,0,0,0,0,0,0
+Egypt,2018-07-01,0,0,0,0,0,0
+Egypt,2018-08-01,0,0,0,0,0,0
+Egypt,2018-09-01,0,0,0,0,0,0
+Egypt,2018-10-01,0,0,0,0,0,0
+Egypt,2018-11-01,0,0,0,0,0,0
+Egypt,2018-12-01,0,0,0,0,0,0
+Egypt,2019-01-01,0,0,0,0,0,0
+Egypt,2019-02-01,0,0,0,0,0,0
+Egypt,2019-03-01,0,0,0,0,0,0
+Egypt,2019-04-01,21,0,0,11,2,34
+Egypt,2019-05-01,42,0,1,16,6,65
+Egypt,2019-06-01,84,0,-7,25,0,102
+Egypt,2019-07-01,36,0,-6,36,1,67
+Egypt,2019-08-01,35,2,-8,30,14,73
+Egypt,2019-09-01,57,0,1,12,5,75
+Egypt,2019-10-01,18,0,1,-3,14,30
+Egypt,2019-11-01,12,2,0,6,1,21
+Egypt,2019-12-01,33,0,-12,7,17,45
+Egypt,2020-01-01,14,0,0,23,8,45
+Egypt,2020-02-01,29,2,2,28,1,62
+Egypt,2020-03-01,42,2,-1,20,10,73
+Egypt,2020-04-01,802,50,1,417,136,1406
+Egypt,2020-05-01,2792,30,5,1301,457,4585
+Egypt,2020-06-01,3955,70,29,1817,670,6541
+Egypt,2020-07-01,3634,52,-26,1543,578,5781
+Egypt,2020-08-01,3030,68,-28,1163,649,4882
+Egypt,2020-09-01,2493,34,-25,1132,563,4197
+Egypt,2020-10-01,2040,36,21,919,353,3369
+Egypt,2020-11-01,2181,25,-14,979,271,3442
+Egypt,2020-12-01,2866,30,-31,1474,396,4735
+Egypt,2021-01-01,2654,34,-5,1261,461,4405
+Egypt,2021-02-01,2445,58,0,952,435,3890
+Egypt,2021-03-01,2777,74,-35,660,532,4008
+Egypt,2021-04-01,2718,92,-23,1004,385,4176
+Egypt,2021-05-01,4478,54,32,1138,565,6267
+Egypt,2021-06-01,2469,44,12,1060,381,3966
+Egypt,2021-07-01,2169,42,-7,919,386,3509
+Egypt,2021-08-01,2142,30,10,644,307,3133
+Egypt,2021-09-01,2198,48,-34,1057,347,3616
+Egypt,2021-10-01,2326,30,-12,1194,366,3904
+Egypt,2021-11-01,2224,34,-6,1202,370,3824
+Egypt,2021-12-01,1972,30,5,1137,330,3474
+Egypt,2022-01-01,2163,40,-22,1042,360,3583
+Egypt,2022-02-01,1753,10,-13,710,265,2725
+Egypt,2022-03-01,1865,38,-23,754,310,2944
+Egypt,2022-04-01,2260,38,-21,1121,302,3700
+Egypt,2022-05-01,2419,20,-13,1145,376,3947
+Egypt,2022-06-01,2053,50,1,834,308,3246
+Egypt,2022-07-01,2231,18,-4,978,377,3600
+Egypt,2022-08-01,3090,32,-8,1070,411,4595
+Egypt,2022-09-01,1578,20,15,992,239,2844
+Egypt,2022-10-01,2015,24,-14,801,293,3119
+Egypt,2022-11-01,2593,50,-6,1216,659,4512
+Egypt,2022-12-01,1268,30,6,558,213,2075
+Egypt,2023-01-01,1680,16,-8,552,328,2568
+Egypt,2023-02-01,1797,50,-17,630,308,2768
+Egypt,2023-03-01,1983,34,0,916,288,3221
+Egypt,2023-04-01,4341,38,-21,915,514,5787
+Egypt,2023-05-01,4688,38,-32,1057,545,6296
+Egypt,2023-06-01,3629,42,35,910,342,4958
+Egypt,2023-07-01,2489,26,-18,1038,383,3918
+Egypt,2023-08-01,2010,46,-6,920,328,3298
+Egypt,2023-09-01,2549,62,-83,1506,370,4404
+Egypt,2023-10-01,14200,196,-51,1996,1605,17946
+Egypt,2023-11-01,9180,98,-29,104,909,10262
+Egypt,2023-12-01,7091,59,0,997,635,8782
+Egypt,2024-01-01,5254,28,-47,778,540,6553
+Egypt,2024-02-01,9165,36,32,1134,1300,11667
+Egypt,2024-03-01,5641,56,5,849,875,7426
+Egypt,2024-04-01,4924,36,26,873,740,6599
+Egypt,2024-05-01,7152,40,50,1164,1064,9470
+Eritrea,2010-08-01,0,0,0,0,0,0
+Eritrea,2010-09-01,0,0,0,0,0,0
+Eritrea,2010-10-01,0,0,0,0,0,0
+Eritrea,2010-11-01,4,0,0,0,0,4
+Eritrea,2010-12-01,0,0,0,0,0,0
+Eritrea,2011-01-01,0,0,0,0,0,0
+Eritrea,2011-02-01,0,0,0,0,0,0
+Eritrea,2011-03-01,0,0,0,0,0,0
+Eritrea,2011-04-01,6,0,0,0,0,6
+Eritrea,2011-05-01,0,0,0,0,0,0
+Eritrea,2011-06-01,0,0,0,0,0,0
+Eritrea,2011-07-01,0,0,0,0,0,0
+Eritrea,2011-08-01,0,0,0,0,0,0
+Eritrea,2011-09-01,0,0,0,0,0,0
+Eritrea,2011-10-01,0,0,0,0,0,0
+Eritrea,2011-11-01,0,0,0,0,0,0
+Eritrea,2011-12-01,0,0,0,0,0,0
+Eritrea,2012-01-01,0,0,0,0,0,0
+Eritrea,2012-02-01,0,0,0,0,0,0
+Eritrea,2012-03-01,0,0,0,0,0,0
+Eritrea,2012-04-01,0,0,0,0,0,0
+Eritrea,2012-05-01,0,0,0,0,0,0
+Eritrea,2012-06-01,0,0,0,0,0,0
+Eritrea,2012-07-01,0,0,0,0,0,0
+Eritrea,2012-08-01,0,0,0,0,0,0
+Eritrea,2012-09-01,0,0,0,0,0,0
+Eritrea,2012-10-01,0,0,0,0,0,0
+Eritrea,2012-11-01,0,0,0,0,0,0
+Eritrea,2012-12-01,0,0,0,0,0,0
+Eritrea,2013-01-01,0,0,0,0,0,0
+Eritrea,2013-02-01,0,0,0,0,0,0
+Eritrea,2013-03-01,0,0,0,0,0,0
+Eritrea,2013-04-01,0,0,0,0,0,0
+Eritrea,2013-05-01,0,0,0,0,0,0
+Eritrea,2013-06-01,0,0,0,0,0,0
+Eritrea,2013-07-01,0,0,0,0,0,0
+Eritrea,2013-08-01,0,0,0,0,0,0
+Eritrea,2013-09-01,0,0,0,0,0,0
+Eritrea,2013-10-01,0,0,0,0,0,0
+Eritrea,2013-11-01,0,0,0,0,0,0
+Eritrea,2013-12-01,0,0,0,0,0,0
+Eritrea,2014-01-01,0,0,0,0,0,0
+Eritrea,2014-02-01,0,0,0,0,0,0
+Eritrea,2014-03-01,0,0,0,0,0,0
+Eritrea,2014-04-01,0,0,0,0,0,0
+Eritrea,2014-05-01,0,0,0,0,0,0
+Eritrea,2014-06-01,0,0,0,0,0,0
+Eritrea,2014-07-01,0,0,0,0,0,0
+Eritrea,2014-08-01,0,0,0,0,0,0
+Eritrea,2014-09-01,0,0,0,0,0,0
+Eritrea,2014-10-01,0,0,0,0,0,0
+Eritrea,2014-11-01,0,0,0,0,0,0
+Eritrea,2014-12-01,0,0,0,0,0,0
+Eritrea,2015-01-01,0,0,0,0,0,0
+Eritrea,2015-02-01,0,0,0,0,0,0
+Eritrea,2015-03-01,0,0,0,0,0,0
+Eritrea,2015-04-01,0,0,0,0,0,0
+Eritrea,2015-05-01,0,0,0,0,0,0
+Eritrea,2015-06-01,0,0,0,0,0,0
+Eritrea,2015-07-01,0,0,0,0,0,0
+Eritrea,2015-08-01,0,0,0,0,0,0
+Eritrea,2015-09-01,0,0,0,0,0,0
+Eritrea,2015-10-01,0,0,0,0,0,0
+Eritrea,2015-11-01,0,0,0,0,0,0
+Eritrea,2015-12-01,0,0,0,0,0,0
+Eritrea,2016-01-01,0,0,0,0,0,0
+Eritrea,2016-02-01,0,0,0,0,0,0
+Eritrea,2016-03-01,0,0,0,0,0,0
+Eritrea,2016-04-01,0,0,0,0,0,0
+Eritrea,2016-05-01,0,0,0,0,0,0
+Eritrea,2016-06-01,0,0,0,0,0,0
+Eritrea,2016-07-01,0,0,0,0,0,0
+Eritrea,2016-08-01,0,0,0,0,0,0
+Eritrea,2016-09-01,0,0,0,0,0,0
+Eritrea,2016-10-01,0,0,0,0,0,0
+Eritrea,2016-11-01,0,0,0,0,0,0
+Eritrea,2016-12-01,0,0,0,0,0,0
+Eritrea,2017-01-01,0,0,0,0,0,0
+Eritrea,2017-02-01,0,0,0,0,0,0
+Eritrea,2017-03-01,0,0,0,0,0,0
+Eritrea,2017-04-01,0,0,0,0,0,0
+Eritrea,2017-05-01,0,0,0,0,0,0
+Eritrea,2017-06-01,0,0,0,0,0,0
+Eritrea,2017-07-01,0,0,0,0,0,0
+Eritrea,2017-08-01,0,0,0,0,0,0
+Eritrea,2017-09-01,0,0,0,0,0,0
+Eritrea,2017-10-01,0,0,0,0,0,0
+Eritrea,2017-11-01,0,0,0,0,0,0
+Eritrea,2017-12-01,0,0,0,0,0,0
+Eritrea,2018-01-01,0,0,0,0,0,0
+Eritrea,2018-02-01,0,0,0,0,0,0
+Eritrea,2018-03-01,0,0,0,0,0,0
+Eritrea,2018-04-01,0,0,0,0,0,0
+Eritrea,2018-05-01,0,0,0,0,0,0
+Eritrea,2018-06-01,0,0,0,0,0,0
+Eritrea,2018-07-01,0,0,0,0,0,0
+Eritrea,2018-08-01,0,0,0,0,0,0
+Eritrea,2018-09-01,0,0,0,0,0,0
+Eritrea,2018-10-01,0,0,0,0,0,0
+Eritrea,2018-11-01,0,0,0,0,0,0
+Eritrea,2018-12-01,0,0,0,0,0,0
+Eritrea,2019-01-01,0,0,0,0,0,0
+Eritrea,2019-02-01,0,0,0,0,0,0
+Eritrea,2019-03-01,0,0,0,0,0,0
+Eritrea,2019-04-01,0,0,0,0,0,0
+Eritrea,2019-05-01,0,0,0,0,0,0
+Eritrea,2019-06-01,0,0,0,0,0,0
+Eritrea,2019-07-01,3,0,0,-4,0,-1
+Eritrea,2019-08-01,3,0,0,0,0,3
+Eritrea,2019-09-01,0,0,0,-2,0,-2
+Eritrea,2019-10-01,0,0,0,-3,0,-3
+Eritrea,2019-11-01,6,0,0,0,0,6
+Eritrea,2019-12-01,3,0,0,0,0,3
+Eritrea,2020-01-01,0,0,0,3,0,3
+Eritrea,2020-02-01,20,0,0,0,2,22
+Eritrea,2020-03-01,11,0,0,10,2,23
+Eritrea,2020-04-01,57,0,0,-5,11,63
+Eritrea,2020-05-01,169,2,-2,78,13,260
+Eritrea,2020-06-01,199,0,-1,37,30,265
+Eritrea,2020-07-01,138,0,-2,143,30,309
+Eritrea,2020-08-01,84,0,2,43,6,135
+Eritrea,2020-09-01,118,0,1,133,10,262
+Eritrea,2020-10-01,102,4,0,21,10,137
+Eritrea,2020-11-01,1592,6,3,86,36,1723
+Eritrea,2020-12-01,754,10,10,40,29,843
+Eritrea,2021-01-01,463,0,8,73,62,606
+Eritrea,2021-02-01,722,2,0,62,97,883
+Eritrea,2021-03-01,932,4,9,96,190,1231
+Eritrea,2021-04-01,441,0,10,100,120,671
+Eritrea,2021-05-01,531,0,3,108,121,763
+Eritrea,2021-06-01,587,2,7,121,94,811
+Eritrea,2021-07-01,484,4,3,62,97,650
+Eritrea,2021-08-01,288,4,1,42,59,394
+Eritrea,2021-09-01,337,0,1,106,71,515
+Eritrea,2021-10-01,297,0,5,75,74,451
+Eritrea,2021-11-01,362,6,3,131,110,612
+Eritrea,2021-12-01,149,4,2,119,37,311
+Eritrea,2022-01-01,260,8,-2,27,15,308
+Eritrea,2022-02-01,159,7,1,39,28,234
+Eritrea,2022-03-01,218,4,3,84,25,334
+Eritrea,2022-04-01,88,0,1,48,13,150
+Eritrea,2022-05-01,178,0,2,56,42,278
+Eritrea,2022-06-01,102,10,1,61,19,193
+Eritrea,2022-07-01,95,4,1,35,9,144
+Eritrea,2022-08-01,152,0,0,45,17,214
+Eritrea,2022-09-01,427,2,5,18,27,479
+Eritrea,2022-10-01,628,0,7,121,23,779
+Eritrea,2022-11-01,261,4,0,37,40,342
+Eritrea,2022-12-01,283,0,7,69,29,388
+Eritrea,2023-01-01,56,0,0,76,20,152
+Eritrea,2023-02-01,167,0,3,59,36,265
+Eritrea,2023-03-01,169,0,4,24,63,260
+Eritrea,2023-04-01,174,4,4,-10,24,196
+Eritrea,2023-05-01,194,0,2,-1,32,227
+Eritrea,2023-06-01,70,0,2,20,25,117
+Eritrea,2023-07-01,154,4,3,-29,48,180
+Eritrea,2023-08-01,184,4,1,103,86,378
+Eritrea,2023-09-01,737,5,-1,325,395,1461
+Eritrea,2023-10-01,194,2,3,23,49,271
+Eritrea,2023-11-01,144,2,-2,56,27,227
+Eritrea,2023-12-01,101,0,3,48,45,197
+Eritrea,2024-01-01,155,0,-8,60,22,229
+Eritrea,2024-02-01,154,0,-2,59,74,285
+Eritrea,2024-03-01,107,0,1,29,25,162
+Eritrea,2024-04-01,64,4,-2,5,11,82
+Eritrea,2024-05-01,48,0,-1,54,5,106
+Georgia,2011-06-01,4,0,0,0,0,4
+Georgia,2011-07-01,0,0,0,0,0,0
+Georgia,2011-08-01,0,0,0,0,0,0
+Georgia,2011-09-01,0,0,0,0,0,0
+Georgia,2011-10-01,0,0,0,0,0,0
+Georgia,2011-11-01,0,0,0,0,0,0
+Georgia,2011-12-01,0,0,0,0,0,0
+Georgia,2012-01-01,0,0,0,0,0,0
+Georgia,2012-02-01,0,0,0,0,0,0
+Georgia,2012-03-01,0,0,0,0,0,0
+Georgia,2012-04-01,0,0,0,0,0,0
+Georgia,2012-05-01,0,0,0,0,0,0
+Georgia,2012-06-01,0,0,0,0,0,0
+Georgia,2012-07-01,0,0,0,0,0,0
+Georgia,2012-08-01,0,0,0,0,0,0
+Georgia,2012-09-01,0,0,0,0,0,0
+Georgia,2012-10-01,0,0,0,0,0,0
+Georgia,2012-11-01,0,0,0,0,0,0
+Georgia,2012-12-01,0,0,0,0,0,0
+Georgia,2013-01-01,0,0,0,0,0,0
+Georgia,2013-02-01,0,0,0,0,0,0
+Georgia,2013-03-01,0,0,0,0,0,0
+Georgia,2013-04-01,2,0,0,0,0,2
+Georgia,2013-05-01,0,0,0,0,0,0
+Georgia,2013-06-01,0,0,0,0,0,0
+Georgia,2013-07-01,0,0,0,0,0,0
+Georgia,2013-08-01,0,0,0,0,0,0
+Georgia,2013-09-01,0,0,0,0,0,0
+Georgia,2013-10-01,0,0,0,0,0,0
+Georgia,2013-11-01,0,0,0,0,0,0
+Georgia,2013-12-01,0,0,0,0,0,0
+Georgia,2014-01-01,0,0,0,0,0,0
+Georgia,2014-02-01,0,0,0,0,0,0
+Georgia,2014-03-01,0,0,0,0,0,0
+Georgia,2014-04-01,0,0,0,0,0,0
+Georgia,2014-05-01,0,0,0,0,0,0
+Georgia,2014-06-01,0,0,0,0,0,0
+Georgia,2014-07-01,0,0,0,0,0,0
+Georgia,2014-08-01,0,0,0,0,0,0
+Georgia,2014-09-01,0,0,0,0,0,0
+Georgia,2014-10-01,0,0,0,0,0,0
+Georgia,2014-11-01,0,0,0,0,0,0
+Georgia,2014-12-01,0,0,0,0,0,0
+Georgia,2015-01-01,0,0,0,0,0,0
+Georgia,2015-02-01,0,0,0,0,0,0
+Georgia,2015-03-01,0,0,0,0,0,0
+Georgia,2015-04-01,0,0,0,0,0,0
+Georgia,2015-05-01,0,0,0,0,0,0
+Georgia,2015-06-01,0,0,0,0,0,0
+Georgia,2015-07-01,0,0,0,0,0,0
+Georgia,2015-08-01,0,0,0,0,0,0
+Georgia,2015-09-01,0,0,0,0,0,0
+Georgia,2015-10-01,0,0,0,0,0,0
+Georgia,2015-11-01,0,0,0,0,0,0
+Georgia,2015-12-01,0,0,0,0,0,0
+Georgia,2016-01-01,0,0,0,0,0,0
+Georgia,2016-02-01,0,0,0,0,0,0
+Georgia,2016-03-01,0,0,0,0,0,0
+Georgia,2016-04-01,0,0,0,0,0,0
+Georgia,2016-05-01,0,0,0,0,0,0
+Georgia,2016-06-01,0,0,0,0,0,0
+Georgia,2016-07-01,0,0,0,0,0,0
+Georgia,2016-08-01,0,0,0,0,0,0
+Georgia,2016-09-01,0,0,0,0,0,0
+Georgia,2016-10-01,0,0,0,0,0,0
+Georgia,2016-11-01,0,0,0,0,0,0
+Georgia,2016-12-01,0,0,0,0,0,0
+Georgia,2017-01-01,0,0,0,0,0,0
+Georgia,2017-02-01,0,0,0,0,0,0
+Georgia,2017-03-01,0,0,0,0,0,0
+Georgia,2017-04-01,0,0,0,0,0,0
+Georgia,2017-05-01,0,0,0,0,0,0
+Georgia,2017-06-01,0,0,0,0,0,0
+Georgia,2017-07-01,0,0,0,0,0,0
+Georgia,2017-08-01,0,0,0,0,0,0
+Georgia,2017-09-01,0,0,0,0,0,0
+Georgia,2017-10-01,0,0,0,0,0,0
+Georgia,2017-11-01,0,0,0,0,0,0
+Georgia,2017-12-01,0,0,0,0,0,0
+Georgia,2018-01-01,0,0,0,0,0,0
+Georgia,2018-02-01,0,0,0,0,0,0
+Georgia,2018-03-01,0,0,0,0,0,0
+Georgia,2018-04-01,0,0,0,0,0,0
+Georgia,2018-05-01,0,0,0,0,0,0
+Georgia,2018-06-01,0,0,0,0,0,0
+Georgia,2018-07-01,0,0,0,0,0,0
+Georgia,2018-08-01,0,0,0,0,0,0
+Georgia,2018-09-01,0,0,0,0,0,0
+Georgia,2018-10-01,0,0,0,0,0,0
+Georgia,2018-11-01,0,0,0,0,0,0
+Georgia,2018-12-01,0,0,0,0,0,0
+Georgia,2019-01-01,0,0,0,0,0,0
+Georgia,2019-02-01,0,0,0,0,0,0
+Georgia,2019-03-01,0,0,0,0,0,0
+Georgia,2019-04-01,0,0,0,0,0,0
+Georgia,2019-05-01,0,0,0,12,1,13
+Georgia,2019-06-01,3,0,0,0,0,3
+Georgia,2019-07-01,-1,0,0,0,0,-1
+Georgia,2019-08-01,0,0,0,3,0,3
+Georgia,2019-09-01,0,0,0,0,0,0
+Georgia,2019-10-01,1,0,0,0,1,2
+Georgia,2019-11-01,0,0,0,0,0,0
+Georgia,2019-12-01,1,0,0,0,0,1
+Georgia,2020-01-01,0,0,0,0,0,0
+Georgia,2020-02-01,15,0,0,12,2,29
+Georgia,2020-03-01,7,0,0,12,3,22
+Georgia,2020-04-01,115,0,-15,19,22,141
+Georgia,2020-05-01,315,2,-11,112,44,462
+Georgia,2020-06-01,246,10,-6,87,70,407
+Georgia,2020-07-01,253,6,0,138,22,419
+Georgia,2020-08-01,166,0,-8,49,21,228
+Georgia,2020-09-01,192,0,8,53,22,275
+Georgia,2020-10-01,239,0,-4,101,42,378
+Georgia,2020-11-01,232,2,14,63,71,382
+Georgia,2020-12-01,336,20,-4,67,86,505
+Georgia,2021-01-01,415,8,-19,86,97,587
+Georgia,2021-02-01,302,2,-77,299,85,611
+Georgia,2021-03-01,353,4,-36,154,56,531
+Georgia,2021-04-01,254,4,-9,83,39,371
+Georgia,2021-05-01,126,0,-10,16,21,153
+Georgia,2021-06-01,121,2,-6,38,21,176
+Georgia,2021-07-01,353,0,-39,129,238,681
+Georgia,2021-08-01,159,0,-2,44,23,224
+Georgia,2021-09-01,168,0,4,88,23,283
+Georgia,2021-10-01,352,4,3,296,110,765
+Georgia,2021-11-01,275,2,0,255,122,654
+Georgia,2021-12-01,168,0,-1,79,38,284
+Georgia,2022-01-01,172,2,-9,48,31,244
+Georgia,2022-02-01,240,2,-4,107,47,392
+Georgia,2022-03-01,331,12,-8,96,52,483
+Georgia,2022-04-01,173,4,0,54,27,258
+Georgia,2022-05-01,165,6,8,69,37,285
+Georgia,2022-06-01,145,4,-2,65,40,252
+Georgia,2022-07-01,90,2,-1,54,41,186
+Georgia,2022-08-01,140,0,0,27,18,185
+Georgia,2022-09-01,151,0,3,33,17,204
+Georgia,2022-10-01,193,4,-3,77,35,306
+Georgia,2022-11-01,168,0,-4,49,41,254
+Georgia,2022-12-01,131,0,3,57,34,225
+Georgia,2023-01-01,136,0,1,38,18,193
+Georgia,2023-02-01,104,2,-1,33,25,163
+Georgia,2023-03-01,396,0,-3,278,277,948
+Georgia,2023-04-01,133,2,1,73,45,254
+Georgia,2023-05-01,273,2,-3,212,77,561
+Georgia,2023-06-01,142,0,2,146,47,337
+Georgia,2023-07-01,303,0,0,187,77,567
+Georgia,2023-08-01,222,0,1,104,33,360
+Georgia,2023-09-01,133,4,5,93,13,248
+Georgia,2023-10-01,193,4,5,46,17,265
+Georgia,2023-11-01,160,0,-1,67,26,252
+Georgia,2023-12-01,133,0,-1,81,26,239
+Georgia,2024-01-01,171,4,-6,83,30,282
+Georgia,2024-02-01,202,0,-9,75,32,300
+Georgia,2024-03-01,141,2,-2,71,26,238
+Georgia,2024-04-01,273,0,8,168,200,649
+Georgia,2024-05-01,701,4,10,430,453,1598
+India,2010-04-01,0,0,0,6,0,6
+India,2010-05-01,1,0,0,-2,0,-1
+India,2010-06-01,3,0,0,0,0,3
+India,2010-07-01,0,0,0,-2,0,-2
+India,2010-08-01,2,0,0,-2,1,1
+India,2010-09-01,6,0,0,0,1,7
+India,2010-10-01,3,0,0,0,0,3
+India,2010-11-01,2,0,0,0,-2,0
+India,2010-12-01,0,0,0,0,0,0
+India,2011-01-01,0,0,0,0,0,0
+India,2011-02-01,0,0,0,0,0,0
+India,2011-03-01,0,0,0,0,0,0
+India,2011-04-01,2,0,0,0,0,2
+India,2011-05-01,1,0,0,0,0,1
+India,2011-06-01,2,0,0,3,0,5
+India,2011-07-01,0,0,0,0,0,0
+India,2011-08-01,0,0,0,0,0,0
+India,2011-09-01,2,0,0,0,0,2
+India,2011-10-01,0,0,0,-4,0,-4
+India,2011-11-01,5,0,0,3,0,8
+India,2011-12-01,4,0,0,0,0,4
+India,2012-01-01,6,0,0,0,0,6
+India,2012-02-01,5,0,0,0,0,5
+India,2012-03-01,0,0,0,0,0,0
+India,2012-04-01,0,0,0,0,0,0
+India,2012-05-01,2,0,0,0,0,2
+India,2012-06-01,4,0,0,0,0,4
+India,2012-07-01,6,0,0,0,0,6
+India,2012-08-01,0,0,0,0,0,0
+India,2012-09-01,2,0,0,0,0,2
+India,2012-10-01,15,0,0,6,0,21
+India,2012-11-01,10,0,0,3,0,13
+India,2012-12-01,0,0,0,0,0,0
+India,2013-01-01,0,0,0,0,0,0
+India,2013-02-01,4,0,0,-2,0,2
+India,2013-03-01,5,0,0,-4,0,1
+India,2013-04-01,4,0,0,0,4,8
+India,2013-05-01,5,0,0,3,0,8
+India,2013-06-01,1,0,0,0,0,1
+India,2013-07-01,3,0,0,0,0,3
+India,2013-08-01,9,0,0,0,0,9
+India,2013-09-01,17,0,0,-2,2,17
+India,2013-10-01,4,0,0,0,0,4
+India,2013-11-01,6,0,0,0,2,8
+India,2013-12-01,11,0,0,0,1,12
+India,2014-01-01,-1,0,0,0,0,-1
+India,2014-02-01,6,0,0,0,0,6
+India,2014-03-01,5,0,0,1,4,10
+India,2014-04-01,5,0,0,-2,1,4
+India,2014-05-01,12,0,1,0,0,13
+India,2014-06-01,0,0,0,0,0,0
+India,2014-07-01,0,0,0,0,0,0
+India,2014-08-01,0,0,0,0,0,0
+India,2014-09-01,0,0,0,0,0,0
+India,2014-10-01,0,0,0,0,0,0
+India,2014-11-01,0,0,0,0,0,0
+India,2014-12-01,0,0,0,0,0,0
+India,2015-01-01,0,0,0,0,0,0
+India,2015-02-01,0,0,0,0,0,0
+India,2015-03-01,0,0,0,0,0,0
+India,2015-04-01,0,0,0,0,0,0
+India,2015-05-01,0,0,0,0,0,0
+India,2015-06-01,0,0,0,0,0,0
+India,2015-07-01,0,0,0,0,0,0
+India,2015-08-01,0,0,0,0,0,0
+India,2015-09-01,0,0,0,0,0,0
+India,2015-10-01,0,0,0,0,0,0
+India,2015-11-01,0,0,0,0,0,0
+India,2015-12-01,0,0,0,0,0,0
+India,2016-01-01,0,0,0,0,0,0
+India,2016-02-01,0,0,0,0,0,0
+India,2016-03-01,0,0,0,0,0,0
+India,2016-04-01,0,0,0,0,0,0
+India,2016-05-01,0,0,0,0,0,0
+India,2016-06-01,0,0,0,0,0,0
+India,2016-07-01,0,0,0,0,0,0
+India,2016-08-01,0,0,0,0,0,0
+India,2016-09-01,0,0,0,0,0,0
+India,2016-10-01,0,0,0,0,0,0
+India,2016-11-01,0,0,0,0,0,0
+India,2016-12-01,0,0,0,0,0,0
+India,2017-01-01,0,0,0,0,0,0
+India,2017-02-01,0,0,0,0,0,0
+India,2017-03-01,0,0,0,0,0,0
+India,2017-04-01,0,0,0,0,0,0
+India,2017-05-01,0,0,0,0,0,0
+India,2017-06-01,0,0,0,0,0,0
+India,2017-07-01,0,0,0,0,0,0
+India,2017-08-01,0,0,0,0,0,0
+India,2017-09-01,0,0,0,0,0,0
+India,2017-10-01,0,0,0,0,0,0
+India,2017-11-01,0,0,0,0,0,0
+India,2017-12-01,0,0,0,0,0,0
+India,2018-01-01,0,0,0,0,0,0
+India,2018-02-01,0,0,0,0,0,0
+India,2018-03-01,0,0,0,0,0,0
+India,2018-04-01,0,0,0,0,0,0
+India,2018-05-01,0,0,0,0,0,0
+India,2018-06-01,0,0,0,0,0,0
+India,2018-07-01,0,0,0,0,0,0
+India,2018-08-01,0,0,0,0,0,0
+India,2018-09-01,0,0,0,0,0,0
+India,2018-10-01,0,0,0,0,0,0
+India,2018-11-01,0,0,0,0,0,0
+India,2018-12-01,0,0,0,0,0,0
+India,2019-01-01,0,0,0,0,0,0
+India,2019-02-01,0,0,0,0,0,0
+India,2019-03-01,0,0,0,0,0,0
+India,2019-04-01,26,0,-6,37,9,66
+India,2019-05-01,171,0,3,173,59,406
+India,2019-06-01,304,0,-5,134,53,486
+India,2019-07-01,267,2,-10,156,74,489
+India,2019-08-01,284,2,-16,85,47,402
+India,2019-09-01,141,4,-17,151,71,350
+India,2019-10-01,222,0,-23,136,48,383
+India,2019-11-01,156,0,-4,67,33,252
+India,2019-12-01,147,2,-39,73,34,217
+India,2020-01-01,405,4,-11,199,112,709
+India,2020-02-01,424,2,-22,258,176,838
+India,2020-03-01,384,2,-20,203,74,643
+India,2020-04-01,5891,192,-27,1602,1136,8794
+India,2020-05-01,19817,654,-168,4880,3821,29004
+India,2020-06-01,21527,488,-236,6024,4179,31982
+India,2020-07-01,21760,504,-92,8165,4735,35072
+India,2020-08-01,19619,408,44,6396,4320,30787
+India,2020-09-01,18972,384,-462,7646,5164,31704
+India,2020-10-01,12677,242,-222,4388,4196,21281
+India,2020-11-01,11754,211,-132,4789,3165,19787
+India,2020-12-01,18080,260,-375,7236,5565,30766
+India,2021-01-01,17667,270,-177,6187,4940,28887
+India,2021-02-01,16078,260,-387,6626,4566,27143
+India,2021-03-01,16978,298,-578,5390,4203,26291
+India,2021-04-01,17117,511,-185,7220,3086,27749
+India,2021-05-01,16893,578,-67,6067,2615,26086
+India,2021-06-01,14605,282,-188,5489,2812,23000
+India,2021-07-01,14857,256,-528,5513,3044,23142
+India,2021-08-01,12545,238,-342,4062,3126,19629
+India,2021-09-01,14429,274,-497,5045,3326,22577
+India,2021-10-01,16222,200,-229,5295,3440,24928
+India,2021-11-01,13646,229,-222,4928,3193,21774
+India,2021-12-01,14759,212,-319,5476,3757,23885
+India,2022-01-01,13490,184,-145,5754,3040,22323
+India,2022-02-01,12337,220,-132,5786,3293,21504
+India,2022-03-01,13286,246,-219,4719,3233,21265
+India,2022-04-01,13569,238,-225,5773,3572,22927
+India,2022-05-01,13195,207,-249,6012,3173,22338
+India,2022-06-01,14173,234,-335,6060,4438,24570
+India,2022-07-01,13124,208,-391,5912,3347,22200
+India,2022-08-01,13371,212,-375,4908,3436,21552
+India,2022-09-01,12121,210,-186,5287,3207,20639
+India,2022-10-01,11610,128,-239,5213,2844,19556
+India,2022-11-01,11285,180,-164,3813,2781,17895
+India,2022-12-01,12363,180,-212,4625,2903,19859
+India,2023-01-01,12856,172,-156,5652,3200,21724
+India,2023-02-01,11653,222,-197,4653,3028,19359
+India,2023-03-01,14370,282,-251,7033,4231,25665
+India,2023-04-01,19092,310,-218,7350,4546,31080
+India,2023-05-01,19577,374,-465,7245,4890,31621
+India,2023-06-01,19409,260,-314,6599,4594,30548
+India,2023-07-01,18096,355,-274,6658,5219,30054
+India,2023-08-01,18429,307,-391,6200,5016,29561
+India,2023-09-01,19651,299,-197,6181,5054,30988
+India,2023-10-01,17568,310,-133,6339,4526,28610
+India,2023-11-01,15863,239,-92,5904,4235,26149
+India,2023-12-01,17448,330,191,6332,4426,28727
+India,2024-01-01,17339,277,-226,5949,4366,27705
+India,2024-02-01,17169,348,-476,6699,5190,28930
+India,2024-03-01,17210,322,-537,6899,4940,28834
+India,2024-04-01,17407,298,-272,6063,4582,28078
+India,2024-05-01,12267,225,-188,4713,3589,20606
+Iran,2010-05-01,0,0,0,0,0,0
+Iran,2010-06-01,0,0,0,0,0,0
+Iran,2010-07-01,5,0,0,3,0,8
+Iran,2010-08-01,8,0,0,0,0,8
+Iran,2010-09-01,0,0,0,-1,0,-1
+Iran,2010-10-01,0,0,0,0,0,0
+Iran,2010-11-01,0,0,0,0,0,0
+Iran,2010-12-01,7,0,0,0,2,9
+Iran,2011-01-01,10,0,0,0,0,10
+Iran,2011-02-01,3,0,0,0,0,3
+Iran,2011-03-01,12,0,0,-2,1,11
+Iran,2011-04-01,6,0,0,0,0,6
+Iran,2011-05-01,0,0,0,0,0,0
+Iran,2011-06-01,1,0,0,0,1,2
+Iran,2011-07-01,0,0,0,0,0,0
+Iran,2011-08-01,2,0,0,0,4,6
+Iran,2011-09-01,0,0,0,0,0,0
+Iran,2011-10-01,0,0,0,0,0,0
+Iran,2011-11-01,9,0,0,0,3,12
+Iran,2011-12-01,5,0,0,0,1,6
+Iran,2012-01-01,2,0,0,0,0,2
+Iran,2012-02-01,16,0,0,0,0,16
+Iran,2012-03-01,0,0,0,0,0,0
+Iran,2012-04-01,3,0,0,3,0,6
+Iran,2012-05-01,3,0,0,0,0,3
+Iran,2012-06-01,0,0,0,0,0,0
+Iran,2012-07-01,3,0,0,0,0,3
+Iran,2012-08-01,21,0,0,0,0,21
+Iran,2012-09-01,3,0,0,6,1,10
+Iran,2012-10-01,11,0,0,0,2,13
+Iran,2012-11-01,4,0,0,0,1,5
+Iran,2012-12-01,3,0,0,9,0,12
+Iran,2013-01-01,0,0,0,0,0,0
+Iran,2013-02-01,11,0,0,3,0,14
+Iran,2013-03-01,3,0,0,-2,0,1
+Iran,2013-04-01,8,0,0,3,0,11
+Iran,2013-05-01,0,0,0,0,1,1
+Iran,2013-06-01,3,0,0,0,0,3
+Iran,2013-07-01,12,0,0,0,0,12
+Iran,2013-08-01,0,0,0,0,0,0
+Iran,2013-09-01,3,0,0,0,0,3
+Iran,2013-10-01,3,0,0,0,4,7
+Iran,2013-11-01,0,0,0,0,2,2
+Iran,2013-12-01,0,0,0,0,0,0
+Iran,2014-01-01,4,0,0,0,0,4
+Iran,2014-02-01,4,0,0,3,0,7
+Iran,2014-03-01,0,0,0,0,0,0
+Iran,2014-04-01,6,0,0,0,0,6
+Iran,2014-05-01,1,0,0,0,0,1
+Iran,2014-06-01,0,0,0,0,0,0
+Iran,2014-07-01,0,0,0,0,0,0
+Iran,2014-08-01,0,0,0,0,0,0
+Iran,2014-09-01,0,0,0,0,0,0
+Iran,2014-10-01,0,0,0,0,0,0
+Iran,2014-11-01,0,0,0,0,0,0
+Iran,2014-12-01,0,0,0,0,0,0
+Iran,2015-01-01,0,0,0,0,0,0
+Iran,2015-02-01,0,0,0,0,0,0
+Iran,2015-03-01,0,0,0,0,0,0
+Iran,2015-04-01,0,0,0,0,0,0
+Iran,2015-05-01,0,0,0,0,0,0
+Iran,2015-06-01,0,0,0,0,0,0
+Iran,2015-07-01,0,0,0,0,0,0
+Iran,2015-08-01,0,0,0,0,0,0
+Iran,2015-09-01,0,0,0,0,0,0
+Iran,2015-10-01,0,0,0,0,0,0
+Iran,2015-11-01,0,0,0,0,0,0
+Iran,2015-12-01,0,0,0,0,0,0
+Iran,2016-01-01,0,0,0,0,0,0
+Iran,2016-02-01,0,0,0,0,0,0
+Iran,2016-03-01,0,0,0,0,0,0
+Iran,2016-04-01,0,0,0,0,0,0
+Iran,2016-05-01,0,0,0,0,0,0
+Iran,2016-06-01,0,0,0,0,0,0
+Iran,2016-07-01,0,0,0,0,0,0
+Iran,2016-08-01,0,0,0,0,0,0
+Iran,2016-09-01,0,0,0,0,0,0
+Iran,2016-10-01,0,0,0,0,0,0
+Iran,2016-11-01,0,0,0,0,0,0
+Iran,2016-12-01,0,0,0,0,0,0
+Iran,2017-01-01,0,0,0,0,0,0
+Iran,2017-02-01,0,0,0,0,0,0
+Iran,2017-03-01,0,0,0,0,0,0
+Iran,2017-04-01,0,0,0,0,0,0
+Iran,2017-05-01,0,0,0,0,0,0
+Iran,2017-06-01,0,0,0,0,0,0
+Iran,2017-07-01,0,0,0,0,0,0
+Iran,2017-08-01,0,0,0,0,0,0
+Iran,2017-09-01,0,0,0,0,0,0
+Iran,2017-10-01,0,0,0,0,0,0
+Iran,2017-11-01,0,0,0,0,0,0
+Iran,2017-12-01,0,0,0,0,0,0
+Iran,2018-01-01,0,0,0,0,0,0
+Iran,2018-02-01,0,0,0,0,0,0
+Iran,2018-03-01,0,0,0,0,0,0
+Iran,2018-04-01,0,0,0,0,0,0
+Iran,2018-05-01,0,0,0,0,0,0
+Iran,2018-06-01,0,0,0,0,0,0
+Iran,2018-07-01,0,0,0,0,0,0
+Iran,2018-08-01,0,0,0,0,0,0
+Iran,2018-09-01,0,0,0,0,0,0
+Iran,2018-10-01,0,0,0,0,0,0
+Iran,2018-11-01,0,0,0,0,0,0
+Iran,2018-12-01,0,0,0,0,0,0
+Iran,2019-01-01,0,0,0,0,0,0
+Iran,2019-02-01,0,0,0,0,0,0
+Iran,2019-03-01,0,0,0,0,0,0
+Iran,2019-04-01,22,0,0,5,1,28
+Iran,2019-05-01,90,0,-8,49,12,143
+Iran,2019-06-01,81,0,2,56,4,143
+Iran,2019-07-01,112,0,-2,73,15,198
+Iran,2019-08-01,-17,0,3,47,12,45
+Iran,2019-09-01,182,0,-16,28,19,213
+Iran,2019-10-01,33,0,0,-4,3,32
+Iran,2019-11-01,72,0,2,21,3,98
+Iran,2019-12-01,55,2,5,108,3,173
+Iran,2020-01-01,222,0,-1,52,12,285
+Iran,2020-02-01,255,5,3,43,5,311
+Iran,2020-03-01,202,1,0,83,11,297
+Iran,2020-04-01,3011,58,67,642,270,4048
+Iran,2020-05-01,7316,97,103,2496,920,10932
+Iran,2020-06-01,7152,102,78,2506,928,10766
+Iran,2020-07-01,8356,54,116,2271,838,11635
+Iran,2020-08-01,6220,132,-50,2126,832,9260
+Iran,2020-09-01,5862,48,114,1923,821,8768
+Iran,2020-10-01,4208,53,63,1372,550,6246
+Iran,2020-11-01,6254,47,18,1543,933,8795
+Iran,2020-12-01,7113,59,121,2242,868,10403
+Iran,2021-01-01,7781,121,175,2510,763,11350
+Iran,2021-02-01,7291,164,115,1846,768,10184
+Iran,2021-03-01,6765,88,99,1601,698,9251
+Iran,2021-04-01,6741,130,140,1407,715,9133
+Iran,2021-05-01,5684,68,55,1554,734,8095
+Iran,2021-06-01,5912,100,89,1795,714,8610
+Iran,2021-07-01,6024,67,9,1852,768,8720
+Iran,2021-08-01,6283,34,45,1645,660,8667
+Iran,2021-09-01,4656,61,73,1595,500,6885
+Iran,2021-10-01,5472,74,70,2097,802,8515
+Iran,2021-11-01,5452,74,89,1914,976,8505
+Iran,2021-12-01,5634,75,61,1387,644,7801
+Iran,2022-01-01,5734,60,58,1850,711,8413
+Iran,2022-02-01,3922,21,47,1171,471,5632
+Iran,2022-03-01,6116,96,59,1197,702,8170
+Iran,2022-04-01,3519,42,10,1272,571,5414
+Iran,2022-05-01,5172,29,34,2372,721,8328
+Iran,2022-06-01,4817,61,55,1830,686,7449
+Iran,2022-07-01,4992,38,48,2659,736,8473
+Iran,2022-08-01,6062,34,9,2253,893,9251
+Iran,2022-09-01,8307,43,124,4829,2172,15475
+Iran,2022-10-01,12473,85,296,5124,3139,21117
+Iran,2022-11-01,8813,66,151,4125,2103,15258
+Iran,2022-12-01,6666,53,146,4139,1574,12578
+Iran,2023-01-01,6895,52,101,4019,1563,12630
+Iran,2023-02-01,4797,43,73,2096,941,7950
+Iran,2023-03-01,7110,57,72,2569,1257,11065
+Iran,2023-04-01,6942,35,53,2505,933,10468
+Iran,2023-05-01,6543,57,69,2548,900,10117
+Iran,2023-06-01,5226,42,84,1955,695,8002
+Iran,2023-07-01,5079,59,61,1884,853,7936
+Iran,2023-08-01,5018,42,96,2000,814,7970
+Iran,2023-09-01,5363,112,152,2961,1083,9671
+Iran,2023-10-01,16472,119,191,2934,2576,22292
+Iran,2023-11-01,10038,66,75,1970,1145,13294
+Iran,2023-12-01,10020,70,73,2318,1183,13664
+Iran,2024-01-01,17904,49,171,2812,2550,23486
+Iran,2024-02-01,9041,54,85,1682,1109,11971
+Iran,2024-03-01,5972,31,64,1564,866,8497
+Iran,2024-04-01,22940,100,97,2892,3042,29071
+Iran,2024-05-01,5666,77,46,1722,829,8340
+Iraq,2010-05-01,3,0,0,0,0,3
+Iraq,2010-06-01,3,0,0,0,0,3
+Iraq,2010-07-01,2,0,0,0,0,2
+Iraq,2010-08-01,6,0,0,0,1,7
+Iraq,2010-09-01,0,0,0,0,0,0
+Iraq,2010-10-01,0,0,0,0,0,0
+Iraq,2010-11-01,5,0,0,0,2,7
+Iraq,2010-12-01,0,0,0,0,0,0
+Iraq,2011-01-01,3,0,0,0,0,3
+Iraq,2011-02-01,0,0,0,0,0,0
+Iraq,2011-03-01,3,0,0,0,0,3
+Iraq,2011-04-01,2,0,0,0,0,2
+Iraq,2011-05-01,0,0,0,0,0,0
+Iraq,2011-06-01,6,0,0,0,0,6
+Iraq,2011-07-01,0,0,0,0,0,0
+Iraq,2011-08-01,0,0,0,0,0,0
+Iraq,2011-09-01,3,0,0,0,2,5
+Iraq,2011-10-01,0,0,0,0,0,0
+Iraq,2011-11-01,3,0,0,0,0,3
+Iraq,2011-12-01,0,0,0,0,0,0
+Iraq,2012-01-01,2,0,0,0,0,2
+Iraq,2012-02-01,0,0,0,0,0,0
+Iraq,2012-03-01,0,0,0,0,0,0
+Iraq,2012-04-01,0,0,0,0,0,0
+Iraq,2012-05-01,0,0,0,0,0,0
+Iraq,2012-06-01,0,0,0,0,0,0
+Iraq,2012-07-01,0,0,0,0,0,0
+Iraq,2012-08-01,0,0,0,0,0,0
+Iraq,2012-09-01,0,0,0,0,0,0
+Iraq,2012-10-01,3,0,0,0,0,3
+Iraq,2012-11-01,3,0,0,0,0,3
+Iraq,2012-12-01,0,0,0,0,2,2
+Iraq,2013-01-01,0,0,0,0,0,0
+Iraq,2013-02-01,0,0,0,0,0,0
+Iraq,2013-03-01,2,0,0,0,2,4
+Iraq,2013-04-01,0,0,0,0,0,0
+Iraq,2013-05-01,0,0,0,0,0,0
+Iraq,2013-06-01,6,0,0,0,0,6
+Iraq,2013-07-01,0,0,0,0,0,0
+Iraq,2013-08-01,0,0,0,0,0,0
+Iraq,2013-09-01,0,0,0,0,0,0
+Iraq,2013-10-01,3,0,0,0,0,3
+Iraq,2013-11-01,0,0,0,3,0,3
+Iraq,2013-12-01,0,0,0,0,0,0
+Iraq,2014-01-01,-2,0,0,0,0,-2
+Iraq,2014-02-01,6,0,0,0,0,6
+Iraq,2014-03-01,0,0,0,0,0,0
+Iraq,2014-04-01,6,0,0,3,0,9
+Iraq,2014-05-01,3,0,0,0,0,3
+Iraq,2014-06-01,0,0,0,0,0,0
+Iraq,2014-07-01,0,0,0,0,0,0
+Iraq,2014-08-01,0,0,0,0,0,0
+Iraq,2014-09-01,0,0,0,0,0,0
+Iraq,2014-10-01,0,0,0,0,0,0
+Iraq,2014-11-01,0,0,0,0,0,0
+Iraq,2014-12-01,0,0,0,0,0,0
+Iraq,2015-01-01,0,0,0,0,0,0
+Iraq,2015-02-01,0,0,0,0,0,0
+Iraq,2015-03-01,0,0,0,0,0,0
+Iraq,2015-04-01,0,0,0,0,0,0
+Iraq,2015-05-01,0,0,0,0,0,0
+Iraq,2015-06-01,0,0,0,0,0,0
+Iraq,2015-07-01,0,0,0,0,0,0
+Iraq,2015-08-01,0,0,0,0,0,0
+Iraq,2015-09-01,0,0,0,0,0,0
+Iraq,2015-10-01,0,0,0,0,0,0
+Iraq,2015-11-01,0,0,0,0,0,0
+Iraq,2015-12-01,0,0,0,0,0,0
+Iraq,2016-01-01,0,0,0,0,0,0
+Iraq,2016-02-01,0,0,0,0,0,0
+Iraq,2016-03-01,0,0,0,0,0,0
+Iraq,2016-04-01,0,0,0,0,0,0
+Iraq,2016-05-01,0,0,0,0,0,0
+Iraq,2016-06-01,0,0,0,0,0,0
+Iraq,2016-07-01,0,0,0,0,0,0
+Iraq,2016-08-01,0,0,0,0,0,0
+Iraq,2016-09-01,0,0,0,0,0,0
+Iraq,2016-10-01,0,0,0,0,0,0
+Iraq,2016-11-01,0,0,0,0,0,0
+Iraq,2016-12-01,0,0,0,0,0,0
+Iraq,2017-01-01,0,0,0,0,0,0
+Iraq,2017-02-01,0,0,0,0,0,0
+Iraq,2017-03-01,0,0,0,0,0,0
+Iraq,2017-04-01,0,0,0,0,0,0
+Iraq,2017-05-01,0,0,0,0,0,0
+Iraq,2017-06-01,0,0,0,0,0,0
+Iraq,2017-07-01,0,0,0,0,0,0
+Iraq,2017-08-01,0,0,0,0,0,0
+Iraq,2017-09-01,0,0,0,0,0,0
+Iraq,2017-10-01,0,0,0,0,0,0
+Iraq,2017-11-01,0,0,0,0,0,0
+Iraq,2017-12-01,0,0,0,0,0,0
+Iraq,2018-01-01,0,0,0,0,0,0
+Iraq,2018-02-01,0,0,0,0,0,0
+Iraq,2018-03-01,0,0,0,0,0,0
+Iraq,2018-04-01,0,0,0,0,0,0
+Iraq,2018-05-01,0,0,0,0,0,0
+Iraq,2018-06-01,0,0,0,0,0,0
+Iraq,2018-07-01,0,0,0,0,0,0
+Iraq,2018-08-01,0,0,0,0,0,0
+Iraq,2018-09-01,0,0,0,0,0,0
+Iraq,2018-10-01,0,0,0,0,0,0
+Iraq,2018-11-01,0,0,0,0,0,0
+Iraq,2018-12-01,0,0,0,0,0,0
+Iraq,2019-01-01,0,0,0,0,0,0
+Iraq,2019-02-01,0,0,0,0,0,0
+Iraq,2019-03-01,0,0,0,0,0,0
+Iraq,2019-04-01,10,0,0,12,1,23
+Iraq,2019-05-01,69,0,-29,10,18,68
+Iraq,2019-06-01,67,0,-4,32,4,99
+Iraq,2019-07-01,56,0,-11,7,16,68
+Iraq,2019-08-01,18,0,-2,36,12,64
+Iraq,2019-09-01,51,0,-18,25,16,74
+Iraq,2019-10-01,60,0,-4,31,22,109
+Iraq,2019-11-01,23,0,1,-1,4,27
+Iraq,2019-12-01,73,0,0,66,14,153
+Iraq,2020-01-01,121,0,3,38,7,169
+Iraq,2020-02-01,172,0,1,23,3,199
+Iraq,2020-03-01,77,0,0,0,7,84
+Iraq,2020-04-01,1445,8,-10,275,148,1866
+Iraq,2020-05-01,4941,38,-35,921,646,6511
+Iraq,2020-06-01,4853,42,3,973,640,6511
+Iraq,2020-07-01,5274,32,27,1113,564,7010
+Iraq,2020-08-01,4124,48,-1,882,662,5715
+Iraq,2020-09-01,4380,50,28,1279,607,6344
+Iraq,2020-10-01,2831,26,-11,772,452,4070
+Iraq,2020-11-01,2412,18,6,516,325,3277
+Iraq,2020-12-01,5405,32,12,1407,698,7554
+Iraq,2021-01-01,5653,32,32,1288,671,7676
+Iraq,2021-02-01,5974,28,22,1137,645,7806
+Iraq,2021-03-01,5956,38,-5,775,622,7386
+Iraq,2021-04-01,3641,10,-29,891,428,4941
+Iraq,2021-05-01,4005,16,-17,911,559,5474
+Iraq,2021-06-01,4323,26,-7,834,423,5599
+Iraq,2021-07-01,5116,43,-56,1058,721,6882
+Iraq,2021-08-01,3393,52,-28,761,457,4635
+Iraq,2021-09-01,4205,44,10,807,513,5579
+Iraq,2021-10-01,3599,34,-18,1025,550,5190
+Iraq,2021-11-01,4298,34,9,1089,733,6163
+Iraq,2021-12-01,3447,32,30,714,483,4706
+Iraq,2022-01-01,4847,24,-5,735,609,6210
+Iraq,2022-02-01,3064,24,-8,674,444,4198
+Iraq,2022-03-01,4504,46,25,811,433,5819
+Iraq,2022-04-01,2894,26,13,646,355,3934
+Iraq,2022-05-01,3310,26,16,865,338,4555
+Iraq,2022-06-01,2523,22,-1,823,267,3634
+Iraq,2022-07-01,2934,22,23,547,528,4054
+Iraq,2022-08-01,3017,14,-66,905,502,4372
+Iraq,2022-09-01,2777,8,-19,624,371,3761
+Iraq,2022-10-01,2525,12,-32,650,431,3586
+Iraq,2022-11-01,3541,22,-5,602,269,4429
+Iraq,2022-12-01,2502,6,11,641,302,3462
+Iraq,2023-01-01,2209,8,4,534,250,3005
+Iraq,2023-02-01,1947,24,-9,435,262,2659
+Iraq,2023-03-01,4329,40,-3,1041,711,6118
+Iraq,2023-04-01,3040,48,21,1032,378,4519
+Iraq,2023-05-01,2896,34,4,641,279,3854
+Iraq,2023-06-01,2536,18,34,671,431,3690
+Iraq,2023-07-01,2808,29,57,1422,1159,5475
+Iraq,2023-08-01,2809,31,9,1007,485,4341
+Iraq,2023-09-01,3188,48,2,1061,439,4738
+Iraq,2023-10-01,6350,18,2,816,777,7963
+Iraq,2023-11-01,5340,70,-11,511,419,6329
+Iraq,2023-12-01,5432,30,5,589,488,6544
+Iraq,2024-01-01,9092,20,2,761,841,10716
+Iraq,2024-02-01,5531,64,12,850,571,7028
+Iraq,2024-03-01,3063,74,5,757,274,4173
+Iraq,2024-04-01,5411,90,-33,1110,419,6997
+Iraq,2024-05-01,2032,54,-10,540,201,2817
+Pakistan,2010-05-01,0,0,0,-6,0,-6
+Pakistan,2010-06-01,0,0,0,0,0,0
+Pakistan,2010-07-01,1,0,0,0,0,1
+Pakistan,2010-08-01,0,0,0,0,0,0
+Pakistan,2010-09-01,2,0,0,0,0,2
+Pakistan,2010-10-01,0,0,0,0,0,0
+Pakistan,2010-11-01,0,0,0,1,0,1
+Pakistan,2010-12-01,3,0,0,0,0,3
+Pakistan,2011-01-01,5,0,-4,0,1,2
+Pakistan,2011-02-01,2,0,0,9,0,11
+Pakistan,2011-03-01,1,0,0,0,0,1
+Pakistan,2011-04-01,3,0,0,0,0,3
+Pakistan,2011-05-01,16,0,0,0,0,16
+Pakistan,2011-06-01,0,0,0,0,0,0
+Pakistan,2011-07-01,3,0,0,0,0,3
+Pakistan,2011-08-01,0,0,0,0,0,0
+Pakistan,2011-09-01,4,0,0,0,0,4
+Pakistan,2011-10-01,3,0,0,1,0,4
+Pakistan,2011-11-01,0,0,0,0,0,0
+Pakistan,2011-12-01,3,0,0,0,0,3
+Pakistan,2012-01-01,1,0,0,0,0,1
+Pakistan,2012-02-01,2,0,0,0,0,2
+Pakistan,2012-03-01,0,0,0,0,0,0
+Pakistan,2012-04-01,0,0,0,4,0,4
+Pakistan,2012-05-01,7,0,0,0,0,7
+Pakistan,2012-06-01,7,0,0,0,0,7
+Pakistan,2012-07-01,0,0,0,0,0,0
+Pakistan,2012-08-01,0,0,0,0,0,0
+Pakistan,2012-09-01,0,0,0,0,0,0
+Pakistan,2012-10-01,0,0,0,0,0,0
+Pakistan,2012-11-01,2,0,0,0,4,6
+Pakistan,2012-12-01,0,0,0,0,0,0
+Pakistan,2013-01-01,0,0,0,0,0,0
+Pakistan,2013-02-01,0,0,0,0,0,0
+Pakistan,2013-03-01,0,0,0,0,0,0
+Pakistan,2013-04-01,1,0,0,0,1,2
+Pakistan,2013-05-01,0,0,0,0,0,0
+Pakistan,2013-06-01,0,0,0,0,0,0
+Pakistan,2013-07-01,0,0,0,0,0,0
+Pakistan,2013-08-01,12,0,0,3,1,16
+Pakistan,2013-09-01,0,0,0,0,0,0
+Pakistan,2013-10-01,0,0,0,0,0,0
+Pakistan,2013-11-01,3,0,0,0,0,3
+Pakistan,2013-12-01,2,0,0,0,0,2
+Pakistan,2014-01-01,4,0,0,0,1,5
+Pakistan,2014-02-01,3,0,0,0,0,3
+Pakistan,2014-03-01,4,0,0,0,0,4
+Pakistan,2014-04-01,0,0,0,0,0,0
+Pakistan,2014-05-01,0,0,0,0,0,0
+Pakistan,2014-06-01,0,0,0,0,0,0
+Pakistan,2014-07-01,0,0,0,0,0,0
+Pakistan,2014-08-01,0,0,0,0,0,0
+Pakistan,2014-09-01,0,0,0,0,0,0
+Pakistan,2014-10-01,0,0,0,0,0,0
+Pakistan,2014-11-01,0,0,0,0,0,0
+Pakistan,2014-12-01,0,0,0,0,0,0
+Pakistan,2015-01-01,0,0,0,0,0,0
+Pakistan,2015-02-01,0,0,0,0,0,0
+Pakistan,2015-03-01,0,0,0,0,0,0
+Pakistan,2015-04-01,0,0,0,0,0,0
+Pakistan,2015-05-01,0,0,0,0,0,0
+Pakistan,2015-06-01,0,0,0,0,0,0
+Pakistan,2015-07-01,0,0,0,0,0,0
+Pakistan,2015-08-01,0,0,0,0,0,0
+Pakistan,2015-09-01,0,0,0,0,0,0
+Pakistan,2015-10-01,0,0,0,0,0,0
+Pakistan,2015-11-01,0,0,0,0,0,0
+Pakistan,2015-12-01,0,0,0,0,0,0
+Pakistan,2016-01-01,0,0,0,0,0,0
+Pakistan,2016-02-01,0,0,0,0,0,0
+Pakistan,2016-03-01,0,0,0,0,0,0
+Pakistan,2016-04-01,0,0,0,0,0,0
+Pakistan,2016-05-01,0,0,0,0,0,0
+Pakistan,2016-06-01,0,0,0,0,0,0
+Pakistan,2016-07-01,0,0,0,0,0,0
+Pakistan,2016-08-01,0,0,0,0,0,0
+Pakistan,2016-09-01,0,0,0,0,0,0
+Pakistan,2016-10-01,0,0,0,0,0,0
+Pakistan,2016-11-01,0,0,0,0,0,0
+Pakistan,2016-12-01,0,0,0,0,0,0
+Pakistan,2017-01-01,0,0,0,0,0,0
+Pakistan,2017-02-01,0,0,0,0,0,0
+Pakistan,2017-03-01,0,0,0,0,0,0
+Pakistan,2017-04-01,0,0,0,0,0,0
+Pakistan,2017-05-01,0,0,0,0,0,0
+Pakistan,2017-06-01,0,0,0,0,0,0
+Pakistan,2017-07-01,0,0,0,0,0,0
+Pakistan,2017-08-01,0,0,0,0,0,0
+Pakistan,2017-09-01,0,0,0,0,0,0
+Pakistan,2017-10-01,0,0,0,0,0,0
+Pakistan,2017-11-01,0,0,0,0,0,0
+Pakistan,2017-12-01,0,0,0,0,0,0
+Pakistan,2018-01-01,0,0,0,0,0,0
+Pakistan,2018-02-01,0,0,0,0,0,0
+Pakistan,2018-03-01,0,0,0,0,0,0
+Pakistan,2018-04-01,0,0,0,0,0,0
+Pakistan,2018-05-01,0,0,0,0,0,0
+Pakistan,2018-06-01,0,0,0,0,0,0
+Pakistan,2018-07-01,0,0,0,0,0,0
+Pakistan,2018-08-01,0,0,0,0,0,0
+Pakistan,2018-09-01,0,0,0,0,0,0
+Pakistan,2018-10-01,0,0,0,0,0,0
+Pakistan,2018-11-01,0,0,0,0,0,0
+Pakistan,2018-12-01,0,0,0,0,0,0
+Pakistan,2019-01-01,0,0,0,0,0,0
+Pakistan,2019-02-01,0,0,0,0,0,0
+Pakistan,2019-03-01,0,0,0,0,0,0
+Pakistan,2019-04-01,7,0,0,3,2,12
+Pakistan,2019-05-01,97,2,0,75,7,181
+Pakistan,2019-06-01,125,0,-5,39,17,176
+Pakistan,2019-07-01,81,0,-2,83,15,177
+Pakistan,2019-08-01,157,0,-2,38,29,222
+Pakistan,2019-09-01,90,0,2,46,27,165
+Pakistan,2019-10-01,88,0,0,16,16,120
+Pakistan,2019-11-01,71,0,-1,85,5,160
+Pakistan,2019-12-01,75,0,-5,47,12,129
+Pakistan,2020-01-01,187,0,1,126,22,336
+Pakistan,2020-02-01,164,0,2,51,22,239
+Pakistan,2020-03-01,135,0,-3,128,41,301
+Pakistan,2020-04-01,2463,58,20,762,352,3655
+Pakistan,2020-05-01,9308,94,-5,2713,1346,13456
+Pakistan,2020-06-01,9993,84,-68,3644,1661,15314
+Pakistan,2020-07-01,10220,100,-193,3504,1717,15348
+Pakistan,2020-08-01,8829,72,-94,3131,1775,13713
+Pakistan,2020-09-01,9356,96,-188,3771,2158,15193
+Pakistan,2020-10-01,6530,48,-127,2903,1644,10998
+Pakistan,2020-11-01,6146,36,-11,2355,1384,9910
+Pakistan,2020-12-01,8266,86,-332,3555,1971,13546
+Pakistan,2021-01-01,9170,76,-156,3861,2157,15108
+Pakistan,2021-02-01,7500,50,-163,2359,1424,11170
+Pakistan,2021-03-01,7241,82,-211,2643,1572,11327
+Pakistan,2021-04-01,6974,96,-49,3923,1686,12630
+Pakistan,2021-05-01,6884,82,-47,2523,1435,10877
+Pakistan,2021-06-01,8205,88,-88,3033,1812,13050
+Pakistan,2021-07-01,9172,88,-47,4028,1930,15171
+Pakistan,2021-08-01,9596,120,-66,2766,1939,14355
+Pakistan,2021-09-01,9887,121,-89,3239,1940,15098
+Pakistan,2021-10-01,8777,96,-156,2949,1609,13275
+Pakistan,2021-11-01,7611,88,-189,2532,1576,11618
+Pakistan,2021-12-01,8399,78,-85,2799,1739,12930
+Pakistan,2022-01-01,8554,62,-134,3529,1486,13497
+Pakistan,2022-02-01,7622,71,-42,2699,1628,11978
+Pakistan,2022-03-01,8829,87,-252,2362,2020,13046
+Pakistan,2022-04-01,9372,62,-368,3116,2338,14520
+Pakistan,2022-05-01,9203,88,-98,3607,2010,14810
+Pakistan,2022-06-01,7282,102,-133,2610,1416,11277
+Pakistan,2022-07-01,6246,88,-133,2707,1230,10138
+Pakistan,2022-08-01,8230,362,-99,3842,1718,14053
+Pakistan,2022-09-01,7278,458,42,2466,1219,11463
+Pakistan,2022-10-01,8336,166,-74,3093,1570,13091
+Pakistan,2022-11-01,7905,108,-68,2632,1524,12101
+Pakistan,2022-12-01,9699,132,-220,3218,1937,14766
+Pakistan,2023-01-01,8704,132,-127,3176,2079,13964
+Pakistan,2023-02-01,8070,116,-142,3038,1941,13023
+Pakistan,2023-03-01,8621,124,-55,4527,2157,15374
+Pakistan,2023-04-01,10348,115,-309,3587,1793,15534
+Pakistan,2023-05-01,12027,90,-147,5767,3381,21118
+Pakistan,2023-06-01,8461,78,-156,3375,1408,13166
+Pakistan,2023-07-01,8915,84,-116,3461,2102,14446
+Pakistan,2023-08-01,10375,88,-283,5355,2538,18073
+Pakistan,2023-09-01,10129,142,-110,4349,1895,16405
+Pakistan,2023-10-01,9425,78,-21,3848,1648,14978
+Pakistan,2023-11-01,9304,80,-32,4005,1549,14906
+Pakistan,2023-12-01,9070,90,-67,4257,2025,15375
+Pakistan,2024-01-01,11738,54,-22,3845,1784,17399
+Pakistan,2024-02-01,8341,80,-117,3763,1878,13945
+Pakistan,2024-03-01,9793,70,-49,3475,2192,15481
+Pakistan,2024-04-01,9053,118,-41,3174,1789,14093
+Pakistan,2024-05-01,6064,72,-45,1946,1355,9392
+Palestine,2010-09-01,3,0,0,0,0,3
+Palestine,2010-10-01,0,0,0,0,0,0
+Palestine,2010-11-01,0,0,0,0,2,2
+Palestine,2010-12-01,0,0,0,0,0,0
+Palestine,2011-01-01,0,0,0,0,0,0
+Palestine,2011-02-01,0,0,0,0,0,0
+Palestine,2011-03-01,0,0,0,0,0,0
+Palestine,2011-04-01,12,0,0,0,0,12
+Palestine,2011-05-01,0,0,0,0,1,1
+Palestine,2011-06-01,0,0,0,0,0,0
+Palestine,2011-07-01,0,0,0,0,0,0
+Palestine,2011-08-01,0,0,0,0,0,0
+Palestine,2011-09-01,3,0,0,0,0,3
+Palestine,2011-10-01,0,0,0,0,0,0
+Palestine,2011-11-01,0,0,0,0,0,0
+Palestine,2011-12-01,0,0,0,0,0,0
+Palestine,2012-01-01,0,0,0,0,0,0
+Palestine,2012-02-01,15,0,0,0,0,15
+Palestine,2012-03-01,6,0,0,0,0,6
+Palestine,2012-04-01,0,0,0,0,0,0
+Palestine,2012-05-01,3,0,0,0,0,3
+Palestine,2012-06-01,0,0,0,0,0,0
+Palestine,2012-07-01,0,0,0,0,0,0
+Palestine,2012-08-01,0,0,0,0,0,0
+Palestine,2012-09-01,0,0,0,0,0,0
+Palestine,2012-10-01,0,0,0,0,0,0
+Palestine,2012-11-01,1,0,0,3,0,4
+Palestine,2012-12-01,0,0,0,0,0,0
+Palestine,2013-01-01,0,0,0,0,0,0
+Palestine,2013-02-01,0,0,0,0,0,0
+Palestine,2013-03-01,0,0,0,0,0,0
+Palestine,2013-04-01,0,0,0,0,0,0
+Palestine,2013-05-01,0,0,0,0,0,0
+Palestine,2013-06-01,0,0,0,0,0,0
+Palestine,2013-07-01,0,0,0,0,0,0
+Palestine,2013-08-01,0,0,0,0,0,0
+Palestine,2013-09-01,0,0,0,0,0,0
+Palestine,2013-10-01,6,0,0,0,0,6
+Palestine,2013-11-01,0,0,0,0,0,0
+Palestine,2013-12-01,0,0,0,0,0,0
+Palestine,2014-01-01,0,0,0,0,0,0
+Palestine,2014-02-01,3,0,0,0,0,3
+Palestine,2014-03-01,0,0,0,0,0,0
+Palestine,2014-04-01,24,0,0,0,0,24
+Palestine,2014-05-01,0,0,0,3,0,3
+Palestine,2014-06-01,0,0,0,0,0,0
+Palestine,2014-07-01,0,0,0,0,0,0
+Palestine,2014-08-01,0,0,0,0,0,0
+Palestine,2014-09-01,0,0,0,0,0,0
+Palestine,2014-10-01,0,0,0,0,0,0
+Palestine,2014-11-01,0,0,0,0,0,0
+Palestine,2014-12-01,0,0,0,0,0,0
+Palestine,2015-01-01,0,0,0,0,0,0
+Palestine,2015-02-01,0,0,0,0,0,0
+Palestine,2015-03-01,0,0,0,0,0,0
+Palestine,2015-04-01,0,0,0,0,0,0
+Palestine,2015-05-01,0,0,0,0,0,0
+Palestine,2015-06-01,0,0,0,0,0,0
+Palestine,2015-07-01,0,0,0,0,0,0
+Palestine,2015-08-01,0,0,0,0,0,0
+Palestine,2015-09-01,0,0,0,0,0,0
+Palestine,2015-10-01,0,0,0,0,0,0
+Palestine,2015-11-01,0,0,0,0,0,0
+Palestine,2015-12-01,0,0,0,0,0,0
+Palestine,2016-01-01,0,0,0,0,0,0
+Palestine,2016-02-01,0,0,0,0,0,0
+Palestine,2016-03-01,0,0,0,0,0,0
+Palestine,2016-04-01,0,0,0,0,0,0
+Palestine,2016-05-01,0,0,0,0,0,0
+Palestine,2016-06-01,0,0,0,0,0,0
+Palestine,2016-07-01,0,0,0,0,0,0
+Palestine,2016-08-01,0,0,0,0,0,0
+Palestine,2016-09-01,0,0,0,0,0,0
+Palestine,2016-10-01,0,0,0,0,0,0
+Palestine,2016-11-01,0,0,0,0,0,0
+Palestine,2016-12-01,0,0,0,0,0,0
+Palestine,2017-01-01,0,0,0,0,0,0
+Palestine,2017-02-01,0,0,0,0,0,0
+Palestine,2017-03-01,0,0,0,0,0,0
+Palestine,2017-04-01,0,0,0,0,0,0
+Palestine,2017-05-01,0,0,0,0,0,0
+Palestine,2017-06-01,0,0,0,0,0,0
+Palestine,2017-07-01,0,0,0,0,0,0
+Palestine,2017-08-01,0,0,0,0,0,0
+Palestine,2017-09-01,0,0,0,0,0,0
+Palestine,2017-10-01,0,0,0,0,0,0
+Palestine,2017-11-01,0,0,0,0,0,0
+Palestine,2017-12-01,0,0,0,0,0,0
+Palestine,2018-01-01,0,0,0,0,0,0
+Palestine,2018-02-01,0,0,0,0,0,0
+Palestine,2018-03-01,0,0,0,0,0,0
+Palestine,2018-04-01,0,0,0,0,0,0
+Palestine,2018-05-01,0,0,0,0,0,0
+Palestine,2018-06-01,0,0,0,0,0,0
+Palestine,2018-07-01,0,0,0,0,0,0
+Palestine,2018-08-01,0,0,0,0,0,0
+Palestine,2018-09-01,0,0,0,0,0,0
+Palestine,2018-10-01,0,0,0,0,0,0
+Palestine,2018-11-01,0,0,0,0,0,0
+Palestine,2018-12-01,0,0,0,0,0,0
+Palestine,2019-01-01,0,0,0,0,0,0
+Palestine,2019-02-01,0,0,0,0,0,0
+Palestine,2019-03-01,0,0,0,0,0,0
+Palestine,2019-04-01,3,0,-2,3,0,4
+Palestine,2019-05-01,14,0,2,6,5,27
+Palestine,2019-06-01,3,0,0,0,4,7
+Palestine,2019-07-01,9,0,1,18,4,32
+Palestine,2019-08-01,10,0,0,3,2,15
+Palestine,2019-09-01,14,0,0,12,1,27
+Palestine,2019-10-01,3,0,0,0,0,3
+Palestine,2019-11-01,-1,0,0,1,0,0
+Palestine,2019-12-01,4,0,0,9,1,14
+Palestine,2020-01-01,11,0,0,6,3,20
+Palestine,2020-02-01,11,0,0,27,2,40
+Palestine,2020-03-01,16,0,0,12,1,29
+Palestine,2020-04-01,658,6,-4,229,70,959
+Palestine,2020-05-01,2460,18,13,894,429,3814
+Palestine,2020-06-01,2506,22,17,627,523,3695
+Palestine,2020-07-01,1803,12,-4,674,438,2923
+Palestine,2020-08-01,2445,8,-5,566,344,3358
+Palestine,2020-09-01,1328,13,-15,586,287,2199
+Palestine,2020-10-01,920,0,7,441,270,1638
+Palestine,2020-11-01,1025,6,-10,361,216,1598
+Palestine,2020-12-01,1457,10,-19,650,310,2408
+Palestine,2021-01-01,1796,16,3,659,291,2765
+Palestine,2021-02-01,1352,19,10,465,249,2095
+Palestine,2021-03-01,1308,8,5,465,210,1996
+Palestine,2021-04-01,1726,4,1,516,236,2483
+Palestine,2021-05-01,10349,58,10,1568,1721,13706
+Palestine,2021-06-01,3111,14,-15,894,596,4600
+Palestine,2021-07-01,2206,18,9,725,569,3527
+Palestine,2021-08-01,2274,6,0,441,385,3106
+Palestine,2021-09-01,2741,10,1,1075,385,4212
+Palestine,2021-10-01,1312,22,-1,482,265,2080
+Palestine,2021-11-01,1661,14,6,580,374,2635
+Palestine,2021-12-01,3095,8,7,749,591,4450
+Palestine,2022-01-01,1971,18,-1,484,425,2897
+Palestine,2022-02-01,1692,8,0,498,287,2485
+Palestine,2022-03-01,1873,4,1,541,293,2712
+Palestine,2022-04-01,5053,6,-6,1251,617,6921
+Palestine,2022-05-01,6238,30,31,1082,554,7935
+Palestine,2022-06-01,3066,4,-5,521,326,3912
+Palestine,2022-07-01,3141,8,13,563,278,4003
+Palestine,2022-08-01,4918,2,12,1333,500,6765
+Palestine,2022-09-01,3503,0,5,864,333,4705
+Palestine,2022-10-01,4544,2,-2,915,501,5960
+Palestine,2022-11-01,3364,8,8,702,343,4425
+Palestine,2022-12-01,2973,14,-9,700,256,3934
+Palestine,2023-01-01,5903,22,-11,927,596,7437
+Palestine,2023-02-01,5151,14,-30,774,708,6617
+Palestine,2023-03-01,4456,4,10,934,755,6159
+Palestine,2023-04-01,6022,4,-3,1117,660,7800
+Palestine,2023-05-01,6397,4,-3,1223,961,8582
+Palestine,2023-06-01,6056,22,20,1036,1040,8174
+Palestine,2023-07-01,6333,26,7,1224,1304,8894
+Palestine,2023-08-01,4984,6,8,951,704,6653
+Palestine,2023-09-01,3248,10,-3,884,476,4615
+Palestine,2023-10-01,22378,141,118,3758,3710,30105
+Palestine,2023-11-01,18084,112,24,2524,2784,23528
+Palestine,2023-12-01,15922,58,93,2921,2380,21374
+Palestine,2024-01-01,13410,34,23,1930,1994,17391
+Palestine,2024-02-01,11984,44,-69,1953,1894,15806
+Palestine,2024-03-01,10470,52,19,1564,1573,13678
+Palestine,2024-04-01,9475,90,26,1617,1704,12912
+Palestine,2024-05-01,8376,20,31,1331,1469,11227
+Sierra Leone,2010-10-01,0,0,0,0,0,0
+Sierra Leone,2010-11-01,0,0,0,0,0,0
+Sierra Leone,2010-12-01,0,0,0,0,0,0
+Sierra Leone,2011-01-01,0,0,0,0,0,0
+Sierra Leone,2011-02-01,0,0,0,0,0,0
+Sierra Leone,2011-03-01,0,0,0,0,0,0
+Sierra Leone,2011-04-01,0,0,0,0,0,0
+Sierra Leone,2011-05-01,0,0,0,0,0,0
+Sierra Leone,2011-06-01,0,0,0,0,0,0
+Sierra Leone,2011-07-01,0,0,0,0,0,0
+Sierra Leone,2011-08-01,0,0,0,0,0,0
+Sierra Leone,2011-09-01,0,0,0,0,0,0
+Sierra Leone,2011-10-01,0,0,0,0,0,0
+Sierra Leone,2011-11-01,0,0,0,0,0,0
+Sierra Leone,2011-12-01,0,0,0,0,0,0
+Sierra Leone,2012-01-01,0,0,0,0,0,0
+Sierra Leone,2012-02-01,0,0,0,0,0,0
+Sierra Leone,2012-03-01,0,0,0,0,0,0
+Sierra Leone,2012-04-01,0,0,0,0,0,0
+Sierra Leone,2012-05-01,0,0,0,0,0,0
+Sierra Leone,2012-06-01,0,0,0,0,0,0
+Sierra Leone,2012-07-01,0,0,0,0,0,0
+Sierra Leone,2012-08-01,0,0,0,0,0,0
+Sierra Leone,2012-09-01,0,0,0,0,0,0
+Sierra Leone,2012-10-01,0,0,0,0,0,0
+Sierra Leone,2012-11-01,0,0,0,0,0,0
+Sierra Leone,2012-12-01,0,0,0,0,0,0
+Sierra Leone,2013-01-01,0,0,0,0,0,0
+Sierra Leone,2013-02-01,0,0,0,0,0,0
+Sierra Leone,2013-03-01,0,0,0,0,0,0
+Sierra Leone,2013-04-01,0,0,0,0,0,0
+Sierra Leone,2013-05-01,0,0,0,0,0,0
+Sierra Leone,2013-06-01,0,0,0,-2,0,-2
+Sierra Leone,2013-07-01,0,0,0,-2,0,-2
+Sierra Leone,2013-08-01,0,0,0,0,0,0
+Sierra Leone,2013-09-01,0,0,0,0,0,0
+Sierra Leone,2013-10-01,0,0,0,0,0,0
+Sierra Leone,2013-11-01,0,0,0,0,0,0
+Sierra Leone,2013-12-01,0,0,0,0,0,0
+Sierra Leone,2014-01-01,0,0,0,0,0,0
+Sierra Leone,2014-02-01,0,0,0,0,0,0
+Sierra Leone,2014-03-01,0,0,0,0,0,0
+Sierra Leone,2014-04-01,0,0,0,0,0,0
+Sierra Leone,2014-05-01,0,0,0,0,0,0
+Sierra Leone,2014-06-01,0,0,0,0,0,0
+Sierra Leone,2014-07-01,0,0,0,0,0,0
+Sierra Leone,2014-08-01,0,0,0,0,0,0
+Sierra Leone,2014-09-01,0,0,0,0,0,0
+Sierra Leone,2014-10-01,0,0,0,0,0,0
+Sierra Leone,2014-11-01,0,0,0,0,0,0
+Sierra Leone,2014-12-01,0,0,0,0,0,0
+Sierra Leone,2015-01-01,0,0,0,0,0,0
+Sierra Leone,2015-02-01,0,0,0,0,0,0
+Sierra Leone,2015-03-01,0,0,0,0,0,0
+Sierra Leone,2015-04-01,0,0,0,0,0,0
+Sierra Leone,2015-05-01,0,0,0,0,0,0
+Sierra Leone,2015-06-01,0,0,0,0,0,0
+Sierra Leone,2015-07-01,0,0,0,0,0,0
+Sierra Leone,2015-08-01,0,0,0,0,0,0
+Sierra Leone,2015-09-01,0,0,0,0,0,0
+Sierra Leone,2015-10-01,0,0,0,0,0,0
+Sierra Leone,2015-11-01,0,0,0,0,0,0
+Sierra Leone,2015-12-01,0,0,0,0,0,0
+Sierra Leone,2016-01-01,0,0,0,0,0,0
+Sierra Leone,2016-02-01,0,0,0,0,0,0
+Sierra Leone,2016-03-01,0,0,0,0,0,0
+Sierra Leone,2016-04-01,0,0,0,0,0,0
+Sierra Leone,2016-05-01,0,0,0,0,0,0
+Sierra Leone,2016-06-01,0,0,0,0,0,0
+Sierra Leone,2016-07-01,0,0,0,0,0,0
+Sierra Leone,2016-08-01,0,0,0,0,0,0
+Sierra Leone,2016-09-01,0,0,0,0,0,0
+Sierra Leone,2016-10-01,0,0,0,0,0,0
+Sierra Leone,2016-11-01,0,0,0,0,0,0
+Sierra Leone,2016-12-01,0,0,0,0,0,0
+Sierra Leone,2017-01-01,0,0,0,0,0,0
+Sierra Leone,2017-02-01,0,0,0,0,0,0
+Sierra Leone,2017-03-01,0,0,0,0,0,0
+Sierra Leone,2017-04-01,0,0,0,0,0,0
+Sierra Leone,2017-05-01,0,0,0,0,0,0
+Sierra Leone,2017-06-01,0,0,0,0,0,0
+Sierra Leone,2017-07-01,0,0,0,0,0,0
+Sierra Leone,2017-08-01,0,0,0,0,0,0
+Sierra Leone,2017-09-01,0,0,0,0,0,0
+Sierra Leone,2017-10-01,0,0,0,0,0,0
+Sierra Leone,2017-11-01,0,0,0,0,0,0
+Sierra Leone,2017-12-01,0,0,0,0,0,0
+Sierra Leone,2018-01-01,0,0,0,0,0,0
+Sierra Leone,2018-02-01,0,0,0,0,0,0
+Sierra Leone,2018-03-01,0,0,0,0,0,0
+Sierra Leone,2018-04-01,0,0,0,0,0,0
+Sierra Leone,2018-05-01,0,0,0,0,0,0
+Sierra Leone,2018-06-01,0,0,0,0,0,0
+Sierra Leone,2018-07-01,0,0,0,0,0,0
+Sierra Leone,2018-08-01,0,0,0,0,0,0
+Sierra Leone,2018-09-01,0,0,0,0,0,0
+Sierra Leone,2018-10-01,0,0,0,0,0,0
+Sierra Leone,2018-11-01,0,0,0,0,0,0
+Sierra Leone,2018-12-01,0,0,0,0,0,0
+Sierra Leone,2019-01-01,0,0,0,0,0,0
+Sierra Leone,2019-02-01,0,0,0,0,0,0
+Sierra Leone,2019-03-01,0,0,0,0,0,0
+Sierra Leone,2019-04-01,0,0,0,0,0,0
+Sierra Leone,2019-05-01,0,0,0,0,0,0
+Sierra Leone,2019-06-01,0,0,0,3,0,3
+Sierra Leone,2019-07-01,1,0,0,0,0,1
+Sierra Leone,2019-08-01,0,0,0,0,0,0
+Sierra Leone,2019-09-01,0,0,0,0,1,1
+Sierra Leone,2019-10-01,0,0,0,0,0,0
+Sierra Leone,2019-11-01,5,0,0,0,0,5
+Sierra Leone,2019-12-01,2,0,0,0,0,2
+Sierra Leone,2020-01-01,0,0,0,0,0,0
+Sierra Leone,2020-02-01,0,0,0,15,0,15
+Sierra Leone,2020-03-01,0,0,0,12,0,12
+Sierra Leone,2020-04-01,108,2,2,54,25,191
+Sierra Leone,2020-05-01,321,2,7,142,49,521
+Sierra Leone,2020-06-01,212,4,-4,91,55,358
+Sierra Leone,2020-07-01,277,4,3,105,84,473
+Sierra Leone,2020-08-01,306,8,-2,97,54,463
+Sierra Leone,2020-09-01,206,2,2,94,31,335
+Sierra Leone,2020-10-01,156,0,0,53,17,226
+Sierra Leone,2020-11-01,127,2,3,28,14,174
+Sierra Leone,2020-12-01,109,6,0,104,29,248
+Sierra Leone,2021-01-01,151,2,-2,65,12,228
+Sierra Leone,2021-02-01,217,14,7,147,63,448
+Sierra Leone,2021-03-01,230,8,-2,73,40,349
+Sierra Leone,2021-04-01,147,0,4,65,42,258
+Sierra Leone,2021-05-01,149,4,0,81,32,266
+Sierra Leone,2021-06-01,166,2,-1,111,28,306
+Sierra Leone,2021-07-01,144,2,-4,132,20,294
+Sierra Leone,2021-08-01,95,0,-2,79,21,193
+Sierra Leone,2021-09-01,141,4,-2,108,21,272
+Sierra Leone,2021-10-01,140,10,-5,78,22,245
+Sierra Leone,2021-11-01,289,6,2,32,89,418
+Sierra Leone,2021-12-01,61,2,-2,52,11,124
+Sierra Leone,2022-01-01,50,2,0,58,13,123
+Sierra Leone,2022-02-01,99,0,4,35,10,148
+Sierra Leone,2022-03-01,116,4,5,87,48,260
+Sierra Leone,2022-04-01,76,4,1,76,11,168
+Sierra Leone,2022-05-01,134,2,1,54,24,215
+Sierra Leone,2022-06-01,93,8,-1,41,14,155
+Sierra Leone,2022-07-01,79,2,1,29,21,132
+Sierra Leone,2022-08-01,315,6,-4,153,126,596
+Sierra Leone,2022-09-01,61,0,-2,39,13,111
+Sierra Leone,2022-10-01,112,0,-2,21,23,154
+Sierra Leone,2022-11-01,63,2,2,70,9,146
+Sierra Leone,2022-12-01,84,4,0,24,23,135
+Sierra Leone,2023-01-01,71,0,7,47,15,140
+Sierra Leone,2023-02-01,103,2,2,28,14,149
+Sierra Leone,2023-03-01,407,14,-4,273,91,781
+Sierra Leone,2023-04-01,666,20,-9,237,99,1013
+Sierra Leone,2023-05-01,348,10,-3,158,69,582
+Sierra Leone,2023-06-01,606,10,1,171,112,900
+Sierra Leone,2023-07-01,287,10,4,113,68,482
+Sierra Leone,2023-08-01,447,16,-5,145,62,665
+Sierra Leone,2023-09-01,285,14,-8,129,58,478
+Sierra Leone,2023-10-01,392,12,-3,157,58,616
+Sierra Leone,2023-11-01,689,12,17,366,93,1177
+Sierra Leone,2023-12-01,439,4,0,205,69,717
+Sierra Leone,2024-01-01,442,2,-12,162,63,657
+Sierra Leone,2024-02-01,326,4,-5,114,63,502
+Sierra Leone,2024-03-01,370,8,0,133,66,577
+Sierra Leone,2024-04-01,241,2,-23,89,32,341
+Sierra Leone,2024-05-01,164,6,3,52,26,251
+Somalia,2010-07-01,0,0,0,0,0,0
+Somalia,2010-08-01,15,0,0,0,0,15
+Somalia,2010-09-01,6,0,0,0,0,6
+Somalia,2010-10-01,3,0,0,0,0,3
+Somalia,2010-11-01,0,0,0,0,0,0
+Somalia,2010-12-01,0,0,0,0,0,0
+Somalia,2011-01-01,3,0,0,0,0,3
+Somalia,2011-02-01,0,0,0,0,0,0
+Somalia,2011-03-01,-1,0,0,0,0,-1
+Somalia,2011-04-01,5,0,0,0,0,5
+Somalia,2011-05-01,4,0,0,0,0,4
+Somalia,2011-06-01,0,0,0,0,0,0
+Somalia,2011-07-01,0,0,0,0,0,0
+Somalia,2011-08-01,0,0,0,0,0,0
+Somalia,2011-09-01,0,0,0,0,0,0
+Somalia,2011-10-01,3,0,0,0,0,3
+Somalia,2011-11-01,3,0,0,0,0,3
+Somalia,2011-12-01,0,0,0,0,0,0
+Somalia,2012-01-01,6,0,0,0,0,6
+Somalia,2012-02-01,0,0,0,0,0,0
+Somalia,2012-03-01,0,0,0,0,0,0
+Somalia,2012-04-01,0,0,0,-6,0,-6
+Somalia,2012-05-01,10,0,0,0,0,10
+Somalia,2012-06-01,0,0,0,0,0,0
+Somalia,2012-07-01,0,0,0,0,0,0
+Somalia,2012-08-01,3,0,0,0,0,3
+Somalia,2012-09-01,0,0,0,0,0,0
+Somalia,2012-10-01,6,0,0,0,0,6
+Somalia,2012-11-01,9,0,0,0,0,9
+Somalia,2012-12-01,0,0,0,0,0,0
+Somalia,2013-01-01,3,0,0,0,0,3
+Somalia,2013-02-01,0,0,0,0,0,0
+Somalia,2013-03-01,0,0,0,0,0,0
+Somalia,2013-04-01,2,0,0,0,0,2
+Somalia,2013-05-01,3,0,0,0,0,3
+Somalia,2013-06-01,0,0,0,0,0,0
+Somalia,2013-07-01,0,0,0,0,0,0
+Somalia,2013-08-01,0,0,0,0,0,0
+Somalia,2013-09-01,0,0,0,0,0,0
+Somalia,2013-10-01,3,0,0,0,0,3
+Somalia,2013-11-01,3,0,0,0,2,5
+Somalia,2013-12-01,24,0,0,0,0,24
+Somalia,2014-01-01,0,0,0,0,0,0
+Somalia,2014-02-01,0,0,0,0,0,0
+Somalia,2014-03-01,0,0,0,0,0,0
+Somalia,2014-04-01,6,0,0,0,0,6
+Somalia,2014-05-01,0,0,0,0,0,0
+Somalia,2014-06-01,0,0,0,0,0,0
+Somalia,2014-07-01,0,0,0,0,0,0
+Somalia,2014-08-01,0,0,0,0,0,0
+Somalia,2014-09-01,0,0,0,0,0,0
+Somalia,2014-10-01,0,0,0,0,0,0
+Somalia,2014-11-01,0,0,0,0,0,0
+Somalia,2014-12-01,0,0,0,0,0,0
+Somalia,2015-01-01,0,0,0,0,0,0
+Somalia,2015-02-01,0,0,0,0,0,0
+Somalia,2015-03-01,0,0,0,0,0,0
+Somalia,2015-04-01,0,0,0,0,0,0
+Somalia,2015-05-01,0,0,0,0,0,0
+Somalia,2015-06-01,0,0,0,0,0,0
+Somalia,2015-07-01,0,0,0,0,0,0
+Somalia,2015-08-01,0,0,0,0,0,0
+Somalia,2015-09-01,0,0,0,0,0,0
+Somalia,2015-10-01,0,0,0,0,0,0
+Somalia,2015-11-01,0,0,0,0,0,0
+Somalia,2015-12-01,0,0,0,0,0,0
+Somalia,2016-01-01,0,0,0,0,0,0
+Somalia,2016-02-01,0,0,0,0,0,0
+Somalia,2016-03-01,0,0,0,0,0,0
+Somalia,2016-04-01,0,0,0,0,0,0
+Somalia,2016-05-01,0,0,0,0,0,0
+Somalia,2016-06-01,0,0,0,0,0,0
+Somalia,2016-07-01,0,0,0,0,0,0
+Somalia,2016-08-01,0,0,0,0,0,0
+Somalia,2016-09-01,0,0,0,0,0,0
+Somalia,2016-10-01,0,0,0,0,0,0
+Somalia,2016-11-01,0,0,0,0,0,0
+Somalia,2016-12-01,0,0,0,0,0,0
+Somalia,2017-01-01,0,0,0,0,0,0
+Somalia,2017-02-01,0,0,0,0,0,0
+Somalia,2017-03-01,0,0,0,0,0,0
+Somalia,2017-04-01,0,0,0,0,0,0
+Somalia,2017-05-01,0,0,0,0,0,0
+Somalia,2017-06-01,0,0,0,0,0,0
+Somalia,2017-07-01,0,0,0,0,0,0
+Somalia,2017-08-01,0,0,0,0,0,0
+Somalia,2017-09-01,0,0,0,0,0,0
+Somalia,2017-10-01,0,0,0,0,0,0
+Somalia,2017-11-01,0,0,0,0,0,0
+Somalia,2017-12-01,0,0,0,0,0,0
+Somalia,2018-01-01,0,0,0,0,0,0
+Somalia,2018-02-01,0,0,0,0,0,0
+Somalia,2018-03-01,0,0,0,0,0,0
+Somalia,2018-04-01,0,0,0,0,0,0
+Somalia,2018-05-01,0,0,0,0,0,0
+Somalia,2018-06-01,0,0,0,0,0,0
+Somalia,2018-07-01,0,0,0,0,0,0
+Somalia,2018-08-01,0,0,0,0,0,0
+Somalia,2018-09-01,0,0,0,0,0,0
+Somalia,2018-10-01,0,0,0,0,0,0
+Somalia,2018-11-01,0,0,0,0,0,0
+Somalia,2018-12-01,0,0,0,0,0,0
+Somalia,2019-01-01,0,0,0,0,0,0
+Somalia,2019-02-01,0,0,0,0,0,0
+Somalia,2019-03-01,0,0,0,0,0,0
+Somalia,2019-04-01,42,0,0,3,2,47
+Somalia,2019-05-01,42,0,0,12,0,54
+Somalia,2019-06-01,25,0,-1,-3,6,27
+Somalia,2019-07-01,22,0,0,1,3,26
+Somalia,2019-08-01,10,0,0,-6,0,4
+Somalia,2019-09-01,-3,0,0,6,0,3
+Somalia,2019-10-01,5,0,0,5,0,10
+Somalia,2019-11-01,1,0,0,6,2,9
+Somalia,2019-12-01,-27,0,0,-1,0,-28
+Somalia,2020-01-01,20,0,0,0,0,20
+Somalia,2020-02-01,8,2,0,6,0,16
+Somalia,2020-03-01,12,0,0,3,0,15
+Somalia,2020-04-01,625,6,-3,131,102,861
+Somalia,2020-05-01,1834,36,-13,422,273,2552
+Somalia,2020-06-01,1376,20,-23,336,261,1970
+Somalia,2020-07-01,1339,22,-27,326,190,1850
+Somalia,2020-08-01,1816,6,3,263,278,2366
+Somalia,2020-09-01,1446,10,3,290,246,1995
+Somalia,2020-10-01,1049,12,2,285,167,1515
+Somalia,2020-11-01,858,8,-6,227,150,1237
+Somalia,2020-12-01,1002,16,5,381,209,1613
+Somalia,2021-01-01,1285,2,6,301,181,1775
+Somalia,2021-02-01,1583,12,-41,294,285,2133
+Somalia,2021-03-01,1027,16,-17,177,146,1349
+Somalia,2021-04-01,1715,8,0,270,224,2217
+Somalia,2021-05-01,1000,16,-35,188,141,1310
+Somalia,2021-06-01,1016,6,-9,111,181,1305
+Somalia,2021-07-01,1099,12,4,211,171,1497
+Somalia,2021-08-01,848,6,-14,155,79,1074
+Somalia,2021-09-01,1373,8,-3,290,242,1910
+Somalia,2021-10-01,1695,23,-21,514,170,2381
+Somalia,2021-11-01,1307,8,2,424,213,1954
+Somalia,2021-12-01,1021,22,11,155,81,1290
+Somalia,2022-01-01,1035,2,-11,194,204,1424
+Somalia,2022-02-01,1042,56,-28,179,197,1446
+Somalia,2022-03-01,1236,26,-1,207,118,1586
+Somalia,2022-04-01,1080,20,1,201,132,1434
+Somalia,2022-05-01,1406,26,-5,332,142,1901
+Somalia,2022-06-01,762,66,-8,208,54,1082
+Somalia,2022-07-01,1146,46,-14,156,167,1501
+Somalia,2022-08-01,1669,28,-1,224,167,2087
+Somalia,2022-09-01,1161,22,1,122,138,1444
+Somalia,2022-10-01,1597,15,-2,250,324,2184
+Somalia,2022-11-01,1362,33,-4,228,229,1848
+Somalia,2022-12-01,918,18,2,186,72,1196
+Somalia,2023-01-01,1957,32,-21,210,304,2482
+Somalia,2023-02-01,1258,32,-2,146,122,1556
+Somalia,2023-03-01,1149,12,-11,193,130,1473
+Somalia,2023-04-01,1133,32,-3,254,118,1534
+Somalia,2023-05-01,1697,54,-1,326,159,2235
+Somalia,2023-06-01,1981,20,-5,91,196,2283
+Somalia,2023-07-01,1307,15,-7,145,189,1649
+Somalia,2023-08-01,981,16,-8,240,147,1376
+Somalia,2023-09-01,1445,16,2,94,251,1808
+Somalia,2023-10-01,1090,9,-13,193,182,1461
+Somalia,2023-11-01,1028,11,2,138,84,1263
+Somalia,2023-12-01,1029,14,-10,198,123,1354
+Somalia,2024-01-01,1980,20,-87,324,246,2483
+Somalia,2024-02-01,1545,14,20,372,190,2141
+Somalia,2024-03-01,1716,18,-29,548,161,2414
+Somalia,2024-04-01,1097,4,-15,354,114,1554
+Somalia,2024-05-01,593,20,3,92,68,776
+Syria,2010-04-01,4,0,0,0,0,4
+Syria,2010-05-01,4,0,0,0,0,4
+Syria,2010-06-01,0,0,0,0,1,1
+Syria,2010-07-01,0,0,0,0,0,0
+Syria,2010-08-01,5,0,0,0,4,9
+Syria,2010-09-01,2,0,0,0,0,2
+Syria,2010-10-01,2,0,0,0,0,2
+Syria,2010-11-01,0,0,0,15,0,15
+Syria,2010-12-01,2,0,0,0,0,2
+Syria,2011-01-01,7,0,0,1,0,8
+Syria,2011-02-01,17,0,0,0,0,17
+Syria,2011-03-01,13,0,0,-2,2,13
+Syria,2011-04-01,17,0,0,0,0,17
+Syria,2011-05-01,11,0,2,0,0,13
+Syria,2011-06-01,8,0,0,0,1,9
+Syria,2011-07-01,0,0,0,0,2,2
+Syria,2011-08-01,2,0,0,0,4,6
+Syria,2011-09-01,1,0,0,0,0,1
+Syria,2011-10-01,0,0,0,0,0,0
+Syria,2011-11-01,4,0,0,0,1,5
+Syria,2011-12-01,5,0,0,0,0,5
+Syria,2012-01-01,0,0,0,0,0,0
+Syria,2012-02-01,27,0,0,0,0,27
+Syria,2012-03-01,9,0,0,-2,0,7
+Syria,2012-04-01,3,0,0,0,0,3
+Syria,2012-05-01,3,0,0,0,0,3
+Syria,2012-06-01,0,0,0,0,0,0
+Syria,2012-07-01,6,0,0,0,0,6
+Syria,2012-08-01,18,0,0,0,0,18
+Syria,2012-09-01,2,0,0,0,0,2
+Syria,2012-10-01,0,0,0,0,19,19
+Syria,2012-11-01,9,0,0,0,2,11
+Syria,2012-12-01,3,0,0,9,0,12
+Syria,2013-01-01,0,0,0,0,0,0
+Syria,2013-02-01,2,0,0,15,0,17
+Syria,2013-03-01,3,0,0,0,0,3
+Syria,2013-04-01,3,0,0,-2,0,1
+Syria,2013-05-01,8,0,0,6,0,14
+Syria,2013-06-01,5,0,0,3,0,8
+Syria,2013-07-01,2,0,0,0,0,2
+Syria,2013-08-01,0,0,0,0,0,0
+Syria,2013-09-01,0,0,0,0,0,0
+Syria,2013-10-01,10,0,0,0,0,10
+Syria,2013-11-01,6,0,0,0,0,6
+Syria,2013-12-01,6,0,0,3,0,9
+Syria,2014-01-01,3,0,0,0,0,3
+Syria,2014-02-01,6,0,0,0,0,6
+Syria,2014-03-01,8,0,0,0,0,8
+Syria,2014-04-01,8,0,0,0,0,8
+Syria,2014-05-01,3,0,0,0,0,3
+Syria,2014-06-01,0,0,0,0,0,0
+Syria,2014-07-01,0,0,0,0,0,0
+Syria,2014-08-01,0,0,0,0,0,0
+Syria,2014-09-01,0,0,0,0,0,0
+Syria,2014-10-01,0,0,0,0,0,0
+Syria,2014-11-01,0,0,0,0,0,0
+Syria,2014-12-01,0,0,0,0,0,0
+Syria,2015-01-01,0,0,0,0,0,0
+Syria,2015-02-01,0,0,0,0,0,0
+Syria,2015-03-01,0,0,0,0,0,0
+Syria,2015-04-01,0,0,0,0,0,0
+Syria,2015-05-01,0,0,0,0,0,0
+Syria,2015-06-01,0,0,0,0,0,0
+Syria,2015-07-01,0,0,0,0,0,0
+Syria,2015-08-01,0,0,0,0,0,0
+Syria,2015-09-01,0,0,0,0,0,0
+Syria,2015-10-01,0,0,0,0,0,0
+Syria,2015-11-01,0,0,0,0,0,0
+Syria,2015-12-01,0,0,0,0,0,0
+Syria,2016-01-01,0,0,0,0,0,0
+Syria,2016-02-01,0,0,0,0,0,0
+Syria,2016-03-01,0,0,0,0,0,0
+Syria,2016-04-01,0,0,0,0,0,0
+Syria,2016-05-01,0,0,0,0,0,0
+Syria,2016-06-01,0,0,0,0,0,0
+Syria,2016-07-01,0,0,0,0,0,0
+Syria,2016-08-01,0,0,0,0,0,0
+Syria,2016-09-01,0,0,0,0,0,0
+Syria,2016-10-01,0,0,0,0,0,0
+Syria,2016-11-01,0,0,0,0,0,0
+Syria,2016-12-01,0,0,0,0,0,0
+Syria,2017-01-01,0,0,0,0,0,0
+Syria,2017-02-01,0,0,0,0,0,0
+Syria,2017-03-01,0,0,0,0,0,0
+Syria,2017-04-01,0,0,0,0,0,0
+Syria,2017-05-01,0,0,0,0,0,0
+Syria,2017-06-01,0,0,0,0,0,0
+Syria,2017-07-01,0,0,0,0,0,0
+Syria,2017-08-01,0,0,0,0,0,0
+Syria,2017-09-01,0,0,0,0,0,0
+Syria,2017-10-01,0,0,0,0,0,0
+Syria,2017-11-01,0,0,0,0,0,0
+Syria,2017-12-01,0,0,0,0,0,0
+Syria,2018-01-01,0,0,0,0,0,0
+Syria,2018-02-01,0,0,0,0,0,0
+Syria,2018-03-01,0,0,0,0,0,0
+Syria,2018-04-01,0,0,0,0,0,0
+Syria,2018-05-01,0,0,0,0,0,0
+Syria,2018-06-01,0,0,0,0,0,0
+Syria,2018-07-01,0,0,0,0,0,0
+Syria,2018-08-01,0,0,0,0,0,0
+Syria,2018-09-01,0,0,0,0,0,0
+Syria,2018-10-01,0,0,0,0,0,0
+Syria,2018-11-01,0,0,0,0,0,0
+Syria,2018-12-01,0,0,0,0,0,0
+Syria,2019-01-01,0,0,0,0,0,0
+Syria,2019-02-01,0,0,0,0,0,0
+Syria,2019-03-01,0,0,0,0,0,0
+Syria,2019-04-01,8,0,0,13,2,23
+Syria,2019-05-01,116,0,1,15,8,140
+Syria,2019-06-01,61,0,0,33,3,97
+Syria,2019-07-01,99,2,0,24,4,129
+Syria,2019-08-01,29,0,-2,12,1,40
+Syria,2019-09-01,37,0,-4,58,7,98
+Syria,2019-10-01,25,0,0,14,5,44
+Syria,2019-11-01,7,0,0,14,5,26
+Syria,2019-12-01,28,0,0,12,5,45
+Syria,2020-01-01,31,0,0,13,15,59
+Syria,2020-02-01,73,0,1,42,0,116
+Syria,2020-03-01,71,2,0,21,18,112
+Syria,2020-04-01,2018,16,-9,706,224,2955
+Syria,2020-05-01,4950,46,-19,1433,482,6892
+Syria,2020-06-01,4476,47,-28,1639,645,6779
+Syria,2020-07-01,5804,64,17,1592,791,8268
+Syria,2020-08-01,5115,41,-15,1295,787,7223
+Syria,2020-09-01,4438,46,3,1290,571,6348
+Syria,2020-10-01,3544,28,4,1190,391,5157
+Syria,2020-11-01,3231,29,-25,929,395,4559
+Syria,2020-12-01,3504,52,-14,1111,521,5174
+Syria,2021-01-01,3958,41,2,941,596,5538
+Syria,2021-02-01,4788,47,12,1710,551,7108
+Syria,2021-03-01,5893,100,23,1524,821,8361
+Syria,2021-04-01,4450,30,2,960,535,5977
+Syria,2021-05-01,4165,40,5,1082,640,5932
+Syria,2021-06-01,4323,58,-12,1088,532,5989
+Syria,2021-07-01,4310,64,-16,1034,461,5853
+Syria,2021-08-01,3436,38,-8,643,368,4477
+Syria,2021-09-01,4212,61,-7,1071,500,5837
+Syria,2021-10-01,4667,44,24,1245,563,6543
+Syria,2021-11-01,3838,42,10,897,381,5168
+Syria,2021-12-01,4122,50,33,901,374,5480
+Syria,2022-01-01,4809,67,19,1829,543,7267
+Syria,2022-02-01,5121,38,5,1040,736,6940
+Syria,2022-03-01,5808,52,17,987,750,7614
+Syria,2022-04-01,4398,31,1,1508,549,6487
+Syria,2022-05-01,4167,38,8,809,434,5456
+Syria,2022-06-01,3687,50,10,927,306,4980
+Syria,2022-07-01,3655,48,-16,820,380,4887
+Syria,2022-08-01,4399,18,-14,1031,446,5880
+Syria,2022-09-01,2837,40,10,795,276,3958
+Syria,2022-10-01,3123,46,0,801,375,4345
+Syria,2022-11-01,4599,19,10,934,442,6004
+Syria,2022-12-01,3440,10,-5,789,371,4605
+Syria,2023-01-01,3053,24,8,936,371,4392
+Syria,2023-02-01,5024,445,21,993,854,7337
+Syria,2023-03-01,5069,113,34,715,615,6546
+Syria,2023-04-01,6474,56,9,1119,649,8307
+Syria,2023-05-01,4787,48,-33,1165,452,6419
+Syria,2023-06-01,3861,93,14,1152,499,5619
+Syria,2023-07-01,4145,95,23,892,482,5637
+Syria,2023-08-01,4384,16,9,817,600,5826
+Syria,2023-09-01,3662,52,16,875,405,5010
+Syria,2023-10-01,10378,28,6,1111,1011,12534
+Syria,2023-11-01,6033,12,14,1009,447,7515
+Syria,2023-12-01,6018,16,16,630,446,7126
+Syria,2024-01-01,8140,32,11,718,637,9538
+Syria,2024-02-01,5534,24,15,629,493,6695
+Syria,2024-03-01,4186,27,11,789,399,5412
+Syria,2024-04-01,9646,34,28,888,838,11434
+Syria,2024-05-01,1833,14,6,538,198,2589
+Türkiye,2010-05-01,0,0,0,0,0,0
+Türkiye,2010-06-01,0,0,0,3,0,3
+Türkiye,2010-07-01,0,0,0,0,0,0
+Türkiye,2010-08-01,3,0,0,0,0,3
+Türkiye,2010-09-01,-1,0,0,0,0,-1
+Türkiye,2010-10-01,0,0,0,3,0,3
+Türkiye,2010-11-01,3,0,0,0,0,3
+Türkiye,2010-12-01,0,0,0,0,0,0
+Türkiye,2011-01-01,3,0,0,-2,0,1
+Türkiye,2011-02-01,6,0,0,0,0,6
+Türkiye,2011-03-01,3,0,0,0,0,3
+Türkiye,2011-04-01,0,0,0,0,0,0
+Türkiye,2011-05-01,0,0,0,0,0,0
+Türkiye,2011-06-01,2,0,0,0,0,2
+Türkiye,2011-07-01,0,0,0,0,0,0
+Türkiye,2011-08-01,0,0,0,0,0,0
+Türkiye,2011-09-01,0,0,0,0,0,0
+Türkiye,2011-10-01,0,0,0,0,0,0
+Türkiye,2011-11-01,2,0,0,0,0,2
+Türkiye,2011-12-01,1,0,0,0,0,1
+Türkiye,2012-01-01,0,0,0,0,0,0
+Türkiye,2012-02-01,0,0,0,0,0,0
+Türkiye,2012-03-01,0,0,0,0,0,0
+Türkiye,2012-04-01,0,0,0,0,0,0
+Türkiye,2012-05-01,0,0,0,0,0,0
+Türkiye,2012-06-01,0,0,0,0,0,0
+Türkiye,2012-07-01,2,0,0,0,0,2
+Türkiye,2012-08-01,0,0,0,-2,0,-2
+Türkiye,2012-09-01,0,0,0,0,1,1
+Türkiye,2012-10-01,0,0,0,0,2,2
+Türkiye,2012-11-01,6,0,0,0,0,6
+Türkiye,2012-12-01,3,0,0,3,0,6
+Türkiye,2013-01-01,0,0,0,0,0,0
+Türkiye,2013-02-01,2,0,0,-2,0,0
+Türkiye,2013-03-01,6,0,0,0,0,6
+Türkiye,2013-04-01,2,0,0,0,0,2
+Türkiye,2013-05-01,0,0,0,0,0,0
+Türkiye,2013-06-01,2,0,0,-4,0,-2
+Türkiye,2013-07-01,0,0,0,0,0,0
+Türkiye,2013-08-01,0,0,0,0,0,0
+Türkiye,2013-09-01,0,0,0,0,0,0
+Türkiye,2013-10-01,30,0,0,0,0,30
+Türkiye,2013-11-01,6,0,0,0,0,6
+Türkiye,2013-12-01,0,0,0,0,0,0
+Türkiye,2014-01-01,6,0,0,0,0,6
+Türkiye,2014-02-01,0,0,0,0,0,0
+Türkiye,2014-03-01,0,0,0,0,0,0
+Türkiye,2014-04-01,2,0,0,0,0,2
+Türkiye,2014-05-01,0,0,0,0,0,0
+Türkiye,2014-06-01,0,0,0,0,0,0
+Türkiye,2014-07-01,0,0,0,0,0,0
+Türkiye,2014-08-01,0,0,0,0,0,0
+Türkiye,2014-09-01,0,0,0,0,0,0
+Türkiye,2014-10-01,0,0,0,0,0,0
+Türkiye,2014-11-01,0,0,0,0,0,0
+Türkiye,2014-12-01,0,0,0,0,0,0
+Türkiye,2015-01-01,0,0,0,0,0,0
+Türkiye,2015-02-01,0,0,0,0,0,0
+Türkiye,2015-03-01,0,0,0,0,0,0
+Türkiye,2015-04-01,0,0,0,0,0,0
+Türkiye,2015-05-01,0,0,0,0,0,0
+Türkiye,2015-06-01,0,0,0,0,0,0
+Türkiye,2015-07-01,0,0,0,0,0,0
+Türkiye,2015-08-01,0,0,0,0,0,0
+Türkiye,2015-09-01,0,0,0,0,0,0
+Türkiye,2015-10-01,0,0,0,0,0,0
+Türkiye,2015-11-01,0,0,0,0,0,0
+Türkiye,2015-12-01,0,0,0,0,0,0
+Türkiye,2016-01-01,0,0,0,0,0,0
+Türkiye,2016-02-01,0,0,0,0,0,0
+Türkiye,2016-03-01,0,0,0,0,0,0
+Türkiye,2016-04-01,0,0,0,0,0,0
+Türkiye,2016-05-01,0,0,0,0,0,0
+Türkiye,2016-06-01,0,0,0,0,0,0
+Türkiye,2016-07-01,0,0,0,0,0,0
+Türkiye,2016-08-01,0,0,0,0,0,0
+Türkiye,2016-09-01,0,0,0,0,0,0
+Türkiye,2016-10-01,0,0,0,0,0,0
+Türkiye,2016-11-01,0,0,0,0,0,0
+Türkiye,2016-12-01,0,0,0,0,0,0
+Türkiye,2017-01-01,0,0,0,0,0,0
+Türkiye,2017-02-01,0,0,0,0,0,0
+Türkiye,2017-03-01,0,0,0,0,0,0
+Türkiye,2017-04-01,0,0,0,0,0,0
+Türkiye,2017-05-01,0,0,0,0,0,0
+Türkiye,2017-06-01,0,0,0,0,0,0
+Türkiye,2017-07-01,0,0,0,0,0,0
+Türkiye,2017-08-01,0,0,0,0,0,0
+Türkiye,2017-09-01,0,0,0,0,0,0
+Türkiye,2017-10-01,0,0,0,0,0,0
+Türkiye,2017-11-01,0,0,0,0,0,0
+Türkiye,2017-12-01,0,0,0,0,0,0
+Türkiye,2018-01-01,0,0,0,0,0,0
+Türkiye,2018-02-01,0,0,0,0,0,0
+Türkiye,2018-03-01,0,0,0,0,0,0
+Türkiye,2018-04-01,0,0,0,0,0,0
+Türkiye,2018-05-01,0,0,0,0,0,0
+Türkiye,2018-06-01,0,0,0,0,0,0
+Türkiye,2018-07-01,0,0,0,0,0,0
+Türkiye,2018-08-01,0,0,0,0,0,0
+Türkiye,2018-09-01,0,0,0,0,0,0
+Türkiye,2018-10-01,0,0,0,0,0,0
+Türkiye,2018-11-01,0,0,0,0,0,0
+Türkiye,2018-12-01,0,0,0,0,0,0
+Türkiye,2019-01-01,0,0,0,0,0,0
+Türkiye,2019-02-01,0,0,0,0,0,0
+Türkiye,2019-03-01,0,0,0,0,0,0
+Türkiye,2019-04-01,13,0,0,4,0,17
+Türkiye,2019-05-01,36,0,0,27,4,67
+Türkiye,2019-06-01,71,0,1,16,4,92
+Türkiye,2019-07-01,89,0,4,128,21,242
+Türkiye,2019-08-01,57,0,1,14,12,84
+Türkiye,2019-09-01,50,0,-1,50,7,106
+Türkiye,2019-10-01,27,0,0,23,3,53
+Türkiye,2019-11-01,26,0,0,16,4,46
+Türkiye,2019-12-01,45,0,-1,17,7,68
+Türkiye,2020-01-01,32,0,3,27,12,74
+Türkiye,2020-02-01,47,7,1,38,0,93
+Türkiye,2020-03-01,85,3,1,62,13,164
+Türkiye,2020-04-01,1645,12,-5,510,167,2329
+Türkiye,2020-05-01,4908,56,0,1833,569,7366
+Türkiye,2020-06-01,5889,48,20,2284,949,9190
+Türkiye,2020-07-01,7149,56,75,2972,1034,11286
+Türkiye,2020-08-01,6068,56,35,2030,854,9043
+Türkiye,2020-09-01,6492,62,38,2155,818,9565
+Türkiye,2020-10-01,6502,57,64,1579,796,8998
+Türkiye,2020-11-01,3359,100,-48,1441,528,5380
+Türkiye,2020-12-01,4468,34,-2,2265,553,7318
+Türkiye,2021-01-01,3918,29,9,2202,739,6897
+Türkiye,2021-02-01,4591,30,-27,2693,836,8123
+Türkiye,2021-03-01,4477,51,32,2357,676,7593
+Türkiye,2021-04-01,4726,28,35,2034,568,7391
+Türkiye,2021-05-01,4006,39,44,1755,586,6430
+Türkiye,2021-06-01,3344,30,9,1715,458,5556
+Türkiye,2021-07-01,3621,50,12,1450,472,5605
+Türkiye,2021-08-01,4288,64,18,1129,482,5981
+Türkiye,2021-09-01,3722,73,-29,1360,574,5700
+Türkiye,2021-10-01,3712,45,21,1840,486,6104
+Türkiye,2021-11-01,3285,69,28,2090,406,5878
+Türkiye,2021-12-01,3029,30,1,1524,363,4947
+Türkiye,2022-01-01,2571,38,-32,1303,365,4245
+Türkiye,2022-02-01,3387,46,2,1389,437,5261
+Türkiye,2022-03-01,4104,48,-12,1494,569,6203
+Türkiye,2022-04-01,3760,46,14,1687,526,6033
+Türkiye,2022-05-01,5065,81,3,1792,587,7528
+Türkiye,2022-06-01,5052,50,-31,1927,500,7498
+Türkiye,2022-07-01,4834,58,-59,1469,604,6906
+Türkiye,2022-08-01,3614,64,2,1369,466,5515
+Türkiye,2022-09-01,3063,58,7,1157,403,4688
+Türkiye,2022-10-01,3434,30,6,1249,467,5186
+Türkiye,2022-11-01,5292,84,-7,1704,852,7925
+Türkiye,2022-12-01,3677,26,8,1779,485,5975
+Türkiye,2023-01-01,3053,32,-38,1360,851,5258
+Türkiye,2023-02-01,4440,418,12,1439,945,7254
+Türkiye,2023-03-01,2824,111,-5,1256,502,4688
+Türkiye,2023-04-01,4572,66,7,1733,588,6966
+Türkiye,2023-05-01,4814,48,-84,2100,839,7717
+Türkiye,2023-06-01,3249,42,-1,1666,540,5496
+Türkiye,2023-07-01,3804,29,-46,1497,674,5958
+Türkiye,2023-08-01,3640,24,-5,1318,613,5590
+Türkiye,2023-09-01,3795,58,14,1622,566,6055
+Türkiye,2023-10-01,7467,44,4,1616,1496,10627
+Türkiye,2023-11-01,4341,88,17,1523,795,6764
+Türkiye,2023-12-01,3648,42,-31,1431,495,5585
+Türkiye,2024-01-01,4290,24,-17,1600,443,6340
+Türkiye,2024-02-01,2656,22,-8,1370,359,4399
+Türkiye,2024-03-01,3152,40,-12,1087,456,4723
+Türkiye,2024-04-01,3268,34,31,1481,489,5303
+Türkiye,2024-05-01,1901,18,12,1232,369,3532
+Yemen,2010-06-01,0,0,0,0,0,0
+Yemen,2010-07-01,0,0,0,0,0,0
+Yemen,2010-08-01,0,0,0,0,0,0
+Yemen,2010-09-01,0,0,0,0,0,0
+Yemen,2010-10-01,0,0,0,0,0,0
+Yemen,2010-11-01,0,0,0,0,0,0
+Yemen,2010-12-01,0,0,0,0,0,0
+Yemen,2011-01-01,0,0,0,0,0,0
+Yemen,2011-02-01,0,0,0,0,0,0
+Yemen,2011-03-01,0,0,0,0,0,0
+Yemen,2011-04-01,0,0,0,0,0,0
+Yemen,2011-05-01,1,0,0,0,0,1
+Yemen,2011-06-01,0,0,0,0,0,0
+Yemen,2011-07-01,0,0,0,0,0,0
+Yemen,2011-08-01,0,0,0,0,0,0
+Yemen,2011-09-01,0,0,0,0,0,0
+Yemen,2011-10-01,0,0,0,0,0,0
+Yemen,2011-11-01,0,0,0,0,0,0
+Yemen,2011-12-01,-9,0,0,0,0,-9
+Yemen,2012-01-01,0,0,0,0,0,0
+Yemen,2012-02-01,0,0,0,0,0,0
+Yemen,2012-03-01,0,0,0,0,0,0
+Yemen,2012-04-01,0,0,0,0,0,0
+Yemen,2012-05-01,0,0,0,0,0,0
+Yemen,2012-06-01,0,0,0,0,0,0
+Yemen,2012-07-01,0,0,0,0,0,0
+Yemen,2012-08-01,0,0,0,0,0,0
+Yemen,2012-09-01,0,0,0,0,0,0
+Yemen,2012-10-01,0,0,0,0,0,0
+Yemen,2012-11-01,0,0,0,0,0,0
+Yemen,2012-12-01,0,0,0,0,0,0
+Yemen,2013-01-01,0,0,0,0,0,0
+Yemen,2013-02-01,0,0,0,0,0,0
+Yemen,2013-03-01,0,0,0,0,0,0
+Yemen,2013-04-01,0,0,0,0,0,0
+Yemen,2013-05-01,0,0,0,0,0,0
+Yemen,2013-06-01,0,0,0,0,0,0
+Yemen,2013-07-01,0,0,0,0,0,0
+Yemen,2013-08-01,3,0,0,0,0,3
+Yemen,2013-09-01,0,0,0,0,0,0
+Yemen,2013-10-01,0,0,0,0,0,0
+Yemen,2013-11-01,0,0,0,0,0,0
+Yemen,2013-12-01,2,0,0,0,0,2
+Yemen,2014-01-01,6,0,0,0,2,8
+Yemen,2014-02-01,0,0,0,0,0,0
+Yemen,2014-03-01,0,0,0,0,0,0
+Yemen,2014-04-01,54,0,0,0,0,54
+Yemen,2014-05-01,0,0,0,0,0,0
+Yemen,2014-06-01,0,0,0,0,0,0
+Yemen,2014-07-01,0,0,0,0,0,0
+Yemen,2014-08-01,0,0,0,0,0,0
+Yemen,2014-09-01,0,0,0,0,0,0
+Yemen,2014-10-01,0,0,0,0,0,0
+Yemen,2014-11-01,0,0,0,0,0,0
+Yemen,2014-12-01,0,0,0,0,0,0
+Yemen,2015-01-01,0,0,0,0,0,0
+Yemen,2015-02-01,0,0,0,0,0,0
+Yemen,2015-03-01,0,0,0,0,0,0
+Yemen,2015-04-01,0,0,0,0,0,0
+Yemen,2015-05-01,0,0,0,0,0,0
+Yemen,2015-06-01,0,0,0,0,0,0
+Yemen,2015-07-01,0,0,0,0,0,0
+Yemen,2015-08-01,0,0,0,0,0,0
+Yemen,2015-09-01,0,0,0,0,0,0
+Yemen,2015-10-01,0,0,0,0,0,0
+Yemen,2015-11-01,0,0,0,0,0,0
+Yemen,2015-12-01,0,0,0,0,0,0
+Yemen,2016-01-01,0,0,0,0,0,0
+Yemen,2016-02-01,0,0,0,0,0,0
+Yemen,2016-03-01,0,0,0,0,0,0
+Yemen,2016-04-01,0,0,0,0,0,0
+Yemen,2016-05-01,0,0,0,0,0,0
+Yemen,2016-06-01,0,0,0,0,0,0
+Yemen,2016-07-01,0,0,0,0,0,0
+Yemen,2016-08-01,0,0,0,0,0,0
+Yemen,2016-09-01,0,0,0,0,0,0
+Yemen,2016-10-01,0,0,0,0,0,0
+Yemen,2016-11-01,0,0,0,0,0,0
+Yemen,2016-12-01,0,0,0,0,0,0
+Yemen,2017-01-01,0,0,0,0,0,0
+Yemen,2017-02-01,0,0,0,0,0,0
+Yemen,2017-03-01,0,0,0,0,0,0
+Yemen,2017-04-01,0,0,0,0,0,0
+Yemen,2017-05-01,0,0,0,0,0,0
+Yemen,2017-06-01,0,0,0,0,0,0
+Yemen,2017-07-01,0,0,0,0,0,0
+Yemen,2017-08-01,0,0,0,0,0,0
+Yemen,2017-09-01,0,0,0,0,0,0
+Yemen,2017-10-01,0,0,0,0,0,0
+Yemen,2017-11-01,0,0,0,0,0,0
+Yemen,2017-12-01,0,0,0,0,0,0
+Yemen,2018-01-01,0,0,0,0,0,0
+Yemen,2018-02-01,0,0,0,0,0,0
+Yemen,2018-03-01,0,0,0,0,0,0
+Yemen,2018-04-01,0,0,0,0,0,0
+Yemen,2018-05-01,0,0,0,0,0,0
+Yemen,2018-06-01,0,0,0,0,0,0
+Yemen,2018-07-01,0,0,0,0,0,0
+Yemen,2018-08-01,0,0,0,0,0,0
+Yemen,2018-09-01,0,0,0,0,0,0
+Yemen,2018-10-01,0,0,0,0,0,0
+Yemen,2018-11-01,0,0,0,0,0,0
+Yemen,2018-12-01,0,0,0,0,0,0
+Yemen,2019-01-01,0,0,0,0,0,0
+Yemen,2019-02-01,0,0,0,0,0,0
+Yemen,2019-03-01,0,0,0,0,0,0
+Yemen,2019-04-01,-12,0,0,0,0,-12
+Yemen,2019-05-01,38,0,0,-4,0,34
+Yemen,2019-06-01,34,0,0,3,0,37
+Yemen,2019-07-01,13,0,0,3,0,16
+Yemen,2019-08-01,1,0,0,6,0,7
+Yemen,2019-09-01,13,0,0,0,2,15
+Yemen,2019-10-01,3,0,0,12,0,15
+Yemen,2019-11-01,23,0,0,-2,1,22
+Yemen,2019-12-01,29,4,1,11,1,46
+Yemen,2020-01-01,53,0,0,-2,3,54
+Yemen,2020-02-01,12,2,1,6,0,21
+Yemen,2020-03-01,44,14,0,-1,0,57
+Yemen,2020-04-01,730,4,0,195,79,1008
+Yemen,2020-05-01,2008,56,0,478,218,2760
+Yemen,2020-06-01,1726,102,-5,431,167,2421
+Yemen,2020-07-01,1581,42,14,448,203,2288
+Yemen,2020-08-01,1409,47,-4,313,156,1921
+Yemen,2020-09-01,1769,58,2,198,184,2211
+Yemen,2020-10-01,1076,18,3,59,125,1281
+Yemen,2020-11-01,1116,30,-15,197,144,1472
+Yemen,2020-12-01,1725,42,-16,250,211,2212
+Yemen,2021-01-01,2337,16,13,264,204,2834
+Yemen,2021-02-01,3017,53,5,372,321,3768
+Yemen,2021-03-01,3575,80,-3,426,415,4493
+Yemen,2021-04-01,1913,26,15,402,164,2520
+Yemen,2021-05-01,1264,18,2,236,150,1670
+Yemen,2021-06-01,1816,6,3,276,142,2243
+Yemen,2021-07-01,1096,8,-10,193,75,1362
+Yemen,2021-08-01,1392,10,-10,149,99,1640
+Yemen,2021-09-01,2399,12,0,269,211,2891
+Yemen,2021-10-01,2382,6,3,335,306,3032
+Yemen,2021-11-01,2038,6,16,469,183,2712
+Yemen,2021-12-01,2136,10,-23,385,192,2700
+Yemen,2022-01-01,4186,8,22,285,419,4920
+Yemen,2022-02-01,2272,20,2,444,205,2943
+Yemen,2022-03-01,2530,40,11,381,358,3320
+Yemen,2022-04-01,1331,26,-73,147,126,1557
+Yemen,2022-05-01,931,30,-5,175,83,1214
+Yemen,2022-06-01,867,24,-1,141,114,1145
+Yemen,2022-07-01,905,8,5,156,78,1152
+Yemen,2022-08-01,870,4,7,149,128,1158
+Yemen,2022-09-01,724,10,-2,164,84,980
+Yemen,2022-10-01,937,2,-1,149,123,1210
+Yemen,2022-11-01,805,4,8,222,126,1165
+Yemen,2022-12-01,569,10,-11,226,136,930
+Yemen,2023-01-01,671,16,6,295,152,1140
+Yemen,2023-02-01,585,26,9,190,142,952
+Yemen,2023-03-01,1065,28,1,245,138,1477
+Yemen,2023-04-01,1432,12,-13,-90,159,1500
+Yemen,2023-05-01,791,28,-7,121,61,994
+Yemen,2023-06-01,831,8,0,144,89,1072
+Yemen,2023-07-01,994,2,6,248,123,1373
+Yemen,2023-08-01,1106,20,-2,312,140,1576
+Yemen,2023-09-01,838,8,6,296,119,1267
+Yemen,2023-10-01,2112,2,6,213,227,2560
+Yemen,2023-11-01,3274,10,14,395,117,3810
+Yemen,2023-12-01,5641,16,7,336,481,6481
+Yemen,2024-01-01,9953,14,13,523,800,11303
+Yemen,2024-02-01,5790,32,1,286,428,6537
+Yemen,2024-03-01,3457,12,-13,234,364,4054
+Yemen,2024-04-01,2956,18,8,242,189,3413
+Yemen,2024-05-01,1005,22,19,109,85,1240
