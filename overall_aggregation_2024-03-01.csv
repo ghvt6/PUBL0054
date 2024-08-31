@@ -1,2 +1,2 @@
 True Values,Ensemble Prediction,XGBoost Lower CI,XGBoost Upper CI,LSTM Lower CI,LSTM Upper CI,NN Lower CI,NN Upper CI,Ensemble Lower CI,Ensemble Upper CI,Residuals,XGBoost Prediction,LSTM Prediction,NN Prediction
-4480.0,4715.0,2736.0,7064.0,3908.0,7336.0,2591.0,7045.0,2094.0,7336.0,-235.0,4902.0,5621.0,4817.0
+4480.0,4745.0,2827.0,6558.0,3929.0,7179.0,3148.0,6322.0,2332.0,7164.0,-265.0,4685.0,5553.0,4731.0
