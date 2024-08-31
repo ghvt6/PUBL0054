@@ -1,0 +1,521 @@
+"year","type_of_violence","conflict_name","side_a","side_b","source_date","country","event_clarity","deaths_civilians","date_start","date_end"
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-02","Pakistan",1,0,2024-04-02,2024-04-02
+2024,1,"Iran - Israel","Government of Iran","Government of Israel","2024-04-01;2024-04-03","Syria",1,2,2024-04-01,2024-04-01
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-01","Syria",1,0,2024-04-01,2024-04-01
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-01","Syria",1,0,2024-04-01,2024-04-01
+2024,1,"Syria: Government/Rojava Kurdistan","Government of Syria","SDF","2024-04-01","Syria",1,1,2024-04-01,2024-04-01
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-01","Syria",1,0,2024-04-01,2024-04-01
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-01","Syria",1,0,2024-04-01,2024-04-01
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-01","Syria",1,2,2024-04-01,2024-04-01
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-01","Syria",1,0,2024-04-01,2024-04-01
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-01","Syria",1,0,2024-04-01,2024-04-01
+2024,3,"SNA - Civilians","SNA","Civilians","2024-04-01","Syria",1,1,2024-04-01,2024-04-01
+2024,2,"IS - JUI-F","IS","JUI-F","2024-04-02;2024-04-02;2024-04-07;2024-04-07","Pakistan",1,0,2024-04-02,2024-04-02
+2024,1,"Pakistan: Government","Government of Pakistan","HGB","2024-04-01;2024-04-01","Pakistan",1,0,2024-04-01,2024-04-01
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-04","Pakistan",1,0,2024-04-04,2024-04-04
+2024,1,"Australia, Bahrain, Canada, France, Italy, Netherlands, New Zeeland, Norway, Spain, United Kingdom, United States of America - Yemen","Government of Australia, Government of Bahrain, Government of Canada, Government of France, Government of Italy, Government of Netherlands, Government of New Zealand, Government of Norway, Government of Spain, Government of United Kingdom, Government of United States of America","Government of Yemen (North Yemen)","2024-03-15;2024-04-05","Yemen (North Yemen)",2,0,2024-03-15,2024-04-04
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-04-02;2024-04-01;2024-04-02","India",1,0,2024-04-01,2024-04-01
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-04-02;2024-04-02;2024-04-02;2024-04-02;2024-04-04;2024-05-06","India",1,0,2024-04-02,2024-04-02
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-04-02;2024-04-01","India",1,0,2024-04-01,2024-04-02
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-01","Israel",1,2,2024-04-01,2024-04-01
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-01","Israel",1,0,2024-04-01,2024-04-01
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-01;2024-04-05","Israel",1,3,2024-04-01,2024-04-01
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-01;2024-04-03","Israel",1,7,2024-04-01,2024-04-01
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-01","Israel",1,1,2024-04-01,2024-04-01
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-02;2024-04-05","Israel",1,4,2024-04-02,2024-04-02
+2024,1,"Turkey: Kurdistan","Government of Turkey","PKK","2024-04-01","Iraq",1,0,2024-04-01,2024-04-01
+2024,1,"Turkey: Kurdistan","Government of Turkey","PKK","2024-04-02;2024-04-02","Iraq",1,0,2024-04-02,2024-04-02
+2024,2,"XXX640 - XXX640","XXX640","XXX640","2024-04-03","Turkey",1,1,2024-04-02,2024-04-02
+2024,3,"JAS - Civilians","JAS","Civilians","2024-04-04","Cameroon",1,1,2024-04-03,2024-04-03
+2024,1,"Somalia: Government","Government of Somalia","Al-Shabaab","2024-04-03","Somalia",1,0,2024-04-01,2024-04-02
+2024,1,"Afghanistan: Islamic State","Government of Afghanistan","IS","2024-04-05","Afghanistan",1,0,2024-04-03,2024-04-05
+2024,1,"Afghanistan: Islamic State","Government of Afghanistan","IS","2024-04-11;2024-04-11;2024-04-12;2024-04-11","Afghanistan",1,0,2024-04-10,2024-04-11
+2024,3,"Government of Afghanistan - Civilians","Government of Afghanistan","Civilians","2024-04-07;2024-04-07","Afghanistan",1,1,2024-04-06,2024-04-06
+2024,1,"Israel: Palestine","Government of Israel","PIJ","2024-04-02","Israel",1,1,2024-04-02,2024-04-02
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-02;2024-04-02","Israel",1,0,2024-04-02,2024-04-02
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-02","Israel",1,0,2024-04-02,2024-04-02
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-02","Israel",1,0,2024-04-02,2024-04-02
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-02","Israel",1,0,2024-04-02,2024-04-02
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-02;2024-04-05","Israel",1,6,2024-04-02,2024-04-02
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-04","Israel",1,0,2024-04-03,2024-04-03
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-03;2024-04-05","Israel",1,0,2024-04-03,2024-04-03
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-03;2024-04-03","Israel",1,1,2024-04-03,2024-04-03
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-03","Israel",1,0,2024-04-03,2024-04-03
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-03","Israel",1,1,2024-04-03,2024-04-03
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-03","Israel",1,2,2024-04-03,2024-04-03
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-03","Israel",1,0,2024-04-03,2024-04-03
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-03","Israel",1,1,2024-04-03,2024-04-03
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-04","Israel",1,7,2024-04-04,2024-04-04
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-04","Israel",1,0,2024-04-04,2024-04-04
+2024,1,"Israel: Palestine","Government of Israel","PIJ","2024-04-04;2024-04-12","Israel",1,0,2024-04-04,2024-04-04
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-04","Israel",1,2,2024-04-04,2024-04-04
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-04","Israel",1,0,2024-04-04,2024-04-04
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-06","Israel",1,0,2024-04-06,2024-04-06
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-07","Israel",1,0,2024-04-07,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-07;2024-04-08","Israel",1,4,2024-04-07,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-07","Israel",1,0,2024-04-07,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-07;2024-04-12","Israel",1,6,2024-04-07,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-07","Israel",1,0,2024-04-07,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-07","Israel",1,0,2024-04-07,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,4,2024-04-08,2024-04-08
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,0,2024-04-08,2024-04-08
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,1,2024-04-08,2024-04-08
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,2,2024-04-08,2024-04-08
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08;2024-04-12","Israel",1,5,2024-04-08,2024-04-08
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,1,2024-04-08,2024-04-08
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,10,2024-04-08,2024-04-08
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-09","Israel",1,0,2024-04-09,2024-04-09
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-09","Israel",1,1,2024-04-09,2024-04-09
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-09","Israel",1,0,2024-04-09,2024-04-09
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-09","Israel",1,0,2024-04-09,2024-04-09
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-09","Israel",1,2,2024-04-09,2024-04-09
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-09","Israel",1,0,2024-04-09,2024-04-09
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-09","Israel",1,1,2024-04-09,2024-04-09
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-10","Israel",1,0,2024-04-09,2024-04-09
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-09;2024-04-12","Israel",1,14,2024-04-09,2024-04-09
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-12;2024-04-10","Israel",1,5,2024-04-10,2024-04-10
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-11","Israel",1,0,2024-04-11,2024-04-11
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-11;2024-04-12","Israel",1,0,2024-04-11,2024-04-11
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-11","Israel",1,0,2024-04-11,2024-04-11
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-11","Israel",1,2,2024-04-11,2024-04-11
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-11;2024-04-12","Israel",1,3,2024-04-11,2024-04-11
+2024,1,"Israel: Palestine","Government of Israel","PIJ","2024-04-12;2024-04-17","Israel",1,1,2024-04-12,2024-04-12
+2024,1,"Israel: Palestine","Government of Israel","PIJ","2024-04-17;2024-04-12","Israel",1,1,2024-04-12,2024-04-12
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-12;2024-04-15","Israel",1,1,2024-04-12,2024-04-12
+2024,1,"Somalia: Government","Government of Somalia","Al-Shabaab","2024-04-11;2024-04-06;2024-04-06;2024-04-06;2024-05-01","Somalia",1,0,2024-04-06,2024-04-06
+2024,1,"India: Kashmir","Government of India","Kashmir insurgents","2024-04-05;2024-05-06;2024-04-05;2024-04-06;2024-04-05","India",1,0,2024-04-05,2024-04-05
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-15;2024-04-12;2024-04-12;2024-04-12","Israel",1,0,2024-04-12,2024-04-12
+2024,3,"Israeli settlers - Civilians","Israeli settlers","Civilians","2024-04-12;2024-04-17","Israel",1,1,2024-04-12,2024-04-12
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-12;2024-04-15","Israel",1,0,2024-04-12,2024-04-12
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-12","Israel",1,2,2024-04-12,2024-04-12
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-13;2024-04-15","Israel",1,3,2024-04-13,2024-04-13
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-15;2024-04-13","Israel",1,3,2024-04-13,2024-04-13
+2024,1,"Iran: Government","Government of Iran","Jaish al-Adl","2024-04-04","Iran",1,0,2024-04-04,2024-04-04
+2024,1,"Iran: Government","Government of Iran","Jaish al-Adl","2024-04-04;2024-04-06","Iran",1,0,2024-04-04,2024-04-04
+2024,1,"India: Kashmir","Government of India","Kashmir insurgents","2024-04-11;2024-04-11;2024-05-06;2024-04-11","India",1,0,2024-04-11,2024-04-11
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-03","Israel",1,0,2024-03-29,2024-04-02
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-03","Israel",1,0,2024-04-02,2024-04-03
+2024,1,"Pakistan: Government","Government of Pakistan","HGB","2024-04-18;2024-04-18;2024-04-17","Pakistan",1,0,2024-04-16,2024-04-17
+2024,3,"Government of Afghanistan - Civilians","Government of Afghanistan","Civilians","2024-04-15","Afghanistan",1,0,2024-04-14,2024-04-14
+2024,2,"Garre subclan of Digil clan (Digil-Mirifle) - Jiddo subclan of Digil clan (Digil-Mirifle)","Garre subclan of Digil clan (Digil-Mirifle)","Jiddo subclan of Digil clan (Digil-Mirifle)","2024-04-18","Somalia",1,0,2024-04-18,2024-04-18
+2024,3,"Al-Shabaab - Civilians","Al-Shabaab","Civilians","2024-04-07","Somalia",1,1,2024-04-04,2024-04-04
+2024,1,"Afghanistan: Islamic State","Government of Afghanistan","IS","2024-04-20;2024-04-20;2024-04-20;2024-04-21;2024-04-21;2024-04-20;2024-04-20;2024-04-20;2024-04-21","Afghanistan",1,0,2024-04-20,2024-04-20
+2024,1,"Afghanistan: Government","Government of Afghanistan","NRF","2024-04-20;2024-04-20","Afghanistan",1,0,2024-04-20,2024-04-20
+2024,3,"Government of Afghanistan - Civilians","Government of Afghanistan","Civilians","2024-04-21","Pakistan",1,0,2024-04-15,2024-04-20
+2024,1,"Somalia: Government","Government of Somalia","Al-Shabaab","2024-04-10;2024-04-08","Somalia",1,0,2024-04-06,2024-04-08
+2024,1,"Somalia: Government","Government of Somalia","Al-Shabaab","2024-04-09;2024-04-10;2024-04-10;2024-04-08","Somalia",1,0,2024-04-08,2024-04-08
+2024,1,"Afghanistan: Government","Government of Afghanistan","NRF","2024-04-27;2024-04-27","Afghanistan",1,0,2024-04-27,2024-04-27
+2024,1,"Cameroon: Ambazonia","Government of Cameroon","Ambazonia insurgents","2024-04-11;2024-04-13","Cameroon",1,3,2024-04-11,2024-04-11
+2024,1,"Cameroon: Ambazonia","Government of Cameroon","Ambazonia insurgents","2024-04-25","Cameroon",1,0,2024-04-24,2024-04-24
+2024,3,"Ambazonia insurgents - Civilians","Ambazonia insurgents","Civilians","2024-04-30","Cameroon",1,3,2024-04-29,2024-04-29
+2024,3,"Government of Afghanistan - Civilians","Government of Afghanistan","Civilians","2024-04-18","Afghanistan",1,0,2024-04-17,2024-04-17
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,0,2024-04-04,2024-04-04
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,1,2024-04-04,2024-04-04
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,0,2024-04-04,2024-04-04
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,0,2024-04-05,2024-04-05
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,0,2024-04-07,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,0,2024-04-06,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-08","Israel",1,0,2024-04-07,2024-04-08
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-12","Israel",1,1,2024-04-09,2024-04-09
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-12","Israel",1,0,2024-04-11,2024-04-11
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-12","Israel",1,0,2024-04-08,2024-04-11
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-12","Israel",1,0,2024-04-11,2024-04-12
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-05;2024-04-07;2024-04-06;2024-04-07","Pakistan",1,0,2024-04-05,2024-04-05
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-05","Pakistan",1,0,2024-04-05,2024-04-05
+2024,3,"Israeli settlers - Civilians","Israeli settlers","Civilians","2024-04-17;2024-04-13;2024-04-15","Israel",1,1,2024-04-13,2024-04-13
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-14","Israel",1,5,2024-04-14,2024-04-14
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-14;2024-04-17","Israel",1,5,2024-04-14,2024-04-14
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-15;2024-04-15","Israel",1,1,2024-04-14,2024-04-14
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-15","Israel",1,2,2024-04-15,2024-04-15
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-15","Israel",1,1,2024-04-15,2024-04-15
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-15","Israel",1,2,2024-04-15,2024-04-15
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-15","Israel",1,1,2024-04-15,2024-04-15
+2024,1,"Israel: Palestine","Government of Israel","Palestinian insurgents","2024-04-15;2024-04-15;2024-04-17","Israel",1,0,2024-04-15,2024-04-15
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-17;2024-04-16","Israel",1,4,2024-04-16,2024-04-16
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-16","Israel",1,3,2024-04-16,2024-04-16
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-16;2024-04-17","Israel",1,0,2024-04-16,2024-04-16
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-16","Israel",1,15,2024-04-16,2024-04-16
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-16;2024-04-19","Israel",1,12,2024-04-16,2024-04-16
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-16","Israel",1,0,2024-04-16,2024-04-16
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-17;2024-04-17","Israel",1,7,2024-04-17,2024-04-17
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-17;2024-04-17","Israel",1,0,2024-04-17,2024-04-17
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-17;2024-04-19","Israel",1,0,2024-04-17,2024-04-17
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-19;2024-04-17","Israel",1,10,2024-04-17,2024-04-17
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-18","Israel",1,0,2024-04-18,2024-04-18
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-18","Israel",1,1,2024-04-18,2024-04-18
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-18;2024-04-22","Israel",1,4,2024-04-18,2024-04-18
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-22;2024-04-18","Israel",1,0,2024-04-18,2024-04-18
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-18","Israel",1,2,2024-04-18,2024-04-18
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-19","Israel",1,1,2024-04-19,2024-04-19
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-19;2024-04-20;2024-04-22;2024-04-20","Israel",1,9,2024-04-19,2024-04-19
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-20","Israel",1,6,2024-04-20,2024-04-20
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-20","Israel",1,3,2024-04-20,2024-04-20
+2024,3,"Israeli settlers - Civilians","Israeli settlers","Civilians","2024-04-20;2024-04-24;2024-04-22","Israel",1,1,2024-04-20,2024-04-20
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-22;2024-04-20","Israel",1,0,2024-04-20,2024-04-20
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-20;2024-04-22","Israel",1,4,2024-04-20,2024-04-20
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-21;2024-04-22","Israel",1,16,2024-04-21,2024-04-21
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-21","Israel",1,8,2024-04-21,2024-04-21
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-21;2024-04-21","Israel",1,15,2024-04-21,2024-04-21
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-21;2024-04-24","Israel",1,0,2024-04-21,2024-04-21
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24;2024-04-22","Israel",1,6,2024-04-22,2024-04-22
+2024,3,"Government of Israel - Civilians","Government of Israel","Civilians","2024-04-23;2024-04-24;2024-05-01","Israel",1,1,2024-04-23,2024-04-23
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-02","Yemen (North Yemen)",1,1,2024-04-01,2024-04-01
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-03","Yemen (North Yemen)",1,1,2024-04-02,2024-04-02
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-03","Yemen (North Yemen)",1,1,2024-04-02,2024-04-02
+2024,2,"STC - NRF","STC","NRF","2024-04-03","Yemen (North Yemen)",1,2,2024-04-02,2024-04-02
+2024,2,"XXX678 - XXX678","XXX678","XXX678","2024-04-07","Yemen (North Yemen)",1,1,2024-04-05,2024-04-05
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-16","Yemen (North Yemen)",1,2,2024-04-15,2024-04-15
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-17","Yemen (North Yemen)",1,1,2024-04-16,2024-04-16
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-18","Yemen (North Yemen)",1,1,2024-04-17,2024-04-17
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-18","Yemen (North Yemen)",1,1,2024-04-17,2024-04-17
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-21","Yemen (North Yemen)",1,1,2024-04-20,2024-04-20
+2024,2,"XXX678 - XXX678","XXX678","XXX678","2024-04-23","Yemen (North Yemen)",1,1,2024-04-22,2024-04-22
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-23","Yemen (North Yemen)",1,1,2024-04-22,2024-04-22
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-25","Yemen (North Yemen)",1,1,2024-04-24,2024-04-24
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-22","Israel",1,0,2024-04-23,2024-04-23
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-23","Israel",1,0,2024-04-23,2024-04-23
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-23","Israel",1,0,2024-04-23,2024-04-23
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-23","Israel",1,0,2024-04-23,2024-04-23
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24","Israel",1,0,2024-04-24,2024-04-24
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24","Israel",1,0,2024-04-24,2024-04-24
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24;2024-04-26","Israel",1,4,2024-04-24,2024-04-24
+2024,3,"IS - Civilians","IS","Civilians","2024-04-04;2024-04-04;2024-04-05;2024-04-06;2024-04-02;2024-04-02","DR Congo (Zaire)",1,10,2024-04-02,2024-04-03
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-05;2024-04-18;2024-04-06","DR Congo (Zaire)",1,0,2024-04-04,2024-04-04
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24;2024-04-26","Israel",1,3,2024-04-24,2024-04-24
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24","Israel",1,0,2024-04-24,2024-04-24
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-25;2024-04-26","Israel",1,6,2024-04-25,2024-04-25
+2024,3,"URDPC - Civilians","URDPC","Civilians","2024-04-06;2024-04-07;2024-04-08;2024-04-08","DR Congo (Zaire)",1,18,2024-04-06,2024-04-06
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24","Israel",1,0,2024-04-24,2024-04-24
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24","Israel",1,0,2024-04-24,2024-04-24
+2024,3,"IS - Civilians","IS","Civilians","2024-04-07;2024-04-12;2024-04-10;2024-04-07;2024-04-08","DR Congo (Zaire)",1,8,2024-04-06,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-25","Israel",1,0,2024-04-25,2024-04-25
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-26;2024-04-25","Israel",1,0,2024-04-25,2024-04-25
+2024,1,"DR Congo (Zaire): Government","Government of DR Congo (Zaire)","AFC","2024-04-08;2024-04-08;2024-04-08;2024-04-08;2024-04-10;2024-04-04;2024-04-09","DR Congo (Zaire)",1,1,2024-04-04,2024-04-04
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-25","Israel",1,1,2024-04-25,2024-04-25
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-15","Israel",1,3,2024-04-13,2024-04-13
+2024,3,"Palestinian insurgents - Civilians","Palestinian insurgents","Civilians","2024-04-15","Israel",1,1,2024-04-12,2024-04-13
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-09;2024-04-09;2024-04-18;2024-04-09;2024-04-10","DR Congo (Zaire)",1,0,2024-04-08,2024-04-08
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-15","Israel",1,0,2024-04-11,2024-04-11
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-25","Israel",1,1,2024-04-25,2024-04-25
+2024,3,"Government of DR Congo (Zaire) - Civilians","Government of DR Congo (Zaire)","Civilians","2024-04-12;2024-04-10;2024-04-10;2024-04-17;2024-04-11","DR Congo (Zaire)",1,2,2024-04-09,2024-04-10
+2024,3,"IS - Civilians","IS","Civilians","2024-04-13;2024-04-14;2024-04-15;2024-04-13;2024-04-14;2024-04-16;2024-04-15","DR Congo (Zaire)",1,12,2024-04-12,2024-04-13
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-15","Israel",1,0,2024-04-12,2024-04-14
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-15","Israel",1,0,2024-04-14,2024-04-15
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-14;2024-04-14","DR Congo (Zaire)",1,0,2024-04-13,2024-04-14
+2024,3,"Kashmir insurgents - Civilians","Kashmir insurgents","Civilians","2024-04-17;2024-05-06;2024-04-17","India",1,1,2024-04-17,2024-04-17
+2024,1,"India: Kashmir","Government of India","Kashmir insurgents","2024-05-06;2024-04-28;2024-04-25","India",1,0,2024-04-25,2024-04-26
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-29;2024-04-25","Israel",1,8,2024-04-25,2024-04-25
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-25;2024-04-29","Israel",1,3,2024-04-25,2024-04-25
+2024,2,"Kuki - Meitei","Kuki","Meitei","2024-05-06;2024-04-13;2024-04-13","India",1,0,2024-04-13,2024-04-13
+2024,3,"URDPC - Civilians","URDPC","Civilians","2024-04-16","DR Congo (Zaire)",1,4,2024-04-01,2024-04-16
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-26;2024-04-29","Israel",1,4,2024-04-26,2024-04-26
+2024,3,"Government of Israel - Civilians","Government of Israel","Civilians","2024-04-26","Israel",1,1,2024-04-26,2024-04-26
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-26","Israel",1,0,2024-04-26,2024-04-26
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-26","Israel",1,3,2024-04-26,2024-04-26
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-26","Israel",1,0,2024-04-26,2024-04-26
+2024,1,"Israel: Palestine","Government of Israel","PIJ","2024-04-27;2024-04-29;2024-05-01","Israel",1,0,2024-04-27,2024-04-27
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-29;2024-04-27","Israel",1,9,2024-04-26,2024-04-26
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-27;2024-04-29","Israel",1,5,2024-04-27,2024-04-27
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-27","Israel",1,3,2024-04-27,2024-04-27
+2024,2,"AFC - VDP","AFC","VDP","2024-04-28;2024-04-29","DR Congo (Zaire)",1,2,2024-04-27,2024-04-27
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-27","Israel",1,1,2024-04-27,2024-04-27
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-27","Israel",1,2,2024-04-27,2024-04-27
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-27;2024-04-29","Israel",1,3,2024-04-27,2024-04-27
+2024,1,"DR Congo (Zaire): Government","Government of DR Congo (Zaire)","AFC","2024-05-02;2024-04-30;2024-05-02;2024-05-01;2024-04-30","DR Congo (Zaire)",1,3,2024-04-30,2024-05-01
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-05-06;2024-04-16;2024-04-16;2024-04-20;2024-04-16","India",1,0,2024-04-16,2024-04-16
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-05-06;2024-04-30;2024-04-30","India",1,0,2024-04-30,2024-05-01
+2024,3,"CPI-Maoist - Civilians","CPI-Maoist","Civilians","2024-04-26;2024-05-06","India",1,1,2024-04-26,2024-04-26
+2024,1,"Israel: Southern Lebanon","Government of Israel","Hezbollah","2024-04-28","Israel",1,1,2024-04-28,2024-04-28
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-28","Israel",1,0,2024-04-28,2024-04-28
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-28;2024-04-29","Israel",1,3,2024-04-28,2024-04-28
+2024,1,"Somalia: Government","Government of Somalia","Al-Shabaab","2024-04-17","Somalia",1,0,2024-04-14,2024-04-14
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-05-01","Israel",1,0,2024-04-06,2024-04-06
+2024,1,"Afghanistan: Government","Government of Afghanistan","AFF","2024-04-26;2024-04-27","Afghanistan",1,0,2024-04-26,2024-04-26
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-28","Israel",1,6,2024-04-28,2024-04-28
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-28","Israel",1,0,2024-04-28,2024-04-28
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-28","Israel",1,5,2024-04-29,2024-04-29
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-29","Israel",1,2,2024-04-29,2024-04-29
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-29;2024-04-29","Israel",1,4,2024-04-29,2024-04-29
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-05-01;2024-04-29","Israel",1,0,2024-04-29,2024-04-29
+2024,1,"Israel: Southern Lebanon","Government of Israel","Hezbollah","2024-04-30","Israel",1,4,2024-04-30,2024-04-30
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-30","Israel",1,0,2024-04-30,2024-04-30
+2024,1,"India: Kashmir","Government of India","Kashmir insurgents","2024-04-22;2024-04-24;2024-04-23;2024-04-24;2024-04-22","India",1,1,2024-04-22,2024-04-22
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-05-03;2024-04-30","Israel",1,2,2024-04-30,2024-04-30
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-30;2024-05-03","Israel",1,3,2024-04-30,2024-04-30
+2024,2,"Al-Shabaab - IS","Al-Shabaab","IS","2024-04-19;2024-04-21","Somalia",2,0,2024-01-28,2024-04-06
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-05-01","Israel",1,0,2024-04-22,2024-04-22
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-05-01","Israel",1,0,2024-04-28,2024-04-28
+2024,3,"IS - Civilians","IS","Civilians","2024-04-30;2024-04-29;2024-04-30;2024-04-30;2024-04-30;2024-04-30;2024-05-01;2024-04-30;2024-04-30;2024-05-01;2024-04-30;2024-05-02","Afghanistan",1,7,2024-04-29,2024-04-29
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-26;2024-04-26","Afghanistan",1,0,2024-04-24,2024-04-26
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-05","Israel",1,2,2024-04-03,2024-04-03
+2024,3,"Al-Shabaab - Civilians","Al-Shabaab","Civilians","2024-04-29;2024-04-29;2024-04-28","Somalia",1,6,2024-04-28,2024-04-28
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-05","Israel",1,0,2024-04-03,2024-04-04
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-05","Israel",1,0,2024-04-04,2024-04-05
+2024,1,"Somalia: Government","Government of Somalia","Al-Shabaab","2024-04-18","Somalia",1,0,2024-04-16,2024-04-18
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-22","Israel",1,0,2024-04-19,2024-04-21
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-22","Israel",1,0,2024-04-21,2024-04-22
+2024,1,"Somalia: Government","Government of Somalia","Al-Shabaab","2024-04-24;2024-04-25","Somalia",1,0,2024-04-24,2024-04-24
+2024,1,"Somalia: Government","Government of Somalia","Al-Shabaab","2024-05-01;2024-04-25","Somalia",1,0,2024-04-25,2024-04-25
+2024,3,"URDPC - Civilians","URDPC","Civilians","2024-04-08;2024-04-06","DR Congo (Zaire)",1,0,2024-04-06,2024-04-06
+2024,3,"Zaire self-defense group - Civilians","Zaire self-defense group","Civilians","2024-04-06","DR Congo (Zaire)",1,1,2024-04-03,2024-04-03
+2024,3,"Government of DR Congo (Zaire) - Civilians","Government of DR Congo (Zaire)","Civilians","2024-04-07","DR Congo (Zaire)",1,1,2024-04-06,2024-04-06
+2024,1,"DR Congo (Zaire): Government","Government of DR Congo (Zaire)","AFC","2024-04-07;2024-05-02;2024-04-07","DR Congo (Zaire)",1,3,2024-04-07,2024-04-07
+2024,3,"URDPC - Civilians","URDPC","Civilians","2024-04-09;2024-04-08","DR Congo (Zaire)",1,15,2024-04-08,2024-04-08
+2024,1,"Cameroon: Islamic State","Government of Cameroon","IS","2024-04-17","Cameroon",1,0,2024-04-14,2024-04-15
+2024,1,"XXX471","XXX471","XXX471","2024-04-17","Cameroon",1,0,2024-04-15,2024-04-15
+2024,1,"XXX471","XXX471","XXX471","2024-04-20","Cameroon",1,0,2024-04-17,2024-04-20
+2024,3,"XXX471 - Civilians","XXX471","Civilians","2024-04-26","Cameroon",1,1,2024-04-25,2024-04-26
+2024,3,"XXX471 - Civilians","XXX471","Civilians","2024-04-29","Cameroon",1,2,2024-04-28,2024-04-29
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-02","DR Congo (Zaire)",1,0,2024-03-31,2024-04-02
+2024,3,"URDPC - Civilians","URDPC","Civilians","2024-04-02","DR Congo (Zaire)",1,1,2024-04-01,2024-04-02
+2024,1,"Turkey: Kurdistan","Government of Turkey","PKK","2024-05-01","Iraq",1,0,2024-04-09,2024-04-09
+2024,1,"India: Kashmir","Government of India","Kashmir insurgents","2024-04-26","India",1,0,2024-04-26,2024-04-26
+2024,3,"Zaire self-defense group - Civilians","Zaire self-defense group","Civilians","2024-04-05","DR Congo (Zaire)",1,1,2024-04-04,2024-04-04
+2024,3,"Mobondo - Civilians","Mobondo","Civilians","2024-04-08;2024-04-08","DR Congo (Zaire)",1,5,2024-04-06,2024-04-07
+2024,3,"IS - Civilians","IS","Civilians","2024-04-12;2024-04-12","DR Congo (Zaire)",1,7,2024-04-05,2024-04-11
+2024,3,"IS - Civilians","IS","Civilians","2024-04-15","DR Congo (Zaire)",2,9,2024-04-08,2024-04-14
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-15;2024-04-14","DR Congo (Zaire)",1,0,2024-04-13,2024-04-13
+2024,3,"IS - Civilians","IS","Civilians","2024-04-19;2024-04-18","DR Congo (Zaire)",1,6,2024-04-17,2024-04-17
+2024,3,"URDPC - Civilians","URDPC","Civilians","2024-04-19;2024-04-18","DR Congo (Zaire)",1,20,2024-04-17,2024-04-17
+2024,3,"Zaire self-defense group - Civilians","Zaire self-defense group","Civilians","2024-04-18","DR Congo (Zaire)",1,1,2024-04-16,2024-04-16
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-17","Israel",1,0,2024-04-16,2024-04-16
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-17","Israel",1,10,2024-04-15,2024-04-15
+2024,3,"IS - Civilians","IS","Civilians","2024-04-19;2024-05-10;2024-04-19;2024-04-22","DR Congo (Zaire)",1,4,2024-04-18,2024-04-18
+2024,3,"Government of DR Congo (Zaire) - Civilians","Government of DR Congo (Zaire)","Civilians","2024-04-22;2024-04-21","DR Congo (Zaire)",1,1,2024-04-21,2024-04-21
+2024,3,"IS - Civilians","IS","Civilians","2024-04-24;2024-04-23","DR Congo (Zaire)",2,17,2024-04-08,2024-04-21
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-17","Israel",1,0,2024-04-15,2024-04-17
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-19","Israel",1,4,2024-04-17,2024-04-17
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-19","Israel",1,0,2024-04-17,2024-04-18
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-19","Israel",1,0,2024-04-18,2024-04-19
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-22","Israel",1,0,2024-04-18,2024-04-18
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-26;2024-04-25;2024-04-25","DR Congo (Zaire)",1,0,2024-04-24,2024-04-24
+2024,1,"Turkey: Kurdistan","Government of Turkey","PKK","2024-04-19","Iraq",1,0,2024-04-19,2024-04-19
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-30","DR Congo (Zaire)",1,3,2024-04-28,2024-04-28
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-04-05","India",1,0,2024-04-05,2024-04-05
+2024,3,"CPI-Maoist - Civilians","CPI-Maoist","Civilians","2024-04-05;2024-04-05","India",1,1,2024-04-05,2024-04-05
+2024,3,"CPI-Maoist - Civilians","CPI-Maoist","Civilians","2024-04-05","India",1,1,2024-04-05,2024-04-05
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-04-06;2024-04-06","India",1,0,2024-04-06,2024-04-06
+2024,3,"CPI-Maoist - Civilians","CPI-Maoist","Civilians","2024-04-12","India",1,1,2024-04-12,2024-04-12
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-04-16;2024-04-17","India",1,0,2024-04-16,2024-04-16
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-04-19","India",1,0,2024-04-19,2024-04-19
+2024,3,"CPI-Maoist - Civilians","CPI-Maoist","Civilians","2024-04-20","India",1,1,2024-04-20,2024-04-20
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-04-21","India",1,0,2024-04-21,2024-04-21
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-04-29","India",1,0,2024-04-29,2024-04-29
+2024,1,"India: Government","Government of India","CPI-Maoist","2024-04-25;2024-05-08;2024-04-25","India",1,0,2024-04-25,2024-04-25
+2024,2,"Kuki - Meitei","Kuki","Meitei","2024-04-11","India",1,0,2024-04-11,2024-04-11
+2024,2,"Kuki - Meitei","Kuki","Meitei","2024-04-24","India",1,0,2024-04-24,2024-04-24
+2024,2,"Kuki - Meitei","Kuki","Meitei","2024-04-28;2024-04-27","India",1,0,2024-04-27,2024-04-27
+2024,2,"Kuki - Meitei","Kuki","Meitei","2024-04-28;2024-04-28;2024-05-06","India",1,0,2024-04-28,2024-04-28
+2024,1,"XXX771","Government of Bangladesh","KNF","2024-04-22;2024-04-23","Bangladesh",1,0,2024-04-22,2024-04-22
+2024,3,"XXX771 - Civilians","XXX771","Civilians","2024-04-22","Bangladesh",1,1,2024-04-23,2024-04-23
+2024,1,"XXX771","Government of Bangladesh","KNF","2024-04-28;2024-05-06;2024-04-28","Bangladesh",1,0,2024-04-28,2024-04-28
+2024,1,"Iran: Government","Government of Iran","Jaish al-Adl","2024-04-09","Iran",1,0,2024-04-09,2024-04-09
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-05;2024-04-06;2024-04-07","Pakistan",1,0,2024-04-05,2024-04-05
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-07;2024-04-06","Pakistan",1,0,2024-04-06,2024-04-06
+2024,1,"Pakistan: Islamic State","Government of Pakistan","IS","2024-04-06;2024-04-07;2024-04-12;2024-05-06;2024-05-07;2024-04-07","Pakistan",1,0,2024-04-06,2024-04-06
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-06","Pakistan",1,0,2024-04-06,2024-04-06
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-06","Pakistan",1,0,2024-04-06,2024-04-06
+2024,3,"TTP - Civilians","TTP","Civilians","2024-04-07","Pakistan",1,1,2024-04-07,2024-04-07
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-07","Pakistan",1,0,2024-04-07,2024-04-07
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-07","Pakistan",1,0,2024-04-07,2024-04-07
+2024,3,"XXX770 - Civilians","XXX770","Civilians","2024-04-07","Pakistan",1,1,2024-04-07,2024-04-07
+2024,3,"BRAS - Civilians","BRAS","Civilians","2024-04-07;2024-04-07","Pakistan",1,2,2024-04-07,2024-04-07
+2024,2,"XXX770 - XXX770","XXX770","XXX770","2024-04-07","Pakistan",1,0,2024-04-07,2024-04-07
+2024,1,"XXX770","XXX770","XXX770","2024-04-08;2024-04-08","Pakistan",1,0,2024-04-08,2024-04-08
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-08;2024-04-09;2024-04-08","Pakistan",1,0,2024-04-08,2024-04-08
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-08","Pakistan",1,0,2024-04-08,2024-04-08
+2024,3,"JAS - Civilians","JAS","Civilians","2024-04-11","Cameroon",1,27,2024-04-08,2024-04-11
+2024,3,"AFC - Civilians","AFC","Civilians","2024-04-09","DR Congo (Zaire)",1,1,2024-04-08,2024-04-08
+2024,2,"IS - SDF","IS","SDF","2024-04-30","Syria",1,0,2024-04-30,2024-04-30
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-09","Pakistan",1,0,2024-04-09,2024-04-09
+2024,3,"TTP - Civilians","TTP","Civilians","2024-04-12","Pakistan",1,3,2024-04-12,2024-04-12
+2024,3,"BRAS - Civilians","BRAS","Civilians","2024-04-12;2024-05-01;2024-04-13;2024-04-13;2024-04-13","Pakistan",1,9,2024-04-12,2024-04-12
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-13;2024-04-13;2024-05-01","Pakistan",1,0,2024-04-13,2024-04-13
+2024,3,"TTP - Civilians","TTP","Civilians","2024-04-14","Pakistan",1,1,2024-04-14,2024-04-14
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-14","Pakistan",1,0,2024-04-14,2024-04-14
+2024,3,"XXX770 - Civilians","XXX770","Civilians","2024-04-14","Pakistan",1,1,2024-04-14,2024-04-14
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-18","Pakistan",1,0,2024-04-18,2024-04-18
+2024,1,"XXX770","XXX770","XXX770","2024-04-18;2024-04-19","Pakistan",1,0,2024-04-18,2024-04-18
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-18;2024-04-18;2024-04-18;2024-04-19;2024-04-18","Pakistan",1,2,2024-04-18,2024-04-18
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-21;2024-04-22","Pakistan",1,0,2024-04-21,2024-04-21
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-19;2024-04-19;2024-04-19;2024-04-19;2024-05-01;2024-04-19;2024-04-20","Pakistan",1,2,2024-04-19,2024-04-19
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-20;2024-04-21","Pakistan",1,0,2024-04-20,2024-04-20
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-21;2024-04-21;2024-04-20","Pakistan",1,0,2024-04-20,2024-04-20
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-22","Pakistan",1,0,2024-04-21,2024-04-22
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-22","Pakistan",1,0,2024-04-22,2024-04-22
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-22","Pakistan",1,0,2024-04-22,2024-04-22
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24","Israel",1,0,2024-04-22,2024-04-22
+2024,1,"Turkey: Kurdistan","Government of Turkey","PKK","2024-04-07","Iraq",1,0,2024-04-07,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24","Israel",1,1,2024-04-22,2024-04-22
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24","Israel",1,0,2024-04-22,2024-04-23
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-24","Israel",1,0,2024-04-23,2024-04-24
+2024,3,"IS - Civilians","IS","Civilians","2024-04-14","DR Congo (Zaire)",1,5,2024-04-13,2024-04-13
+2024,3,"IS - Civilians","IS","Civilians","2024-04-14","DR Congo (Zaire)",1,1,2024-04-13,2024-04-13
+2024,3,"IS - Civilians","IS","Civilians","2024-04-14","DR Congo (Zaire)",1,6,2024-04-06,2024-04-06
+2024,1,"Turkey: Kurdistan","Government of Turkey","PKK","2024-04-01;2024-04-01","Iraq",1,0,2024-04-01,2024-04-01
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-23","Pakistan",1,0,2024-04-23,2024-04-23
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-26","Israel",1,0,2024-04-23,2024-04-23
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-26","Israel",1,1,2024-04-23,2024-04-23
+2024,3,"IS - Civilians","IS","Civilians","2024-04-12","DR Congo (Zaire)",1,3,2024-04-10,2024-04-12
+2024,1,"Cameroon: Islamic State","Government of Cameroon","IS","2024-04-12","Cameroon",1,0,2024-04-07,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-26","Israel",1,0,2024-04-24,2024-04-25
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-26","Israel",1,0,2024-04-25,2024-04-26
+2024,1,"XXX770","XXX770","XXX770","2024-04-23;2024-04-23","Pakistan",1,0,2024-04-23,2024-04-23
+2024,3,"BRAS - Civilians","BRAS","Civilians","2024-04-23","Pakistan",1,2,2024-04-23,2024-04-23
+2024,3,"BRAS - Civilians","BRAS","Civilians","2024-04-23","Pakistan",1,1,2024-04-23,2024-04-23
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-16;2024-04-17","DR Congo (Zaire)",1,0,2024-04-15,2024-04-15
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-23","Pakistan",1,0,2024-04-22,2024-04-23
+2024,3,"IS - Civilians","IS","Civilians","2024-04-12","DR Congo (Zaire)",1,6,2024-04-06,2024-04-09
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-30","Syria",1,0,2024-04-30,2024-04-30
+2024,3,"VDP - Civilians","VDP","Civilians","2024-04-12","DR Congo (Zaire)",1,0,2024-04-11,2024-04-11
+2024,2,"SNA - SDF","SNA","SDF","2024-04-30","Syria",1,0,2024-04-30,2024-04-30
+2024,3,"Government of India - Civilians","Government of India","Civilians","2024-04-26","Bangladesh",1,1,2024-04-26,2024-04-26
+2024,3,"IS - Civilians","IS","Civilians","2024-04-14;2024-04-16","DR Congo (Zaire)",1,1,2024-04-13,2024-04-13
+2024,1,"DR Congo (Zaire): Government","Government of DR Congo (Zaire)","AFC","2024-04-17;2024-04-18","DR Congo (Zaire)",1,1,2024-04-17,2024-04-17
+2024,3,"VDP - Civilians","VDP","Civilians","2024-04-18","DR Congo (Zaire)",2,3,2024-03-03,2024-04-02
+2024,3,"VDP - Civilians","VDP","Civilians","2024-04-18","DR Congo (Zaire)",1,1,2024-03-03,2024-04-02
+2024,2,"NSCN-IM - ZUF","NSCN-IM","ZUF","2024-04-11","India",1,0,2024-04-11,2024-04-11
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-29","Syria",1,0,2024-04-29,2024-04-29
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-23","Pakistan",1,0,2024-04-23,2024-04-23
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-24;2024-04-26;2024-04-26","Pakistan",1,0,2024-04-24,2024-04-24
+2024,3,"IS - Civilians","IS","Civilians","2024-02-29","DR Congo (Zaire)",1,3,2024-04-28,2024-04-29
+2024,3,"TTP - Civilians","TTP","Civilians","2024-04-24","Pakistan",1,7,2024-04-24,2024-04-24
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-25","Pakistan",1,0,2024-04-25,2024-04-25
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-25","Pakistan",1,0,2024-04-25,2024-04-25
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-25","Pakistan",1,1,2024-04-25,2024-04-25
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-25","Pakistan",1,0,2024-04-25,2024-04-25
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-27;2024-04-28;2024-05-03","Pakistan",1,0,2024-04-27,2024-04-27
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-29","Syria",1,0,2024-04-29,2024-04-29
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-28","Syria",1,0,2024-04-28,2024-04-28
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-28","Syria",1,0,2024-04-28,2024-04-28
+2024,2,"SNA - SDF","SNA","SDF","2024-04-28","Syria",1,0,2024-04-07,2024-04-07
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-28","Syria",1,0,2024-04-28,2024-04-28
+2024,3,"IS - Civilians","IS","Civilians","2024-04-27","Syria",1,1,2024-04-27,2024-04-27
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-27","Syria",1,0,2024-04-27,2024-04-27
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-27","Syria",1,0,2024-04-27,2024-04-27
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-27","Syria",1,1,2024-04-27,2024-04-27
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-27","Syria",1,0,2024-04-27,2024-04-27
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-27","Syria",1,0,2024-04-27,2024-04-27
+2024,2,"IS - SDF","IS","SDF","2024-04-25","Syria",1,0,2024-04-25,2024-04-25
+2024,2,"IS - SDF","IS","SDF","2024-04-25","Syria",1,0,2024-04-25,2024-04-25
+2024,2,"SNA - SDF","SNA","SDF","2024-04-25","Syria",1,0,2024-04-25,2024-04-25
+2024,2,"SNA - SDF","SNA","SDF","2024-04-24","Syria",1,1,2024-04-24,2024-04-24
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-23","Syria",1,0,2024-04-23,2024-04-23
+2024,2,"SNA - SDF","SNA","SDF","2024-04-23","Syria",1,0,2024-04-23,2024-04-23
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-23","Syria",1,0,2024-04-23,2024-04-23
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-22","Syria",1,0,2024-04-22,2024-04-22
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-22","Syria",1,0,2024-04-22,2024-04-22
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-21","Syria",1,0,2024-04-21,2024-04-21
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-21","Syria",1,0,2024-04-21,2024-04-21
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-20","Syria",1,0,2024-04-18,2024-04-18
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-18","Syria",1,0,2024-04-18,2024-04-18
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-18","Syria",1,0,2024-04-18,2024-04-18
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-18","Syria",1,0,2024-04-18,2024-04-18
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-17","Syria",1,0,2024-04-17,2024-04-17
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-17","Syria",1,0,2024-04-16,2024-04-16
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-17","Syria",1,1,2024-04-17,2024-04-17
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-17","Syria",1,0,2024-04-17,2024-04-17
+2024,2,"IS - SDF","IS","SDF","2024-04-16","Syria",1,0,2024-04-16,2024-04-16
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-16","Syria",1,0,2024-04-16,2024-04-16
+2024,3,"SDF - Civilians","SDF","Civilians","2024-04-16","Syria",1,1,2024-04-16,2024-04-16
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-15","Syria",1,0,2024-04-15,2024-04-15
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-15","Syria",1,0,2024-04-15,2024-04-15
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-13","Syria",1,0,2024-04-13,2024-04-13
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-13","Syria",1,0,2024-04-13,2024-04-13
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-29","Israel",1,6,2024-04-29,2024-04-29
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-04-29","Israel",1,0,2024-04-26,2024-04-29
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-27;2024-04-28","Pakistan",1,0,2024-04-27,2024-04-27
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-28","Pakistan",1,0,2024-04-28,2024-04-28
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-28","Pakistan",1,0,2024-04-28,2024-04-29
+2024,3,"BRAS - Civilians","BRAS","Civilians","2024-04-28","Pakistan",1,2,2024-04-28,2024-04-28
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-29","Pakistan",1,0,2024-04-29,2024-04-29
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-29","Pakistan",1,0,2024-04-29,2024-04-29
+2024,1,"Cameroon: Ambazonia","Government of Cameroon","Ambazonia insurgents","2024-05-06","Cameroon",1,0,2024-04-08,2024-04-08
+2024,1,"Cameroon: Ambazonia","Government of Cameroon","Ambazonia insurgents","2024-05-06","Cameroon",1,0,2024-04-08,2024-04-08
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-03;2024-04-03","Yemen (North Yemen)",1,0,2024-04-03,2024-04-03
+2024,1,"Cameroon: Ambazonia","Government of Cameroon","Ambazonia insurgents","2024-05-06","Cameroon",1,0,2024-04-24,2024-04-24
+2024,1,"Cameroon: Government","Government of Cameroon","JAS","2024-05-06;2024-04-30","Cameroon",1,6,2024-04-29,2024-04-29
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-29","Pakistan",1,0,2024-04-29,2024-04-29
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-29","Pakistan",1,0,2024-04-29,2024-04-29
+2024,1,"Pakistan: Balochistan","Government of Pakistan","BRAS","2024-04-29","Pakistan",1,0,2024-04-29,2024-04-29
+2024,3,"TTP - Civilians","TTP","Civilians","2024-04-29","Pakistan",1,1,2024-04-29,2024-04-29
+2024,1,"XXX770","XXX770","XXX770","2024-04-30;2024-04-30","Pakistan",1,0,2024-04-30,2024-04-30
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-04","Yemen (North Yemen)",2,22,2024-01-01,2024-04-04
+2024,1,"XXX678","XXX678","XXX678","2024-04-08","Yemen (North Yemen)",1,0,2024-04-07,2024-04-07
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-05-01","Israel",1,4,2024-04-29,2024-04-29
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-05-01","Israel",1,2,2024-04-29,2024-04-29
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-05-01","Israel",1,2,2024-04-29,2024-04-29
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-19;2024-04-19;2024-04-19","Pakistan",1,0,2024-04-19,2024-04-19
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-05-01","Israel",2,0,2024-04-29,2024-04-30
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-05-01","Israel",1,0,2024-04-30,2024-05-01
+2024,1,"Israel: Palestine","Government of Israel","Hamas","2024-05-02","Israel",1,3,2024-04-30,2024-04-30
+2024,1,"DR Congo (Zaire): Government","Government of DR Congo (Zaire)","AFC","2024-04-06;2024-05-02;2024-04-07","DR Congo (Zaire)",1,2,2024-04-06,2024-04-06
+2024,3,"XXX490 - Civilians","XXX490","Civilians","2024-05-02","DR Congo (Zaire)",2,6,2024-04-01,2024-04-10
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-02","DR Congo (Zaire)",1,0,2024-04-02,2024-04-02
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-13","Syria",1,0,2024-04-13,2024-04-13
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-13","Syria",1,0,2024-04-13,2024-04-13
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-12","Syria",1,0,2024-04-12,2024-04-12
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-11","Syria",1,0,2024-04-11,2024-04-11
+2024,1,"DR Congo (Zaire): Government","Government of DR Congo (Zaire)","AFC","2024-04-30","DR Congo (Zaire)",1,1,2024-04-30,2024-04-30
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-09","Syria",1,0,2024-04-07,2024-04-07
+2024,2,"XXX652 - XXX652","XXX652","XXX652","2024-04-09","Syria",1,0,2024-04-09,2024-04-09
+2024,2,"XXX652 - XXX652","XXX652","XXX652","2024-04-09","Syria",1,0,2024-04-08,2024-04-08
+2024,2,"IS - SDF","IS","SDF","2024-04-09","Syria",1,0,2024-04-09,2024-04-09
+2024,2,"XXX652 - XXX652","XXX652","XXX652","2024-04-09","Syria",1,0,2024-04-09,2024-04-09
+2024,3,"AFC - Civilians","AFC","Civilians","2024-04-05","DR Congo (Zaire)",2,3,2024-04-01,2024-04-05
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-08","Syria",1,0,2024-04-08,2024-04-08
+2024,2,"XXX652 - XXX652","XXX652","XXX652","2024-04-06","Syria",1,0,2024-04-06,2024-04-06
+2024,3,"SNA - Civilians","SNA","Civilians","2024-04-06","Syria",1,2,2024-04-06,2024-04-06
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-04-07;2024-04-07","Pakistan",1,0,2024-04-06,2024-04-06
+2024,3,"BRAS - Civilians","BRAS","Civilians","2024-04-12;2024-04-13;2024-04-13;2024-04-13","Pakistan",1,2,2024-04-12,2024-04-12
+2024,1,"DR Congo (Zaire): Government","Government of DR Congo (Zaire)","AFC","2024-04-07","DR Congo (Zaire)",1,2,2024-04-06,2024-04-07
+2024,3,"AFC - Civilians","AFC","Civilians","2024-04-12","DR Congo (Zaire)",1,7,2024-04-10,2024-04-10
+2024,3,"IS - Civilians","IS","Civilians","2024-04-15","DR Congo (Zaire)",1,2,2024-04-09,2024-04-10
+2024,3,"Government of DR Congo (Zaire) - Civilians","Government of DR Congo (Zaire)","Civilians","2024-04-15;2024-04-16","DR Congo (Zaire)",1,1,2024-04-14,2024-04-14
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-12","Yemen (North Yemen)",1,0,2024-04-12,2024-04-12
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-12","Yemen (North Yemen)",1,0,2024-04-05,2024-04-07
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-12","Yemen (North Yemen)",2,0,2024-01-01,2024-04-09
+2024,1,"Turkey: Kurdistan","Government of Turkey","PKK","2024-04-15","Iraq",1,0,2024-04-15,2024-04-15
+2024,1,"Iraq: Government","Government of Iraq","IS","2024-04-16","Iraq",1,0,2024-04-16,2024-04-16
+2024,3,"Government of Turkey - Civilians","Government of Turkey","Civilians","2024-04-16","Iraq",1,1,2024-04-14,2024-04-14
+2024,1,"Yemen (North Yemen): Government","Government of Yemen (North Yemen)","Forces of the Presidential Leadership Council","2024-04-27;2024-04-27","Yemen (North Yemen)",1,5,2024-04-27,2024-04-27
+2024,2,"AQAP - Forces of the Presidential Leadership Council","AQAP","Forces of the Presidential Leadership Council","2024-04-29;2024-04-30;2024-04-30","Yemen (North Yemen)",1,0,2024-04-29,2024-04-29
+2024,1,"Australia, Bahrain, Canada, France, Italy, Netherlands, New Zeeland, Norway, Spain, United Kingdom, United States of America - Yemen","Government of Australia, Government of Bahrain, Government of Canada, Government of France, Government of Italy, Government of Netherlands, Government of New Zealand, Government of Norway, Government of Spain, Government of United Kingdom, Government of United States of America","Government of Yemen (North Yemen)","2024-05-02","Yemen (North Yemen)",2,0,2024-04-05,2024-05-02
+2024,1,"Iraq: Government","Government of Iraq","IS","2024-04-23","Iraq",1,0,2024-04-23,2024-04-23
+2024,1,"XXX645","XXX645","XXX645","2024-04-26","Iraq",1,4,2024-04-26,2024-04-26
+2024,1,"Turkey: Kurdistan","Government of Turkey","PKK","2024-04-29","Iraq",1,0,2024-04-29,2024-04-29
+2024,1,"Iraq: Government","Government of Iraq","IS","2024-04-30","Iraq",1,0,2024-04-30,2024-04-30
+2024,1,"Pakistan: Government","Government of Pakistan","TTP","2024-05-03","Pakistan",1,0,2024-04-26,2024-05-03
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-06","Syria",1,0,2024-04-06,2024-04-06
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-06","Syria",1,8,2024-04-06,2024-04-06
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-05","Syria",1,0,2024-04-05,2024-04-05
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-04","Syria",1,0,2024-04-04,2024-04-04
+2024,2,"SNA - SDF","SNA","SDF","2024-04-04","Syria",1,0,2024-04-04,2024-04-04
+2024,2,"IS - SDF","IS","SDF","2024-04-04","Syria",1,0,2024-04-04,2024-04-04
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-04","Syria",1,0,2024-04-04,2024-04-04
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-04","Syria",1,0,2024-04-04,2024-04-04
+2024,2,"IS - SDF","IS","SDF","2024-04-03","Syria",1,0,2024-04-03,2024-04-03
+2024,2,"IS - SDF","IS","SDF","2024-04-03","Syria",1,0,2024-04-03,2024-04-03
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-04","Syria",1,0,2024-04-03,2024-04-03
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-03","Syria",1,0,2024-04-03,2024-04-03
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-03","Syria",1,0,2024-04-03,2024-04-03
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-02","Syria",1,0,2024-04-02,2024-04-02
+2024,2,"IS - SDF","IS","SDF","2024-04-02","Syria",1,0,2024-04-02,2024-04-02
+2024,1,"Syria: Government","Government of Syria","Syrian insurgents","2024-04-02","Syria",1,0,2024-04-02,2024-04-02
+2024,1,"Syria: Islamic State","Government of Syria","IS","2024-04-01","Syria",1,0,2024-04-02,2024-04-02
+2024,2,"XXX652 - XXX652","XXX652","XXX652","2024-04-07","Syria",1,5,2024-04-07,2024-04-07
+2024,3,"URDPC - Civilians","URDPC","Civilians","2024-04-18","DR Congo (Zaire)",2,15,2024-04-15,2024-04-18
+2024,2,"Dhu Farea - Dhu Muti","Dhu Farea","Dhu Muti","2024-05-04","Yemen (North Yemen)",1,0,2024-04-29,2024-05-03
+2024,3,"IS - Civilians","IS","Civilians","2024-05-02","DR Congo (Zaire)",1,0,2024-04-30,2024-04-30
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-05-02","DR Congo (Zaire)",1,0,2024-04-30,2024-04-30
+2024,3,"IS - Civilians","IS","Civilians","2024-04-27","DR Congo (Zaire)",1,0,2024-04-25,2024-04-27
+2024,3,"IS - Civilians","IS","Civilians","2024-04-26","DR Congo (Zaire)",1,0,2024-04-24,2024-04-26
+2024,3,"IS - Civilians","IS","Civilians","2024-04-26","DR Congo (Zaire)",1,0,2024-04-24,2024-04-26
+2024,3,"IS - Civilians","IS","Civilians","2024-04-26","DR Congo (Zaire)",1,0,2024-04-21,2024-04-23
+2024,3,"IS - Civilians","IS","Civilians","2024-04-22","DR Congo (Zaire)",1,0,2024-04-20,2024-04-20
+2024,3,"IS - Civilians","IS","Civilians","2024-04-19","DR Congo (Zaire)",1,0,2024-04-18,2024-04-18
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-18","DR Congo (Zaire)",1,0,2024-04-16,2024-04-18
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-18","DR Congo (Zaire)",1,0,2024-04-16,2024-04-18
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-04-18","DR Congo (Zaire)",1,0,2024-04-17,2024-04-17
+2024,3,"IS - Civilians","IS","Civilians","2024-03-12","DR Congo (Zaire)",1,0,2024-04-12,2024-04-12
+2024,1,"DR Congo (Zaire): Islamic State","Government of DR Congo (Zaire)","IS","2024-03-10","DR Congo (Zaire)",1,0,2024-04-08,2024-04-08
